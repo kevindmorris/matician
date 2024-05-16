@@ -2,6 +2,13 @@
   "name": "matician",
   "version": "0.0.1",
   "description": "Shorthand for a specialist or expert in mathematics.",
+  "author": "Kevin Morris",
+  "license": "MIT",
+  "homepage": "https://github.com/kevindmorris/matician",
+  "repository": {
+    "url": "https://github.com/kevindmorris/matician"
+  },
+  "keywords": [],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -9,8 +16,6 @@
     "build": "tsup",
     "test": "jest"
   },
-  "author": "Kevin Morris",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
