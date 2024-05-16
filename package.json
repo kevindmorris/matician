@@ -1,0 +1,25 @@
+{
+  "name": "matician",
+  "version": "0.0.1",
+  "description": "Shorthand for a specialist or expert in mathematics.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "author": "Kevin Morris",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
