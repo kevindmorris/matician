@@ -1,3 +1,12 @@
 export { default as add } from "./add";
+export { default as combination } from "./combination";
+export { default as divide } from "./divide";
+export { default as factorial } from "./factorial";
+export { default as mean } from "./mean";
+export { default as median } from "./median";
+export { default as multiply } from "./multiply";
+export { default as permutation } from "./permutation";
+export { default as sqrt } from "./sqrt";
+export { default as subtract } from "./subtract";
 export { default as sum } from "./sum";
 export { default as sumBy } from "./sumBy";

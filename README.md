@@ -1,8 +1,10 @@
 <div align="center">
 
-**[Matician](): Shorthand for a specialist or expert in mathematics.**
+**[Matician](): (/məˈtiSH(ə)n/) Shorthand for a specialist or expert in mathematics.**
 
 </div>
+
+A modern JavaScript utility library for arithmatic, mathematics, proability, statistics, and more.
 
 # Table of Contents
 
