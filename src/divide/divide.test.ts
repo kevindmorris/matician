@@ -1,19 +1,14 @@
 import divide from "./divide";
 
 describe("divide module", () => {
-  test("divides 4 / 2 to equal 2", () => {
+  test("should divide two numbers", () => {
     expect(divide(4, 2)).toBe(2);
-  });
-  test("divides 4 / (-2) to equal (-2)", () => {
     expect(divide(4, -2)).toBe(-2);
-  });
-  test("divides (-4) / 2 to equal (-2)", () => {
     expect(divide(-4, 2)).toBe(-2);
-  });
-  test("divides (-4) / (-2) to equal 2", () => {
     expect(divide(-4, -2)).toBe(2);
   });
-  test("divides 4 / 0 to be undefined", () => {
+  test("should divide by 0", () => {
     expect(divide(4, 0)).toBe(Infinity);
+    expect(divide(-4, 0)).toBe(-Infinity);
   });
 });
