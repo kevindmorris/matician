@@ -3,6 +3,7 @@ export { default as binomial } from "./binomial";
 export { default as combination } from "./combination";
 export { default as divide } from "./divide";
 export { default as exp } from "./exp";
+export { default as geometric } from "./geometric";
 export { default as mean } from "./mean";
 export { default as meanBy } from "./meanBy";
 export { default as median } from "./median";
