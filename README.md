@@ -25,7 +25,9 @@ npm install matician
 
 1. Merge all changes to master.
 
-2. Version the code.
+2. Update CHANGELOG.md.
+
+3. Version the code.
 
 ```bash
 npm version [major | minor | patch] # Increment the version
@@ -35,13 +37,13 @@ npm version [major | minor | patch] # Increment the version
 git push origin --tags # Push new tag to git
 ```
 
-3. Build the package.
+4. Build the package.
 
 ```bash
 npm run build
 ```
 
-4. Publish.
+5. Publish.
 
 ```bash
 npm publish
