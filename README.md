@@ -11,6 +11,7 @@ A modern JavaScript utility library for arithmatic, mathematics, proability, sta
 # Table of Contents
 
 - [Getting Started](#getting-started)
+- [Release a New Version](#release-a-new-version)
 
 # Getting Started
 
@@ -18,4 +19,30 @@ Use your preferred package manager:
 
 ```
 npm install matician
+```
+
+# Release a New Version
+
+1. Merge all changes to master.
+
+2. Version the code.
+
+```bash
+npm version [major | minor | patch] # Increment the version
+```
+
+```bash
+git push origin --tags # Push new tag to git
+```
+
+3. Build the package.
+
+```bash
+npm run build
+```
+
+4. Publish.
+
+```bash
+npm publish
 ```

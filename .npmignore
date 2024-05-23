@@ -1,5 +1,8 @@
+.vscode
 node_modules
 src
 
+.prettierignore
+.prettierrc.json
 tsconfig.json
 tsup.config.ts

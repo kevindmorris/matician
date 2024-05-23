@@ -1,1 +1,22 @@
-
+export { default as add } from "./add";
+export { default as binomial } from "./binomial";
+export { default as combination } from "./combination";
+export { default as divide } from "./divide";
+export { default as exp } from "./exp";
+export { default as mean } from "./mean";
+export { default as meanBy } from "./meanBy";
+export { default as median } from "./median";
+export { default as medianBy } from "./medianBy";
+export { default as multiply } from "./multiply";
+export { default as permutation } from "./permutation";
+export { default as poisson } from "./poisson";
+export { default as pow } from "./pow";
+export { default as root } from "./root";
+export { default as sqrt } from "./sqrt";
+export { default as stdev } from "./stdev";
+export { default as stdevBy } from "./stdevBy";
+export { default as subtract } from "./subtract";
+export { default as sum } from "./sum";
+export { default as sumBy } from "./sumBy";
+export { default as variance } from "./variance";
+export { default as varianceBy } from "./varianceBy";
