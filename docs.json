@@ -1,0 +1,3664 @@
+{
+	"id": 0,
+	"name": "matician",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 41,
+			"name": "Annuity",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "A class representing an annuity."
+			},
+			"children": [
+				{
+					"id": 49,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create an annuity."
+					},
+					"signatures": [
+						{
+							"id": 50,
+							"name": "new Annuity",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create an annuity."
+							},
+							"parameters": [
+								{
+									"id": 51,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The principal."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 52,
+									"name": "pmt",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The contribution per period."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 53,
+									"name": "i",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The interest rate per period."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 54,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The number of periods."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 55,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 56,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 57,
+													"name": "type",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "financial/Annuity/Annuity.ts",
+															"line": 23,
+															"character": 19
+														}
+													],
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "stringLiteral",
+																"value": "immediate"
+															},
+															{
+																"type": "stringLiteral",
+																"value": "due"
+															}
+														]
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														57
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "financial/Annuity/Annuity.ts",
+													"line": 23,
+													"character": 12
+												}
+											]
+										}
+									},
+									"defaultValue": "{ type: \"immediate\" }"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 41,
+								"name": "Annuity"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 7,
+							"character": 42
+						}
+					]
+				},
+				{
+					"id": 44,
+					"name": "i",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 5,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 45,
+					"name": "n",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 6,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 46,
+					"name": "options",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true,
+						"isOptional": true
+					},
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 7,
+							"character": 9
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 47,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 48,
+											"name": "type",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "financial/Annuity/Annuity.ts",
+													"line": 7,
+													"character": 18
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "stringLiteral",
+														"value": "immediate"
+													},
+													{
+														"type": "stringLiteral",
+														"value": "due"
+													}
+												]
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												48
+											]
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": 42,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 3,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 43,
+					"name": "pmt",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 4,
+							"character": 5
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 60,
+					"name": "futureValue",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 61,
+							"name": "futureValue",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Calculate the future value of the annuity.",
+								"returns": "Return the future value.\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 49,
+							"character": 13
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "presentValue",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 59,
+							"name": "presentValue",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Calculate the present value of the annuity.",
+								"returns": "Return the present value.\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "financial/Annuity/Annuity.ts",
+							"line": 36,
+							"character": 14
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						49
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						44,
+						45,
+						46,
+						42,
+						43
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						60,
+						58
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "financial/Annuity/Annuity.ts",
+					"line": 2,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 72,
+			"name": "Binomial",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Class representing a binomial distribution."
+			},
+			"children": [
+				{
+					"id": 78,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a binomial distribution."
+					},
+					"signatures": [
+						{
+							"id": 79,
+							"name": "new Binomial",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a binomial distribution."
+							},
+							"parameters": [
+								{
+									"id": 80,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The number of trials."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 81,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The probability of a success.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 72,
+								"name": "Binomial"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 9,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 75,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 7,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 73,
+					"name": "n",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 5,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 74,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 6,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 77,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 9,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 76,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 8,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 82,
+					"name": "pEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 83,
+							"name": "pEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of exactly `x` successes in `n` trials.",
+								"returns": "Return `P(X=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 84,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The number of successes."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 29,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						78
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						75,
+						73,
+						74,
+						77,
+						76
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						82
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Binomial/Binomial.ts",
+					"line": 4,
+					"character": 29
+				}
+			]
+		},
+		{
+			"id": 85,
+			"name": "Exponential",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Class representing an exponential distribution."
+			},
+			"children": [
+				{
+					"id": 90,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create an expoential distribution."
+					},
+					"signatures": [
+						{
+							"id": 91,
+							"name": "new Exponential",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create an expoential distribution."
+							},
+							"parameters": [
+								{
+									"id": 92,
+									"name": "lambda",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The distribution rate.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 85,
+								"name": "Exponential"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 6,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 86,
+					"name": "lambda",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 3,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 87,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 4,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 89,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 6,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 88,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 5,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 96,
+					"name": "pGreaterThan",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 97,
+							"name": "pGreaterThan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability that the distance to an event is greater than `x`.",
+								"returns": "Return `P(X>x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 98,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "A value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 35,
+							"character": 14
+						}
+					]
+				},
+				{
+					"id": 93,
+					"name": "pLessThan",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 94,
+							"name": "pLessThan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability that the distance to an event is less than `x`.",
+								"returns": "Return `P(X<x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 95,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "A value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 24,
+							"character": 11
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						90
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						86,
+						87,
+						89,
+						88
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						96,
+						93
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Exponential/Exponential.ts",
+					"line": 2,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 99,
+			"name": "Geometric",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Class representing a geometric distribution."
+			},
+			"children": [
+				{
+					"id": 104,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a geometric distribution."
+					},
+					"signatures": [
+						{
+							"id": 105,
+							"name": "new Geometric",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a geometric distribution."
+							},
+							"parameters": [
+								{
+									"id": 106,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The probability of a success.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 99,
+								"name": "Geometric"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 6,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 101,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 4,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 100,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 3,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 103,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 6,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 102,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 5,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 107,
+					"name": "pEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 108,
+							"name": "pEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of a success on the `x`th trial.",
+								"returns": "Return `P(X=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 109,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The number of trials."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 24,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						104
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						101,
+						100,
+						103,
+						102
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						107
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Geometric/Geometric.ts",
+					"line": 2,
+					"character": 30
+				}
+			]
+		},
+		{
+			"id": 110,
+			"name": "Poisson",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Class representing a poisson distribution."
+			},
+			"children": [
+				{
+					"id": 115,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a poisson distribution."
+					},
+					"signatures": [
+						{
+							"id": 116,
+							"name": "new Poisson",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a poisson distribution."
+							},
+							"parameters": [
+								{
+									"id": 117,
+									"name": "lambda",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The mean rate of success in the time interval.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 110,
+								"name": "Poisson"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 8,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 111,
+					"name": "lambda",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 5,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 112,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 6,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 114,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 8,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 113,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 7,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 118,
+					"name": "pEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 119,
+							"name": "pEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of exactly `x` successes in the time interval.",
+								"returns": "Return `P(X=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 120,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The number of trials."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 26,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						115
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						111,
+						112,
+						114,
+						113
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						118
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Poisson/Poisson.ts",
+					"line": 4,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 121,
+			"name": "Uniform",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "Class representing a uniform distribution."
+			},
+			"children": [
+				{
+					"id": 127,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a uniform distribution."
+					},
+					"signatures": [
+						{
+							"id": 128,
+							"name": "new Uniform",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a uniform distribution."
+							},
+							"parameters": [
+								{
+									"id": 129,
+									"name": "a",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The minimum value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 130,
+									"name": "b",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The maximum value.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 121,
+								"name": "Uniform"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 7,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 122,
+					"name": "a",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 3,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 123,
+					"name": "b",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 4,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 124,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 5,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 126,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 7,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 125,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 6,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 131,
+					"name": "pLessThan",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 132,
+							"name": "pLessThan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of a value less than `x`.",
+								"returns": "Return `P(X<x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 133,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "A value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 27,
+							"character": 11
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						127
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						122,
+						123,
+						124,
+						126,
+						125
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						131
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Uniform/Uniform.ts",
+					"line": 2,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "add",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 2,
+					"name": "add",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the sum of two numbers.",
+						"returns": "Returns the sum.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 3,
+							"name": "augend",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number to which another number is added."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 4,
+							"name": "addend",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number which is added to another number."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/add/add.ts",
+					"line": 8,
+					"character": 27
+				}
+			]
+		},
+		{
+			"id": 65,
+			"name": "combination",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 66,
+					"name": "combination",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The number of ways to choose a sample of `r` elements from a set of `n` distinct objects where order does not matter.",
+						"returns": "The number of combinations.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 67,
+							"name": "n",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The number of objects."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 68,
+							"name": "r",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The size of the sample."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 69,
+							"name": "options",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The options object."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 70,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 71,
+											"name": "replacement",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Allow for replacement or not."
+											},
+											"sources": [
+												{
+													"fileName": "probability/combination/combination.ts",
+													"line": 15,
+													"character": 24
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "false"
+													},
+													{
+														"type": "intrinsic",
+														"name": "true"
+													}
+												]
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												71
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "probability/combination/combination.ts",
+											"line": 15,
+											"character": 10
+										}
+									]
+								}
+							},
+							"defaultValue": "{ replacement: false }"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/combination/combination.ts",
+					"line": 12,
+					"character": 35
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "divide",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 6,
+					"name": "divide",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the quotient of two numbers.",
+						"returns": "Returns the quotient.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 7,
+							"name": "dividend",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number which is divided by another number."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 8,
+							"name": "divisor",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number by which another number is divided."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/divide/divide.ts",
+					"line": 8,
+					"character": 30
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "exp",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 10,
+					"name": "exp",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the value of a `e` raised to a specified power.",
+						"returns": "Returns `e` (the base of natural logarithms) raised to a power.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 11,
+							"name": "x",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A numeric expression representing the power of `e`."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/exp/exp.ts",
+					"line": 7,
+					"character": 27
+				}
+			]
+		},
+		{
+			"id": 62,
+			"name": "factorial",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 63,
+					"name": "factorial",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the factorial of non-negative integer `n`.",
+						"returns": "Returns the product of all positive integers less than or equal to `n`.\n"
+					},
+					"parameters": [
+						{
+							"id": 64,
+							"name": "n",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A non-negative integer."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/factorial/factorial.ts",
+					"line": 6,
+					"character": 33
+				}
+			]
+		},
+		{
+			"id": 141,
+			"name": "mean",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 142,
+					"name": "mean",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the mean of numbers in an array.",
+						"returns": "Returns the mean.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 143,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array of numbers."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/mean/mean.ts",
+					"line": 7,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 144,
+			"name": "meanBy",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 145,
+					"name": "meanBy",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the mean of numbers in an array by the specified `iteratee` invoked on each element in the array.",
+						"returns": "Returns the mean.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 146,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						},
+						{
+							"id": 147,
+							"name": "iteratee",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The iteratee invoked on each element."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 148,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 149,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 150,
+													"name": "o",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "statistics/meanBy/meanBy.ts",
+											"line": 10,
+											"character": 11
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/meanBy/meanBy.ts",
+					"line": 8,
+					"character": 30
+				}
+			]
+		},
+		{
+			"id": 151,
+			"name": "median",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 152,
+					"name": "median",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the median of numbers in an array.",
+						"returns": "Returns the median.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 153,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array of numbers."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/median/median.ts",
+					"line": 7,
+					"character": 30
+				}
+			]
+		},
+		{
+			"id": 154,
+			"name": "medianBy",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 155,
+					"name": "medianBy",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the median of numbers in an array by the specified `iteratee` invoked on each element in the array.",
+						"returns": "Returns the median.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 156,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						},
+						{
+							"id": 157,
+							"name": "iteratee",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The iteratee invoked on each element."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 158,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 159,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 160,
+													"name": "o",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "statistics/medianBy/medianBy.ts",
+											"line": 10,
+											"character": 11
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/medianBy/medianBy.ts",
+					"line": 8,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "multiply",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 13,
+					"name": "multiply",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the product of two numbers.",
+						"returns": "Returns the product.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 14,
+							"name": "multiplier",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number by which a number is multiplied."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 15,
+							"name": "multiplicand",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number which is multiplied by another."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/multiply/multiply.ts",
+					"line": 8,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 134,
+			"name": "permutation",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 135,
+					"name": "permutation",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The number of ways to choose a sample of `r` elements from a set of `n` distinct objects where order does matter.",
+						"returns": "The number of permutations.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 136,
+							"name": "n",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The number of objects."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 137,
+							"name": "r",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The size of the sample."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 138,
+							"name": "options",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The options object."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 139,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 140,
+											"name": "replacement",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Allow for replacement or not."
+											},
+											"sources": [
+												{
+													"fileName": "probability/permutation/permutation.ts",
+													"line": 15,
+													"character": 24
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "false"
+													},
+													{
+														"type": "intrinsic",
+														"name": "true"
+													}
+												]
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												140
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "probability/permutation/permutation.ts",
+											"line": 15,
+											"character": 10
+										}
+									]
+								}
+							},
+							"defaultValue": "{ replacement: false }"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/permutation/permutation.ts",
+					"line": 12,
+					"character": 35
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "pow",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 17,
+					"name": "pow",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the value of a base expression raised to a specified power.",
+						"returns": "Returns the base expression raised to the specified power.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 18,
+							"name": "x",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The base value of the expression."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 19,
+							"name": "y",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The exponent value of the expression."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/pow/pow.ts",
+					"line": 8,
+					"character": 27
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "root",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 21,
+					"name": "root",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the specified root of a number.",
+						"returns": "Returns the `y`th root of a number.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 22,
+							"name": "x",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 23,
+							"name": "y",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The specifed root."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/root/root.ts",
+					"line": 8,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "sqrt",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 25,
+					"name": "sqrt",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the square root of a number.",
+						"returns": "Returns the square root of a number.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 26,
+							"name": "x",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/sqrt/sqrt.ts",
+					"line": 7,
+					"character": 28
+				}
+			]
+		},
+		{
+			"id": 164,
+			"name": "stdev",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 165,
+					"name": "stdev",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the standard deviation of numbers in an array.",
+						"returns": "Returns the standard deviation.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 166,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array of numbers."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/stdev/stdev.ts",
+					"line": 9,
+					"character": 29
+				}
+			]
+		},
+		{
+			"id": 174,
+			"name": "stdevBy",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 175,
+					"name": "stdevBy",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the standard deviation of numbers in an array by the specified `iteratee` invoked on each element in the array.",
+						"returns": "Returns the standard deviation.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 176,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						},
+						{
+							"id": 177,
+							"name": "iteratee",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The iteratee invoked on each element."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 178,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 179,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 180,
+													"name": "o",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "statistics/stdevBy/stdevBy.ts",
+											"line": 12,
+											"character": 11
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/stdevBy/stdevBy.ts",
+					"line": 10,
+					"character": 31
+				}
+			]
+		},
+		{
+			"id": 27,
+			"name": "subtract",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 28,
+					"name": "subtract",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the difference between two numbers.",
+						"returns": "Returns the difference.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 29,
+							"name": "minuend",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number from which another number is subtracted."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 30,
+							"name": "subtrahend",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "A number which is subtracted from another."
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/subtract/subtract.ts",
+					"line": 8,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 31,
+			"name": "sum",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 32,
+					"name": "sum",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the sum of numbers in an array.",
+						"returns": "Returns the sum.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 33,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array of numbers."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/sum/sum.ts",
+					"line": 7,
+					"character": 27
+				}
+			]
+		},
+		{
+			"id": 34,
+			"name": "sumBy",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 35,
+					"name": "sumBy",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the sum of numbers in an array by the specified `iteratee` invoked on each element in the array.",
+						"returns": "Returns the sum.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 36,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						},
+						{
+							"id": 37,
+							"name": "iteratee",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The iteratee invoked on each element."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 38,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 39,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 40,
+													"name": "o",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "arithmetic/sumBy/sumBy.ts",
+											"line": 10,
+											"character": 11
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "arithmetic/sumBy/sumBy.ts",
+					"line": 8,
+					"character": 29
+				}
+			]
+		},
+		{
+			"id": 161,
+			"name": "variance",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 162,
+					"name": "variance",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the variance of numbers in an array.",
+						"returns": "Returns the variance.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 163,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array of numbers."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/variance/variance.ts",
+					"line": 9,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 167,
+			"name": "varianceBy",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {
+				"isExported": true
+			},
+			"signatures": [
+				{
+					"id": 168,
+					"name": "varianceBy",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Compute the variance of numbers in an array by the specified `iteratee` invoked on each element in the array.",
+						"returns": "Returns the variance.\n",
+						"tags": [
+							{
+								"tag": "since",
+								"text": "1.0.0"
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 169,
+							"name": "array",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "An array."
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						},
+						{
+							"id": 170,
+							"name": "iteratee",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"text": "The iteratee invoked on each element."
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 171,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 172,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 173,
+													"name": "o",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "statistics/varianceBy/varianceBy.ts",
+											"line": 12,
+											"character": 11
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"sources": [
+				{
+					"fileName": "statistics/varianceBy/varianceBy.ts",
+					"line": 10,
+					"character": 34
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"kind": 128,
+			"children": [
+				41,
+				72,
+				85,
+				99,
+				110,
+				121
+			]
+		},
+		{
+			"title": "Functions",
+			"kind": 64,
+			"children": [
+				1,
+				65,
+				5,
+				9,
+				62,
+				141,
+				144,
+				151,
+				154,
+				12,
+				134,
+				16,
+				20,
+				24,
+				164,
+				174,
+				27,
+				31,
+				34,
+				161,
+				167
+			]
+		}
+	]
+}

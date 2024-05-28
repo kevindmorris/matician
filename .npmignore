@@ -4,5 +4,6 @@ src
 
 .prettierignore
 .prettierrc.json
+REFERENCE.md
 tsconfig.json
 tsup.config.ts

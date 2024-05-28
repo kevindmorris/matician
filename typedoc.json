@@ -1,0 +1,8 @@
+{
+  "mode": "file",
+  "json": "docs.json",
+  "excludeExternals": true,
+  "externalPattern": ["**/node_modules/**"],
+  "ignoreCompilerErrors": true,
+  "includeDeclarations": true
+}
