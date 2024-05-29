@@ -457,14 +457,14 @@
 		},
 		{
 			"id": 72,
-			"name": "Binomial",
+			"name": "Bernoulli",
 			"kind": 128,
 			"kindString": "Class",
 			"flags": {
 				"isExported": true
 			},
 			"comment": {
-				"shortText": "Class representing a binomial distribution."
+				"shortText": "**Bernoulli distribution**: A *discrete* probability\ndistribution for a random variable that takes the value of\n1 with probability `p` (success) and the value 0 with\nprobability `1-p` (failure)."
 			},
 			"children": [
 				{
@@ -476,39 +476,23 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "Create a binomial distribution."
+						"shortText": "Create a Bernoulli distribution."
 					},
 					"signatures": [
 						{
 							"id": 79,
-							"name": "new Binomial",
+							"name": "new Bernoulli",
 							"kind": 16384,
 							"kindString": "Constructor signature",
 							"flags": {
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Create a binomial distribution."
+								"shortText": "Create a Bernoulli distribution."
 							},
 							"parameters": [
 								{
 									"id": 80,
-									"name": "n",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"shortText": "The number of trials."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 81,
 									"name": "p",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -527,14 +511,14 @@
 							"type": {
 								"type": "reference",
 								"id": 72,
-								"name": "Binomial"
+								"name": "Bernoulli"
 							}
 						}
 					],
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 9,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 17,
 							"character": 16
 						}
 					]
@@ -547,10 +531,13 @@
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 7,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 13,
 							"character": 6
 						}
 					],
@@ -561,16 +548,19 @@
 				},
 				{
 					"id": 73,
-					"name": "n",
+					"name": "p",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The proability of a success."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 5,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 9,
 							"character": 3
 						}
 					],
@@ -581,16 +571,19 @@
 				},
 				{
 					"id": 74,
-					"name": "p",
+					"name": "q",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The proability of a failure."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 6,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 11,
 							"character": 3
 						}
 					],
@@ -607,10 +600,13 @@
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 9,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 17,
 							"character": 7
 						}
 					],
@@ -627,10 +623,13 @@
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 8,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 15,
 							"character": 10
 						}
 					],
@@ -640,7 +639,7 @@
 					}
 				},
 				{
-					"id": 82,
+					"id": 81,
 					"name": "pEqualTo",
 					"kind": 2048,
 					"kindString": "Method",
@@ -649,7 +648,7 @@
 					},
 					"signatures": [
 						{
-							"id": 83,
+							"id": 82,
 							"name": "pEqualTo",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -657,12 +656,12 @@
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Get the probability of exactly `x` successes in `n` trials.",
+								"shortText": "Get the probability of a success or failure.",
 								"returns": "Return `P(X=x)`.\n"
 							},
 							"parameters": [
 								{
-									"id": 84,
+									"id": 83,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -670,7 +669,7 @@
 										"isExported": true
 									},
 									"comment": {
-										"text": "The number of successes."
+										"text": "The value. (0: failure, 1: success)"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -686,9 +685,115 @@
 					],
 					"sources": [
 						{
-							"fileName": "probability/distributions/Binomial/Binomial.ts",
-							"line": 29,
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 38,
 							"character": 10
+						}
+					]
+				},
+				{
+					"id": 87,
+					"name": "pGreaterThanOrEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 88,
+							"name": "pGreaterThanOrEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of a value greater than or equal to `x`.",
+								"returns": "Return `P(X>=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 89,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The value. (0: failure, 1: success)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 62,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 84,
+					"name": "pLessThanOrEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 85,
+							"name": "pLessThanOrEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of a value less than or equal to `x`.",
+								"returns": "Return `P(X<=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 86,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The value. (0: failure, 1: success)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+							"line": 50,
+							"character": 20
 						}
 					]
 				}
@@ -716,322 +821,34 @@
 					"title": "Methods",
 					"kind": 2048,
 					"children": [
-						82
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "probability/distributions/Binomial/Binomial.ts",
-					"line": 4,
-					"character": 29
-				}
-			]
-		},
-		{
-			"id": 85,
-			"name": "Exponential",
-			"kind": 128,
-			"kindString": "Class",
-			"flags": {
-				"isExported": true
-			},
-			"comment": {
-				"shortText": "Class representing an exponential distribution."
-			},
-			"children": [
-				{
-					"id": 90,
-					"name": "constructor",
-					"kind": 512,
-					"kindString": "Constructor",
-					"flags": {
-						"isExported": true
-					},
-					"comment": {
-						"shortText": "Create an expoential distribution."
-					},
-					"signatures": [
-						{
-							"id": 91,
-							"name": "new Exponential",
-							"kind": 16384,
-							"kindString": "Constructor signature",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "Create an expoential distribution."
-							},
-							"parameters": [
-								{
-									"id": 92,
-									"name": "lambda",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"shortText": "The distribution rate.\n"
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"id": 85,
-								"name": "Exponential"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 6,
-							"character": 16
-						}
-					]
-				},
-				{
-					"id": 86,
-					"name": "lambda",
-					"kind": 1024,
-					"kindString": "Property",
-					"flags": {
-						"isExported": true
-					},
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 3,
-							"character": 8
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "number"
-					}
-				},
-				{
-					"id": 87,
-					"name": "mean",
-					"kind": 1024,
-					"kindString": "Property",
-					"flags": {
-						"isExported": true
-					},
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 4,
-							"character": 6
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "number"
-					}
-				},
-				{
-					"id": 89,
-					"name": "stdev",
-					"kind": 1024,
-					"kindString": "Property",
-					"flags": {
-						"isExported": true
-					},
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 6,
-							"character": 7
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "number"
-					}
-				},
-				{
-					"id": 88,
-					"name": "variance",
-					"kind": 1024,
-					"kindString": "Property",
-					"flags": {
-						"isExported": true
-					},
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 5,
-							"character": 10
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "number"
-					}
-				},
-				{
-					"id": 96,
-					"name": "pGreaterThan",
-					"kind": 2048,
-					"kindString": "Method",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 97,
-							"name": "pGreaterThan",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "Get the probability that the distance to an event is greater than `x`.",
-								"returns": "Return `P(X>x)`.\n"
-							},
-							"parameters": [
-								{
-									"id": 98,
-									"name": "x",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"text": "A value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 35,
-							"character": 14
-						}
-					]
-				},
-				{
-					"id": 93,
-					"name": "pLessThan",
-					"kind": 2048,
-					"kindString": "Method",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 94,
-							"name": "pLessThan",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "Get the probability that the distance to an event is less than `x`.",
-								"returns": "Return `P(X<x)`.\n"
-							},
-							"parameters": [
-								{
-									"id": 95,
-									"name": "x",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"text": "A value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "probability/distributions/Exponential/Exponential.ts",
-							"line": 24,
-							"character": 11
-						}
-					]
-				}
-			],
-			"groups": [
-				{
-					"title": "Constructors",
-					"kind": 512,
-					"children": [
-						90
-					]
-				},
-				{
-					"title": "Properties",
-					"kind": 1024,
-					"children": [
-						86,
+						81,
 						87,
-						89,
-						88
-					]
-				},
-				{
-					"title": "Methods",
-					"kind": 2048,
-					"children": [
-						96,
-						93
+						84
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "probability/distributions/Exponential/Exponential.ts",
-					"line": 2,
-					"character": 32
+					"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
+					"line": 7,
+					"character": 30
 				}
 			]
 		},
 		{
-			"id": 99,
-			"name": "Geometric",
+			"id": 90,
+			"name": "Binomial",
 			"kind": 128,
 			"kindString": "Class",
 			"flags": {
 				"isExported": true
 			},
 			"comment": {
-				"shortText": "Class representing a geometric distribution."
+				"shortText": "**Binomial distribution**: A *discrete* probability\ndistribution that describes the number of successes\nin a fixed number of Bernoulli trials, each with the\nsame probability of success `p`."
 			},
 			"children": [
 				{
-					"id": 104,
+					"id": 97,
 					"name": "constructor",
 					"kind": 512,
 					"kindString": "Constructor",
@@ -1039,23 +856,39 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "Create a geometric distribution."
+						"shortText": "Create a Binomial distribution."
 					},
 					"signatures": [
 						{
-							"id": 105,
-							"name": "new Geometric",
+							"id": 98,
+							"name": "new Binomial",
 							"kind": 16384,
 							"kindString": "Constructor signature",
 							"flags": {
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Create a geometric distribution."
+								"shortText": "Create a Binomial distribution."
 							},
 							"parameters": [
 								{
-									"id": 106,
+									"id": 99,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The number of trials."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 100,
 									"name": "p",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1073,31 +906,34 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 99,
-								"name": "Geometric"
+								"id": 90,
+								"name": "Binomial"
 							}
 						}
 					],
 					"sources": [
 						{
-							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 6,
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 21,
 							"character": 16
 						}
 					]
 				},
 				{
-					"id": 101,
+					"id": 94,
 					"name": "mean",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 4,
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 17,
 							"character": 6
 						}
 					],
@@ -1107,17 +943,20 @@
 					}
 				},
 				{
-					"id": 100,
-					"name": "p",
+					"id": 91,
+					"name": "n",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The number of trials."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 3,
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 11,
 							"character": 3
 						}
 					],
@@ -1127,17 +966,66 @@
 					}
 				},
 				{
-					"id": 103,
+					"id": 92,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The probability of a success."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 13,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 93,
+					"name": "q",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The probability of a failure."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 15,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 96,
 					"name": "stdev",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 6,
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 21,
 							"character": 7
 						}
 					],
@@ -1147,17 +1035,20 @@
 					}
 				},
 				{
-					"id": 102,
+					"id": 95,
 					"name": "variance",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 5,
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 19,
 							"character": 10
 						}
 					],
@@ -1167,7 +1058,7 @@
 					}
 				},
 				{
-					"id": 107,
+					"id": 101,
 					"name": "pEqualTo",
 					"kind": 2048,
 					"kindString": "Method",
@@ -1176,7 +1067,505 @@
 					},
 					"signatures": [
 						{
-							"id": 108,
+							"id": 102,
+							"name": "pEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of exactly `x` successes in `n` trials.",
+								"returns": "Return `P(X=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 103,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The number of successes. (`x` must be an integer and `0≤x≤n`)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Binomial/Binomial.ts",
+							"line": 45,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						97
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						94,
+						91,
+						92,
+						93,
+						96,
+						95
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						101
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Binomial/Binomial.ts",
+					"line": 9,
+					"character": 29
+				}
+			]
+		},
+		{
+			"id": 104,
+			"name": "Exponential",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "**Exponential distribution**: A *continuous* probability\ndistribution that describes the time between events\nin a Poisson process, with constant rate `λ`."
+			},
+			"children": [
+				{
+					"id": 109,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create an expoential distribution."
+					},
+					"signatures": [
+						{
+							"id": 110,
+							"name": "new Exponential",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create an expoential distribution."
+							},
+							"parameters": [
+								{
+									"id": 111,
+									"name": "lambda",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The rate parameter.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 104,
+								"name": "Exponential"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 14,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 105,
+					"name": "lambda",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The rate parameter."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 8,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 106,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 10,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 108,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 14,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 107,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 12,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 112,
+					"name": "pLessThanOrEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 113,
+							"name": "pLessThanOrEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability that the distance to an event is less than or equal to `x`.",
+								"returns": "Return `P(X≤x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 114,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "A value. (`x≥0`)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Exponential/Exponential.ts",
+							"line": 34,
+							"character": 20
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						109
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						105,
+						106,
+						108,
+						107
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						112
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/Exponential/Exponential.ts",
+					"line": 6,
+					"character": 32
+				}
+			]
+		},
+		{
+			"id": 115,
+			"name": "Geometric",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "**Geometric distribution**: A *discrete* probability\ndistribution that models the number of Bernoulli trials\nneeded to get the first success, with each trial having\nthe same probability of success `p`."
+			},
+			"children": [
+				{
+					"id": 120,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a geometric distribution."
+					},
+					"signatures": [
+						{
+							"id": 121,
+							"name": "new Geometric",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a geometric distribution."
+							},
+							"parameters": [
+								{
+									"id": 122,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The probability of a success.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 115,
+								"name": "Geometric"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 15,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 117,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 11,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 116,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The probability of success."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 9,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 119,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 15,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 118,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Geometric/Geometric.ts",
+							"line": 13,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 123,
+					"name": "pEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 124,
 							"name": "pEqualTo",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1189,7 +1578,7 @@
 							},
 							"parameters": [
 								{
-									"id": 109,
+									"id": 125,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1197,7 +1586,7 @@
 										"isExported": true
 									},
 									"comment": {
-										"text": "The number of trials."
+										"text": "The number of trials. (`x` must be an integer and `x>0`)"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1214,7 +1603,7 @@
 					"sources": [
 						{
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
-							"line": 24,
+							"line": 35,
 							"character": 10
 						}
 					]
@@ -1225,49 +1614,49 @@
 					"title": "Constructors",
 					"kind": 512,
 					"children": [
-						104
+						120
 					]
 				},
 				{
 					"title": "Properties",
 					"kind": 1024,
 					"children": [
-						101,
-						100,
-						103,
-						102
+						117,
+						116,
+						119,
+						118
 					]
 				},
 				{
 					"title": "Methods",
 					"kind": 2048,
 					"children": [
-						107
+						123
 					]
 				}
 			],
 			"sources": [
 				{
 					"fileName": "probability/distributions/Geometric/Geometric.ts",
-					"line": 2,
+					"line": 7,
 					"character": 30
 				}
 			]
 		},
 		{
-			"id": 110,
-			"name": "Poisson",
+			"id": 126,
+			"name": "NegativeBinomial",
 			"kind": 128,
 			"kindString": "Class",
 			"flags": {
 				"isExported": true
 			},
 			"comment": {
-				"shortText": "Class representing a poisson distribution."
+				"shortText": "**Negative binomial distribution**: A *discrete* probability\ndistribution that models the number of trials needed to\nachieve a specified number of successes in a series of\nBernoulli trials, each with the same probability of success\n`p`."
 			},
 			"children": [
 				{
-					"id": 115,
+					"id": 132,
 					"name": "constructor",
 					"kind": 512,
 					"kindString": "Constructor",
@@ -1275,31 +1664,47 @@
 						"isExported": true
 					},
 					"comment": {
-						"shortText": "Create a poisson distribution."
+						"shortText": "Create a Negative Binomial distribution."
 					},
 					"signatures": [
 						{
-							"id": 116,
-							"name": "new Poisson",
+							"id": 133,
+							"name": "new NegativeBinomial",
 							"kind": 16384,
 							"kindString": "Constructor signature",
 							"flags": {
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Create a poisson distribution."
+								"shortText": "Create a Negative Binomial distribution."
 							},
 							"parameters": [
 								{
-									"id": 117,
-									"name": "lambda",
+									"id": 134,
+									"name": "r",
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {
 										"isExported": true
 									},
 									"comment": {
-										"shortText": "The mean rate of success in the time interval.\n"
+										"shortText": "The number of successes."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 135,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The probability of a success.\n"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1309,51 +1714,34 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 110,
-								"name": "Poisson"
+								"id": 126,
+								"name": "NegativeBinomial"
 							}
 						}
 					],
 					"sources": [
 						{
-							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 8,
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 20,
 							"character": 16
 						}
 					]
 				},
 				{
-					"id": 111,
-					"name": "lambda",
-					"kind": 1024,
-					"kindString": "Property",
-					"flags": {
-						"isExported": true
-					},
-					"sources": [
-						{
-							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 5,
-							"character": 8
-						}
-					],
-					"type": {
-						"type": "intrinsic",
-						"name": "number"
-					}
-				},
-				{
-					"id": 112,
+					"id": 129,
 					"name": "mean",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 6,
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 16,
 							"character": 6
 						}
 					],
@@ -1363,17 +1751,66 @@
 					}
 				},
 				{
-					"id": 114,
+					"id": 128,
+					"name": "p",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The probability of success."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 14,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 127,
+					"name": "r",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The number of successes."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 12,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 131,
 					"name": "stdev",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 8,
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 20,
 							"character": 7
 						}
 					],
@@ -1383,17 +1820,20 @@
 					}
 				},
 				{
-					"id": 113,
+					"id": 130,
 					"name": "variance",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
 					"sources": [
 						{
-							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 7,
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 18,
 							"character": 10
 						}
 					],
@@ -1403,7 +1843,7 @@
 					}
 				},
 				{
-					"id": 118,
+					"id": 136,
 					"name": "pEqualTo",
 					"kind": 2048,
 					"kindString": "Method",
@@ -1412,7 +1852,7 @@
 					},
 					"signatures": [
 						{
-							"id": 119,
+							"id": 137,
 							"name": "pEqualTo",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1420,12 +1860,12 @@
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Get the probability of exactly `x` successes in the time interval.",
+								"shortText": "Get the probability of exactly `x` failures before `r` successes occur.",
 								"returns": "Return `P(X=x)`.\n"
 							},
 							"parameters": [
 								{
-									"id": 120,
+									"id": 138,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1433,7 +1873,256 @@
 										"isExported": true
 									},
 									"comment": {
-										"text": "The number of trials."
+										"text": "The number of failures."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+							"line": 43,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						132
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						129,
+						128,
+						127,
+						131,
+						130
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						136
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
+					"line": 10,
+					"character": 37
+				}
+			]
+		},
+		{
+			"id": 139,
+			"name": "Poisson",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {
+				"isExported": true
+			},
+			"comment": {
+				"shortText": "**Poisson distribution**: A *discrete* probability\ndistribution that describes the number of events\noccuring within a fixed interval of time or space\ngiven these events occur with a constant mean rate\n`λ` and independently of the time since the last\nevent."
+			},
+			"children": [
+				{
+					"id": 144,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Create a Poisson distribution."
+					},
+					"signatures": [
+						{
+							"id": 145,
+							"name": "new Poisson",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Create a Poisson distribution."
+							},
+							"parameters": [
+								{
+									"id": 146,
+									"name": "lambda",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The mean number of events in a given interval of time or space.\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 139,
+								"name": "Poisson"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 19,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 140,
+					"name": "lambda",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The mean number of events in a given interval of time or space."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 13,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 141,
+					"name": "mean",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 15,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 143,
+					"name": "stdev",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 19,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 142,
+					"name": "variance",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Poisson/Poisson.ts",
+							"line": 17,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 147,
+					"name": "pEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 148,
+							"name": "pEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of exactly `x` successes in a given interval of time or space.",
+								"returns": "Return `P(X=x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 149,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The number of successes. (`x` must be an integer and `x≥0`)"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1450,7 +2139,7 @@
 					"sources": [
 						{
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
-							"line": 26,
+							"line": 39,
 							"character": 10
 						}
 					]
@@ -1461,37 +2150,37 @@
 					"title": "Constructors",
 					"kind": 512,
 					"children": [
-						115
+						144
 					]
 				},
 				{
 					"title": "Properties",
 					"kind": 1024,
 					"children": [
-						111,
-						112,
-						114,
-						113
+						140,
+						141,
+						143,
+						142
 					]
 				},
 				{
 					"title": "Methods",
 					"kind": 2048,
 					"children": [
-						118
+						147
 					]
 				}
 			],
 			"sources": [
 				{
 					"fileName": "probability/distributions/Poisson/Poisson.ts",
-					"line": 4,
+					"line": 11,
 					"character": 28
 				}
 			]
 		},
 		{
-			"id": 121,
+			"id": 150,
 			"name": "Uniform",
 			"kind": 128,
 			"kindString": "Class",
@@ -1499,11 +2188,11 @@
 				"isExported": true
 			},
 			"comment": {
-				"shortText": "Class representing a uniform distribution."
+				"shortText": "**Discrete uniform distribution**: A *discrete* probability\ndistribution where a finite number of values are equally\nlikely to be observed."
 			},
 			"children": [
 				{
-					"id": 127,
+					"id": 157,
 					"name": "constructor",
 					"kind": 512,
 					"kindString": "Constructor",
@@ -1515,7 +2204,7 @@
 					},
 					"signatures": [
 						{
-							"id": 128,
+							"id": 158,
 							"name": "new Uniform",
 							"kind": 16384,
 							"kindString": "Constructor signature",
@@ -1527,7 +2216,7 @@
 							},
 							"parameters": [
 								{
-									"id": 129,
+									"id": 159,
 									"name": "a",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1535,7 +2224,7 @@
 										"isExported": true
 									},
 									"comment": {
-										"shortText": "The minimum value."
+										"shortText": "The minimum of the distribution."
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1543,7 +2232,7 @@
 									}
 								},
 								{
-									"id": 130,
+									"id": 160,
 									"name": "b",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1551,7 +2240,7 @@
 										"isExported": true
 									},
 									"comment": {
-										"shortText": "The maximum value.\n"
+										"shortText": "The maximum of the distribution.\n"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1561,7 +2250,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 121,
+								"id": 150,
 								"name": "Uniform"
 							}
 						}
@@ -1569,23 +2258,26 @@
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 7,
+							"line": 18,
 							"character": 16
 						}
 					]
 				},
 				{
-					"id": 122,
+					"id": 151,
 					"name": "a",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The minimum of the distribution."
+					},
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 3,
+							"line": 8,
 							"character": 3
 						}
 					],
@@ -1595,17 +2287,20 @@
 					}
 				},
 				{
-					"id": 123,
+					"id": 152,
 					"name": "b",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The maximum of the distribution."
+					},
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 4,
+							"line": 10,
 							"character": 3
 						}
 					],
@@ -1615,17 +2310,20 @@
 					}
 				},
 				{
-					"id": 124,
+					"id": 154,
 					"name": "mean",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The mean of the distribution."
+					},
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 5,
+							"line": 14,
 							"character": 6
 						}
 					],
@@ -1635,17 +2333,43 @@
 					}
 				},
 				{
-					"id": 126,
+					"id": 153,
+					"name": "n",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The number of outcomes."
+					},
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 12,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 156,
 					"name": "stdev",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The standard deviation of the distribution."
+					},
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 7,
+							"line": 18,
 							"character": 7
 						}
 					],
@@ -1655,17 +2379,20 @@
 					}
 				},
 				{
-					"id": 125,
+					"id": 155,
 					"name": "variance",
 					"kind": 1024,
 					"kindString": "Property",
 					"flags": {
 						"isExported": true
 					},
+					"comment": {
+						"shortText": "The variance of the distribution."
+					},
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 6,
+							"line": 16,
 							"character": 10
 						}
 					],
@@ -1675,8 +2402,8 @@
 					}
 				},
 				{
-					"id": 131,
-					"name": "pLessThan",
+					"id": 161,
+					"name": "pEqualTo",
 					"kind": 2048,
 					"kindString": "Method",
 					"flags": {
@@ -1684,20 +2411,20 @@
 					},
 					"signatures": [
 						{
-							"id": 132,
-							"name": "pLessThan",
+							"id": 162,
+							"name": "pEqualTo",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
 								"isExported": true
 							},
 							"comment": {
-								"shortText": "Get the probability of a value less than `x`.",
-								"returns": "Return `P(X<x)`.\n"
+								"shortText": "Get the probability of `x`.",
+								"returns": "Return `P(X=x)`.\n"
 							},
 							"parameters": [
 								{
-									"id": 133,
+									"id": 163,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1705,7 +2432,7 @@
 										"isExported": true
 									},
 									"comment": {
-										"text": "A value."
+										"text": "The value. (`x` must be an integer and `a≤x≤b`)"
 									},
 									"type": {
 										"type": "intrinsic",
@@ -1722,8 +2449,61 @@
 					"sources": [
 						{
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
-							"line": 27,
-							"character": 11
+							"line": 42,
+							"character": 10
+						}
+					]
+				},
+				{
+					"id": 164,
+					"name": "pLessThanOrEqualTo",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 165,
+							"name": "pLessThanOrEqualTo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Get the probability of a value less than or equal to `x`.",
+								"returns": "Return `P(X≤x)`.\n"
+							},
+							"parameters": [
+								{
+									"id": 166,
+									"name": "x",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The value. (`x` must be an integer and `a≤x≤b`)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "probability/distributions/Uniform/Uniform.ts",
+							"line": 53,
+							"character": 20
 						}
 					]
 				}
@@ -1733,32 +2513,34 @@
 					"title": "Constructors",
 					"kind": 512,
 					"children": [
-						127
+						157
 					]
 				},
 				{
 					"title": "Properties",
 					"kind": 1024,
 					"children": [
-						122,
-						123,
-						124,
-						126,
-						125
+						151,
+						152,
+						154,
+						153,
+						156,
+						155
 					]
 				},
 				{
 					"title": "Methods",
 					"kind": 2048,
 					"children": [
-						131
+						161,
+						164
 					]
 				}
 			],
 			"sources": [
 				{
 					"fileName": "probability/distributions/Uniform/Uniform.ts",
-					"line": 2,
+					"line": 6,
 					"character": 28
 				}
 			]
@@ -2181,7 +2963,7 @@
 			]
 		},
 		{
-			"id": 141,
+			"id": 174,
 			"name": "mean",
 			"kind": 64,
 			"kindString": "Function",
@@ -2190,7 +2972,7 @@
 			},
 			"signatures": [
 				{
-					"id": 142,
+					"id": 175,
 					"name": "mean",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -2209,7 +2991,7 @@
 					},
 					"parameters": [
 						{
-							"id": 143,
+							"id": 176,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2243,7 +3025,7 @@
 			]
 		},
 		{
-			"id": 144,
+			"id": 177,
 			"name": "meanBy",
 			"kind": 64,
 			"kindString": "Function",
@@ -2252,7 +3034,7 @@
 			},
 			"signatures": [
 				{
-					"id": 145,
+					"id": 178,
 					"name": "meanBy",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -2271,7 +3053,7 @@
 					},
 					"parameters": [
 						{
-							"id": 146,
+							"id": 179,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2290,7 +3072,7 @@
 							}
 						},
 						{
-							"id": 147,
+							"id": 180,
 							"name": "iteratee",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2303,7 +3085,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 148,
+									"id": 181,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -2312,7 +3094,7 @@
 									},
 									"signatures": [
 										{
-											"id": 149,
+											"id": 182,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -2321,7 +3103,7 @@
 											},
 											"parameters": [
 												{
-													"id": 150,
+													"id": 183,
 													"name": "o",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -2366,7 +3148,7 @@
 			]
 		},
 		{
-			"id": 151,
+			"id": 184,
 			"name": "median",
 			"kind": 64,
 			"kindString": "Function",
@@ -2375,7 +3157,7 @@
 			},
 			"signatures": [
 				{
-					"id": 152,
+					"id": 185,
 					"name": "median",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -2394,7 +3176,7 @@
 					},
 					"parameters": [
 						{
-							"id": 153,
+							"id": 186,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2428,7 +3210,7 @@
 			]
 		},
 		{
-			"id": 154,
+			"id": 187,
 			"name": "medianBy",
 			"kind": 64,
 			"kindString": "Function",
@@ -2437,7 +3219,7 @@
 			},
 			"signatures": [
 				{
-					"id": 155,
+					"id": 188,
 					"name": "medianBy",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -2456,7 +3238,7 @@
 					},
 					"parameters": [
 						{
-							"id": 156,
+							"id": 189,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2475,7 +3257,7 @@
 							}
 						},
 						{
-							"id": 157,
+							"id": 190,
 							"name": "iteratee",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2488,7 +3270,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 158,
+									"id": 191,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -2497,7 +3279,7 @@
 									},
 									"signatures": [
 										{
-											"id": 159,
+											"id": 192,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -2506,7 +3288,7 @@
 											},
 											"parameters": [
 												{
-													"id": 160,
+													"id": 193,
 													"name": "o",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -2626,7 +3408,7 @@
 			]
 		},
 		{
-			"id": 134,
+			"id": 167,
 			"name": "permutation",
 			"kind": 64,
 			"kindString": "Function",
@@ -2635,7 +3417,7 @@
 			},
 			"signatures": [
 				{
-					"id": 135,
+					"id": 168,
 					"name": "permutation",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -2654,7 +3436,7 @@
 					},
 					"parameters": [
 						{
-							"id": 136,
+							"id": 169,
 							"name": "n",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2670,7 +3452,7 @@
 							}
 						},
 						{
-							"id": 137,
+							"id": 170,
 							"name": "r",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2686,7 +3468,7 @@
 							}
 						},
 						{
-							"id": 138,
+							"id": 171,
 							"name": "options",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -2699,7 +3481,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 139,
+									"id": 172,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -2708,7 +3490,7 @@
 									},
 									"children": [
 										{
-											"id": 140,
+											"id": 173,
 											"name": "replacement",
 											"kind": 32,
 											"kindString": "Variable",
@@ -2750,7 +3532,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												140
+												173
 											]
 										}
 									],
@@ -2990,7 +3772,7 @@
 			]
 		},
 		{
-			"id": 164,
+			"id": 197,
 			"name": "stdev",
 			"kind": 64,
 			"kindString": "Function",
@@ -2999,7 +3781,7 @@
 			},
 			"signatures": [
 				{
-					"id": 165,
+					"id": 198,
 					"name": "stdev",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -3018,7 +3800,7 @@
 					},
 					"parameters": [
 						{
-							"id": 166,
+							"id": 199,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3052,7 +3834,7 @@
 			]
 		},
 		{
-			"id": 174,
+			"id": 207,
 			"name": "stdevBy",
 			"kind": 64,
 			"kindString": "Function",
@@ -3061,7 +3843,7 @@
 			},
 			"signatures": [
 				{
-					"id": 175,
+					"id": 208,
 					"name": "stdevBy",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -3080,7 +3862,7 @@
 					},
 					"parameters": [
 						{
-							"id": 176,
+							"id": 209,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3099,7 +3881,7 @@
 							}
 						},
 						{
-							"id": 177,
+							"id": 210,
 							"name": "iteratee",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3112,7 +3894,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 178,
+									"id": 211,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -3121,7 +3903,7 @@
 									},
 									"signatures": [
 										{
-											"id": 179,
+											"id": 212,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -3130,7 +3912,7 @@
 											},
 											"parameters": [
 												{
-													"id": 180,
+													"id": 213,
 													"name": "o",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -3435,7 +4217,7 @@
 			]
 		},
 		{
-			"id": 161,
+			"id": 194,
 			"name": "variance",
 			"kind": 64,
 			"kindString": "Function",
@@ -3444,7 +4226,7 @@
 			},
 			"signatures": [
 				{
-					"id": 162,
+					"id": 195,
 					"name": "variance",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -3463,7 +4245,7 @@
 					},
 					"parameters": [
 						{
-							"id": 163,
+							"id": 196,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3497,7 +4279,7 @@
 			]
 		},
 		{
-			"id": 167,
+			"id": 200,
 			"name": "varianceBy",
 			"kind": 64,
 			"kindString": "Function",
@@ -3506,7 +4288,7 @@
 			},
 			"signatures": [
 				{
-					"id": 168,
+					"id": 201,
 					"name": "varianceBy",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -3525,7 +4307,7 @@
 					},
 					"parameters": [
 						{
-							"id": 169,
+							"id": 202,
 							"name": "array",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3544,7 +4326,7 @@
 							}
 						},
 						{
-							"id": 170,
+							"id": 203,
 							"name": "iteratee",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -3557,7 +4339,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 171,
+									"id": 204,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -3566,7 +4348,7 @@
 									},
 									"signatures": [
 										{
-											"id": 172,
+											"id": 205,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -3575,7 +4357,7 @@
 											},
 											"parameters": [
 												{
-													"id": 173,
+													"id": 206,
 													"name": "o",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -3627,10 +4409,12 @@
 			"children": [
 				41,
 				72,
-				85,
-				99,
-				110,
-				121
+				90,
+				104,
+				115,
+				126,
+				139,
+				150
 			]
 		},
 		{
@@ -3642,22 +4426,22 @@
 				5,
 				9,
 				62,
-				141,
-				144,
-				151,
-				154,
+				174,
+				177,
+				184,
+				187,
 				12,
-				134,
+				167,
 				16,
 				20,
 				24,
-				164,
-				174,
+				197,
+				207,
 				27,
 				31,
 				34,
-				161,
-				167
+				194,
+				200
 			]
 		}
 	]
