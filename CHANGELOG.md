@@ -2,6 +2,14 @@
 
 ###### May 24, 2024
 
+- Improve probability distribtuion classes.
+- Add effectiveRate function.
+- Add configuration for `typedoc`
+
+### `matician@0.2.0`
+
+###### May 24, 2024
+
 - Add probability distribution classes
   - Binomial
   - Exponential
