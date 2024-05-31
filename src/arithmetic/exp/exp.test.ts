@@ -1,6 +1,6 @@
 import exp from "./exp";
 
-describe("exp module", () => {
+describe("exp", () => {
   test("should raise e to the specied power", () => {
     expect(exp(-3)).toBeCloseTo(1 / Math.pow(Math.E, 3), 8);
     expect(exp(-2)).toBeCloseTo(1 / Math.pow(Math.E, 2), 8);

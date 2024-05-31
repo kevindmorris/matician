@@ -1,6 +1,6 @@
 import divide from "./divide";
 
-describe("divide module", () => {
+describe("divide", () => {
   test("should divide two numbers", () => {
     expect(divide(4, 2)).toBe(2);
     expect(divide(4, -2)).toBe(-2);

@@ -1,6 +1,6 @@
 import pow from "./pow";
 
-describe("pow module", () => {
+describe("pow", () => {
   test("should take a number to the power of another number", () => {
     expect(pow(0, -1)).toBe(Infinity);
     expect(pow(100, 0)).toBe(1);
