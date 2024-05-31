@@ -1,6 +1,6 @@
 <div align="center">
 
-**[Matician](): (/məˈtiSH(ə)n/) Shorthand for a specialist or expert in mathematics.**
+**[Matician](https://kevindmorris.github.io/matician/): (/məˈtiSH(ə)n/) Shorthand for a specialist or expert in mathematics.**
 
 <p>
 A modern JavaScript utility library for arithmatic, mathematics, proability, statistics, and more.
