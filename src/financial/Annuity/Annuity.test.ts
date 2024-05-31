@@ -1,6 +1,13 @@
 import Annuity from "./Annuity";
 
-describe("Annuity module", () => {
+describe("Annuity", () => {
+  test("should throw an error", () => {
+    expect(() => new Annuity(-100, 100, 0.1, 10)).toThrow("Invalid parameters");
+    expect(() => new Annuity(0, -100, 0.1, 10)).toThrow("Invalid parameters");
+    expect(() => new Annuity(0, 100, -0.1, 10)).toThrow("Invalid parameters");
+    expect(() => new Annuity(0, 100, -0.1, 10.5)).toThrow("Invalid parameters");
+    expect(() => new Annuity(0, 100, -0.1, -10)).toThrow("Invalid parameters");
+  });
   test("should calculate the present value of an annuity immediate", () => {
     let annuity = new Annuity(0, 100, 0.1, 10);
     expect(annuity.presentValue()).toBeCloseTo(614.46, 2);

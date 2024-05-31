@@ -1,18 +1,21 @@
-/** A class representing an annuity. */
+/**
+ * An annuity is a series of payments made at equal intervals.
+ */
 export default class Annuity {
   p: number;
   pmt: number;
   i: number;
   n: number;
-  options?: { type: "immediate" | "due" };
+  options?: { type?: "immediate" | "due" };
 
   /**
    * Create an annuity.
-   * @param {number} p The principal.
-   * @param {number} pmt The contribution per period.
-   * @param {number} i The interest rate per period.
-   * @param {number} n The number of periods.
-   * @param {Object} [options] The options object.
+   *
+   * @param {number} p The principal. (`p>0`)
+   * @param {number} pmt The contribution per period. (`pmt>0`)
+   * @param {number} i The interest rate per period. (`i>0`)
+   * @param {number} n The number of periods. (`n is an integer and n>0`)
+   * @param {Object} [options={}] The options object.
    * @param {Object} [options.type=immediate] The type of annuity.
    */
   constructor(
@@ -20,8 +23,11 @@ export default class Annuity {
     pmt: number,
     i: number,
     n: number,
-    options: { type: "immediate" | "due" } = { type: "immediate" }
+    options?: { type?: "immediate" | "due" }
   ) {
+    if (p < 0 || pmt < 0 || i < 0 || !Number.isInteger(n) || n < 0)
+      throw new Error("Invalid parameters");
+
     this.p = p;
     this.pmt = pmt;
     this.i = i;
@@ -31,6 +37,8 @@ export default class Annuity {
 
   /**
    * Calculate the present value of the annuity.
+   *
+   * @since 1.0.0
    * @return {number} Return the present value.
    */
   presentValue(): number {
@@ -44,6 +52,8 @@ export default class Annuity {
 
   /**
    * Calculate the future value of the annuity.
+   *
+   * @since 1.0.0
    * @return {number} Return the future value.
    */
   futureValue(): number {

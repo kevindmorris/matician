@@ -1,6 +1,6 @@
 import effectiveRate from "./effectiveRate";
 
-describe("effectiveRate module", () => {
+describe("effectiveRate", () => {
   test("should calculate the effective interest rate", () => {
     let r = effectiveRate(0.035, 2);
     expect(r).toBeCloseTo(0.035306, 2);
