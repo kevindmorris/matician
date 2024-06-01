@@ -1,6 +1,6 @@
 import Bernoulli from "./Bernoulli";
 
-describe("Bernoulli module", () => {
+describe("Bernoulli", () => {
   test("should throw an error", () => {
     expect(() => new Bernoulli(-0.5)).toThrow("Invalid parameters");
     expect(() => new Bernoulli(1.5)).toThrow("Invalid parameters");

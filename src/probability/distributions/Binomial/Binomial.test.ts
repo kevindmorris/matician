@@ -1,6 +1,6 @@
 import Binomial from "./Binomial";
 
-describe("Binomial module", () => {
+describe("Binomial", () => {
   test("should throw an error", () => {
     expect(() => new Binomial(10.5, 0.5)).toThrow("Invalid parameters");
     expect(() => new Binomial(0, 0.5)).toThrow("Invalid parameters");

@@ -1,6 +1,6 @@
 import Poisson from "./Poisson";
 
-describe("Poisson module", () => {
+describe("Poisson", () => {
   test("should throw an error", () => {
     expect(() => new Poisson(-1)).toThrow("Invalid parameters");
     expect(() => new Poisson(0)).toThrow("Invalid parameters");

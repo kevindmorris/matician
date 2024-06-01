@@ -1,6 +1,6 @@
 import combination from "./combination";
 
-describe("combination module", () => {
+describe("combination", () => {
   test("should return NaN", () => {
     expect(combination(2.5, 1)).toBeNaN();
     expect(combination(2, 1.5)).toBeNaN();

@@ -1,6 +1,6 @@
 import Exponential from "./Exponential";
 
-describe("Exponential module", () => {
+describe("Exponential", () => {
   test("should throw an error", () => {
     expect(() => new Exponential(-1)).toThrow("Invalid parameters");
     expect(() => new Exponential(0)).toThrow("Invalid parameters");

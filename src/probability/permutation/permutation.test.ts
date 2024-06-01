@@ -1,6 +1,6 @@
 import permutation from "./permutation";
 
-describe("permutation module", () => {
+describe("permutation", () => {
   test("should return NaN", () => {
     expect(permutation(2.5, 1)).toBeNaN();
     expect(permutation(2, 1.5)).toBeNaN();
