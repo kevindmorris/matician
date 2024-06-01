@@ -1,3 +1,10 @@
+### `matician@0.4.1`
+
+###### June 1, 2024
+
+- Augement `README.md` with more information.
+- Update homepage in `package.json`.
+
 ### `matician@0.4.0`
 
 ###### June 1, 2024

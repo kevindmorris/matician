@@ -1,16 +1,16 @@
 {
   "name": "matician",
   "version": "0.4.0",
-  "description": "A modern JavaScript utility library for arithmatic, mathematics, proability, statistics, and more.",
+  "description": "A modern JavaScript utility library for arithmetic, mathematics, proability, statistics, and more.",
   "keywords": [
     "matician",
-    "arithmatic",
+    "arithmetic",
     "mathematics",
     "probability",
     "statistics",
     "utility"
   ],
-  "homepage": "https://github.com/kevindmorris/matician",
+  "homepage": "https://kevindmorris.github.io/matician/",
   "bugs": {
     "url": "https://github.com/kevindmorris/matician/issues"
   },

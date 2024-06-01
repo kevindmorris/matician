@@ -1,9 +1,12 @@
 .vscode
 node_modules
+docs
 src
 
 .prettierignore
 .prettierrc.json
+CHANGELOG
+docs.json
 REFERENCE.md
 tsconfig.json
 tsup.config.ts
