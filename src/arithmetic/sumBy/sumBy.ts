@@ -3,7 +3,7 @@
  *
  * @since 1.0.0
  * @param {Array} array An array.
- * @param {Function} iteratee The iteratee invoked on each element.
+ * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the sum.
  *
  * @example
@@ -15,8 +15,15 @@ export default function sumBy(
   array: any[],
   iteratee?: (o: any) => number
 ): number {
-  return array.reduce((prev: number, curr: any) => {
+  if (array === null || array.length === 0) return 0;
+
+  let result;
+
+  for (const curr of array) {
     const current = iteratee ? iteratee(curr) : curr;
-    return prev + current;
-  }, 0);
+    if (current !== undefined && typeof current === "number") {
+      result = result === undefined ? current : result + current;
+    }
+  }
+  return result || NaN;
 }

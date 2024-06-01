@@ -1,7 +1,8 @@
 import mean from "../mean";
 
 /**
- * Compute the variance of numbers in an array.
+ * Compute the sample variance of numbers in an array.
+ *
  * @since 1.0.0
  * @param {Array} array An array of numbers.
  * @returns {number} Returns the variance.

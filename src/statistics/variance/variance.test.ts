@@ -1,6 +1,6 @@
 import variance from "./variance";
 
-describe("variance module", () => {
+describe("variance", () => {
   test("should find the variance of an array", () => {
     expect(variance([])).toBe(0);
     expect(variance([1, 2, 3])).toBe(1);
