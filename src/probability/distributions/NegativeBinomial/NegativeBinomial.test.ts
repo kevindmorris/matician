@@ -1,6 +1,6 @@
 import NegativeBinomial from "./NegativeBinomial";
 
-describe("Negative Binomial module", () => {
+describe("NegativeBinomial", () => {
   test("should throw an error", () => {
     expect(() => new NegativeBinomial(2.5, 0.5)).toThrow("Invalid parameters");
     expect(() => new NegativeBinomial(0, 0.5)).toThrow("Invalid parameters");

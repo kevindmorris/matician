@@ -1,7 +1,8 @@
 import factorial from "./factorial";
 
-describe("factorial module", () => {
+describe("factorial", () => {
   test("should return NaN", () => {
+    expect(factorial(1.5)).toBeNaN();
     expect(factorial(-1)).toBeNaN();
   });
   test("should calculate the factorial", () => {

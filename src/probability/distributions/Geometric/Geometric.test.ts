@@ -1,6 +1,6 @@
 import Geometric from "./Geometric";
 
-describe("geometric module", () => {
+describe("Geometric", () => {
   test("should throw an error", () => {
     expect(() => new Geometric(-1)).toThrow("Invalid parameters");
     expect(() => new Geometric(1.3)).toThrow("Invalid parameters");

@@ -1,6 +1,6 @@
 import stdev from "./stdev";
 
-describe("stdev module", () => {
+describe("stdev", () => {
   test("should find the standard deviation of an array", () => {
     expect(stdev([])).toBe(0);
     expect(stdev([1, 2, 3])).toBe(1);

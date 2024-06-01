@@ -1,5 +1,6 @@
 /**
  * Compute the mean of numbers in an array.
+ *
  * @since 1.0.0
  * @param {Array} array An array of numbers.
  * @returns {number} Returns the mean.

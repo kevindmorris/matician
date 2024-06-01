@@ -1,6 +1,6 @@
 import sqrt from "./sqrt";
 
-describe("sqrt module", () => {
+describe("sqrt", () => {
   test("should be NaN for the square root of negative numbers", () => {
     expect(sqrt(-1)).toBeNaN();
   });
@@ -10,5 +10,6 @@ describe("sqrt module", () => {
     expect(sqrt(4)).toBe(2);
     expect(sqrt(16)).toBe(4);
     expect(sqrt(25)).toBe(5);
+    expect(sqrt(10)).toBeCloseTo(Math.pow(10, 1 / 2));
   });
 });

@@ -1,6 +1,6 @@
 import Uniform from "./Uniform";
 
-describe("Uniform module", () => {
+describe("Uniform", () => {
   test("should throw an error", () => {
     expect(() => new Uniform(0, 0.5)).toThrow("Invalid parameters");
     expect(() => new Uniform(0, -1)).toThrow("Invalid parameters");
