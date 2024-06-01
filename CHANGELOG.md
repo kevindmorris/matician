@@ -1,4 +1,11 @@
-### `matician@0.2.0`
+### `matician@0.4.0`
+
+###### June 1, 2024
+
+- Deploy documentation pages.
+- Clean up and add documentation to modules.
+
+### `matician@0.3.0`
 
 ###### May 24, 2024
 
