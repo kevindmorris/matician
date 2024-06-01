@@ -18,6 +18,7 @@ A modern JavaScript utility library for arithmetic, mathematics, proability, sta
 - [Usage](#usage)
 - [Why Matician?](#why-matician)
 - [Contributions](#contributions)
+- [Author](#author)
 
 # Getting Started
 
@@ -58,3 +59,7 @@ Matician takes the hassle out of writing custom JavaScript functions for mathema
 # Contributions
 
 Open an issue to address bugs or suggest new modules!
+
+# Author
+
+Kevin Morris
