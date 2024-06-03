@@ -1,7 +1,7 @@
 /**
  * Compute the square root of a number.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {number} x A number.
  * @returns {number} Returns the square root of a number.
  *

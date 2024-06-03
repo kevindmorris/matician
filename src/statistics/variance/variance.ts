@@ -3,7 +3,7 @@ import mean from "../mean";
 /**
  * Compute the sample variance of numbers in an array.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {Array} array An array of numbers.
  * @returns {number} Returns the variance.
  */

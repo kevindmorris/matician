@@ -1,7 +1,7 @@
 /**
  * Compute the median of numbers in an array by the specified `iteratee` invoked on each element in the array.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {Array} array An array.
  * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the median.

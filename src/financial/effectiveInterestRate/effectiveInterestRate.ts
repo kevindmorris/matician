@@ -4,13 +4,13 @@
  * of compounding the interest over a given
  * period of time.
  *
- * @since 1.0.0
+ * @since 0.3.0
  * @param {number} r The nominal rate.
  * @param {number} m The number of times compounted per year.
  * (`m>0 and m=Infinity for continuous compounding`)
  * @returns {number} Returns the effective interest rate.
  */
-export default function effectiveRate(r: number, m: number): number {
+export default function effectiveInterestRate(r: number, m: number): number {
   if (m <= 0) return NaN;
 
   if (m === Infinity) return Math.exp(r) - 1;
