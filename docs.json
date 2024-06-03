@@ -31,7 +31,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 21,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L21"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L21"
 						}
 					],
 					"signatures": [
@@ -54,7 +54,7 @@
 									"fileName": "financial/Annuity/Annuity.ts",
 									"line": 21,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L21"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L21"
 								}
 							],
 							"parameters": [
@@ -212,7 +212,7 @@
 															"fileName": "financial/Annuity/Annuity.ts",
 															"line": 26,
 															"character": 16,
-															"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L26"
+															"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L26"
 														}
 													],
 													"type": {
@@ -243,7 +243,7 @@
 													"fileName": "financial/Annuity/Annuity.ts",
 													"line": 26,
 													"character": 14,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L26"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L26"
 												}
 											]
 										}
@@ -270,7 +270,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 7,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L7"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L7"
 						}
 					],
 					"type": {
@@ -289,7 +289,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 8,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L8"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L8"
 						}
 					],
 					"type": {
@@ -310,7 +310,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 9,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L9"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L9"
 						}
 					],
 					"type": {
@@ -335,7 +335,7 @@
 											"fileName": "financial/Annuity/Annuity.ts",
 											"line": 9,
 											"character": 14,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L9"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L9"
 										}
 									],
 									"type": {
@@ -366,7 +366,7 @@
 									"fileName": "financial/Annuity/Annuity.ts",
 									"line": 9,
 									"character": 12,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L9"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L9"
 								}
 							]
 						}
@@ -383,7 +383,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 5,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L5"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L5"
 						}
 					],
 					"type": {
@@ -402,7 +402,7 @@
 							"fileName": "financial/Annuity/Annuity.ts",
 							"line": 6,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L6"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L6"
 						}
 					],
 					"type": {
@@ -419,9 +419,9 @@
 					"sources": [
 						{
 							"fileName": "financial/Annuity/Annuity.ts",
-							"line": 59,
+							"line": 57,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L59"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L57"
 						}
 					],
 					"signatures": [
@@ -440,15 +440,6 @@
 								],
 								"blockTags": [
 									{
-										"tag": "@since",
-										"content": [
-											{
-												"kind": "text",
-												"text": "1.0.0"
-											}
-										]
-									},
-									{
 										"tag": "@returns",
 										"content": [
 											{
@@ -462,9 +453,9 @@
 							"sources": [
 								{
 									"fileName": "financial/Annuity/Annuity.ts",
-									"line": 59,
+									"line": 57,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L59"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L57"
 								}
 							],
 							"type": {
@@ -483,9 +474,9 @@
 					"sources": [
 						{
 							"fileName": "financial/Annuity/Annuity.ts",
-							"line": 44,
+							"line": 43,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L44"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L43"
 						}
 					],
 					"signatures": [
@@ -504,15 +495,6 @@
 								],
 								"blockTags": [
 									{
-										"tag": "@since",
-										"content": [
-											{
-												"kind": "text",
-												"text": "1.0.0"
-											}
-										]
-									},
-									{
 										"tag": "@returns",
 										"content": [
 											{
@@ -526,9 +508,9 @@
 							"sources": [
 								{
 									"fileName": "financial/Annuity/Annuity.ts",
-									"line": 44,
+									"line": 43,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L44"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L43"
 								}
 							],
 							"type": {
@@ -569,12 +551,12 @@
 					"fileName": "financial/Annuity/Annuity.ts",
 					"line": 4,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/Annuity/Annuity.ts#L4"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/Annuity/Annuity.ts#L4"
 				}
 			]
 		},
 		{
-			"id": 83,
+			"id": 100,
 			"name": "Bernoulli",
 			"variant": "declaration",
 			"kind": 128,
@@ -605,7 +587,7 @@
 			},
 			"children": [
 				{
-					"id": 84,
+					"id": 101,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -615,12 +597,12 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 23,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L23"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L23"
 						}
 					],
 					"signatures": [
 						{
-							"id": 85,
+							"id": 102,
 							"name": "new Bernoulli",
 							"variant": "signature",
 							"kind": 16384,
@@ -638,12 +620,12 @@
 									"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 									"line": 23,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L23"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L23"
 								}
 							],
 							"parameters": [
 								{
-									"id": 86,
+									"id": 103,
 									"name": "p",
 									"variant": "param",
 									"kind": 32768,
@@ -664,7 +646,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 83,
+								"target": 100,
 								"name": "default",
 								"package": "matician"
 							}
@@ -672,7 +654,7 @@
 					]
 				},
 				{
-					"id": 89,
+					"id": 106,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -690,7 +672,7 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 13,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L13"
 						}
 					],
 					"type": {
@@ -699,7 +681,7 @@
 					}
 				},
 				{
-					"id": 87,
+					"id": 104,
 					"name": "p",
 					"variant": "declaration",
 					"kind": 1024,
@@ -717,7 +699,7 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 9,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L9"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L9"
 						}
 					],
 					"type": {
@@ -726,7 +708,7 @@
 					}
 				},
 				{
-					"id": 88,
+					"id": 105,
 					"name": "q",
 					"variant": "declaration",
 					"kind": 1024,
@@ -744,7 +726,7 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 11,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L11"
 						}
 					],
 					"type": {
@@ -753,7 +735,7 @@
 					}
 				},
 				{
-					"id": 91,
+					"id": 108,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -771,7 +753,7 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 17,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L17"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L17"
 						}
 					],
 					"type": {
@@ -780,7 +762,7 @@
 					}
 				},
 				{
-					"id": 90,
+					"id": 107,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -798,7 +780,7 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L15"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L15"
 						}
 					],
 					"type": {
@@ -807,7 +789,7 @@
 					}
 				},
 				{
-					"id": 92,
+					"id": 109,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -817,12 +799,12 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 38,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L38"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L38"
 						}
 					],
 					"signatures": [
 						{
-							"id": 93,
+							"id": 110,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -859,12 +841,12 @@
 									"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 									"line": 38,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L38"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L38"
 								}
 							],
 							"parameters": [
 								{
-									"id": 94,
+									"id": 111,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -891,7 +873,7 @@
 					]
 				},
 				{
-					"id": 98,
+					"id": 115,
 					"name": "pGreaterThanOrEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -901,12 +883,12 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 62,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L62"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L62"
 						}
 					],
 					"signatures": [
 						{
-							"id": 99,
+							"id": 116,
 							"name": "pGreaterThanOrEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -951,12 +933,12 @@
 									"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 									"line": 62,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L62"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L62"
 								}
 							],
 							"parameters": [
 								{
-									"id": 100,
+									"id": 117,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -983,7 +965,7 @@
 					]
 				},
 				{
-					"id": 95,
+					"id": 112,
 					"name": "pLessThanOrEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -993,12 +975,12 @@
 							"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 							"line": 50,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L50"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L50"
 						}
 					],
 					"signatures": [
 						{
-							"id": 96,
+							"id": 113,
 							"name": "pLessThanOrEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -1043,12 +1025,12 @@
 									"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 									"line": 50,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L50"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L50"
 								}
 							],
 							"parameters": [
 								{
-									"id": 97,
+									"id": 114,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -1079,25 +1061,25 @@
 				{
 					"title": "Constructors",
 					"children": [
-						84
+						101
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						89,
-						87,
-						88,
-						91,
-						90
+						106,
+						104,
+						105,
+						108,
+						107
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						92,
-						98,
-						95
+						109,
+						115,
+						112
 					]
 				}
 			],
@@ -1106,12 +1088,12 @@
 					"fileName": "probability/distributions/Bernoulli/Bernoulli.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Bernoulli/Bernoulli.ts#L7"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Bernoulli/Bernoulli.ts#L7"
 				}
 			]
 		},
 		{
-			"id": 101,
+			"id": 118,
 			"name": "Binomial",
 			"variant": "declaration",
 			"kind": 128,
@@ -1134,7 +1116,7 @@
 			},
 			"children": [
 				{
-					"id": 102,
+					"id": 119,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -1144,12 +1126,12 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 28,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L28"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L28"
 						}
 					],
 					"signatures": [
 						{
-							"id": 103,
+							"id": 120,
 							"name": "new Binomial",
 							"variant": "signature",
 							"kind": 16384,
@@ -1167,12 +1149,12 @@
 									"fileName": "probability/distributions/Binomial/Binomial.ts",
 									"line": 28,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L28"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L28"
 								}
 							],
 							"parameters": [
 								{
-									"id": 104,
+									"id": 121,
 									"name": "n",
 									"variant": "param",
 									"kind": 32768,
@@ -1191,7 +1173,7 @@
 									}
 								},
 								{
-									"id": 105,
+									"id": 122,
 									"name": "p",
 									"variant": "param",
 									"kind": 32768,
@@ -1212,7 +1194,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 101,
+								"target": 118,
 								"name": "default",
 								"package": "matician"
 							}
@@ -1220,7 +1202,7 @@
 					]
 				},
 				{
-					"id": 109,
+					"id": 126,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1238,7 +1220,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 17,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L17"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L17"
 						}
 					],
 					"type": {
@@ -1247,7 +1229,7 @@
 					}
 				},
 				{
-					"id": 106,
+					"id": 123,
 					"name": "n",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1265,7 +1247,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 11,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L11"
 						}
 					],
 					"type": {
@@ -1274,7 +1256,7 @@
 					}
 				},
 				{
-					"id": 107,
+					"id": 124,
 					"name": "p",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1292,7 +1274,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 13,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L13"
 						}
 					],
 					"type": {
@@ -1301,7 +1283,7 @@
 					}
 				},
 				{
-					"id": 108,
+					"id": 125,
 					"name": "q",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1319,7 +1301,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L15"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L15"
 						}
 					],
 					"type": {
@@ -1328,7 +1310,7 @@
 					}
 				},
 				{
-					"id": 111,
+					"id": 128,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1346,7 +1328,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 21,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L21"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L21"
 						}
 					],
 					"type": {
@@ -1355,7 +1337,7 @@
 					}
 				},
 				{
-					"id": 110,
+					"id": 127,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1373,7 +1355,7 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 19,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L19"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L19"
 						}
 					],
 					"type": {
@@ -1382,7 +1364,7 @@
 					}
 				},
 				{
-					"id": 112,
+					"id": 129,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -1392,12 +1374,12 @@
 							"fileName": "probability/distributions/Binomial/Binomial.ts",
 							"line": 45,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L45"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L45"
 						}
 					],
 					"signatures": [
 						{
-							"id": 113,
+							"id": 130,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -1450,12 +1432,12 @@
 									"fileName": "probability/distributions/Binomial/Binomial.ts",
 									"line": 45,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L45"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L45"
 								}
 							],
 							"parameters": [
 								{
-									"id": 114,
+									"id": 131,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -1502,24 +1484,24 @@
 				{
 					"title": "Constructors",
 					"children": [
-						102
+						119
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						109,
-						106,
-						107,
-						108,
-						111,
-						110
+						126,
+						123,
+						124,
+						125,
+						128,
+						127
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						112
+						129
 					]
 				}
 			],
@@ -1528,12 +1510,12 @@
 					"fileName": "probability/distributions/Binomial/Binomial.ts",
 					"line": 9,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Binomial/Binomial.ts#L9"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Binomial/Binomial.ts#L9"
 				}
 			]
 		},
 		{
-			"id": 115,
+			"id": 132,
 			"name": "Exponential",
 			"variant": "declaration",
 			"kind": 128,
@@ -1556,7 +1538,7 @@
 			},
 			"children": [
 				{
-					"id": 116,
+					"id": 133,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -1566,12 +1548,12 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 20,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L20"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L20"
 						}
 					],
 					"signatures": [
 						{
-							"id": 117,
+							"id": 134,
 							"name": "new Exponential",
 							"variant": "signature",
 							"kind": 16384,
@@ -1589,12 +1571,12 @@
 									"fileName": "probability/distributions/Exponential/Exponential.ts",
 									"line": 20,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L20"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L20"
 								}
 							],
 							"parameters": [
 								{
-									"id": 118,
+									"id": 135,
 									"name": "lambda",
 									"variant": "param",
 									"kind": 32768,
@@ -1615,7 +1597,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 115,
+								"target": 132,
 								"name": "default",
 								"package": "matician"
 							}
@@ -1623,7 +1605,7 @@
 					]
 				},
 				{
-					"id": 119,
+					"id": 136,
 					"name": "lambda",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1641,7 +1623,7 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 8,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L8"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L8"
 						}
 					],
 					"type": {
@@ -1650,7 +1632,7 @@
 					}
 				},
 				{
-					"id": 120,
+					"id": 137,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1668,7 +1650,7 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 10,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L10"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L10"
 						}
 					],
 					"type": {
@@ -1677,7 +1659,7 @@
 					}
 				},
 				{
-					"id": 122,
+					"id": 139,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1695,7 +1677,7 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 14,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L14"
 						}
 					],
 					"type": {
@@ -1704,7 +1686,7 @@
 					}
 				},
 				{
-					"id": 121,
+					"id": 138,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1722,7 +1704,7 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 12,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L12"
 						}
 					],
 					"type": {
@@ -1731,7 +1713,7 @@
 					}
 				},
 				{
-					"id": 123,
+					"id": 140,
 					"name": "pLessThanOrEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -1741,12 +1723,12 @@
 							"fileName": "probability/distributions/Exponential/Exponential.ts",
 							"line": 34,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L34"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L34"
 						}
 					],
 					"signatures": [
 						{
-							"id": 124,
+							"id": 141,
 							"name": "pLessThanOrEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -1791,12 +1773,12 @@
 									"fileName": "probability/distributions/Exponential/Exponential.ts",
 									"line": 34,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L34"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L34"
 								}
 							],
 							"parameters": [
 								{
-									"id": 125,
+									"id": 142,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -1835,22 +1817,22 @@
 				{
 					"title": "Constructors",
 					"children": [
-						116
+						133
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						119,
-						120,
-						122,
-						121
+						136,
+						137,
+						139,
+						138
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						123
+						140
 					]
 				}
 			],
@@ -1859,12 +1841,12 @@
 					"fileName": "probability/distributions/Exponential/Exponential.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Exponential/Exponential.ts#L6"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Exponential/Exponential.ts#L6"
 				}
 			]
 		},
 		{
-			"id": 126,
+			"id": 143,
 			"name": "Geometric",
 			"variant": "declaration",
 			"kind": 128,
@@ -1887,7 +1869,7 @@
 			},
 			"children": [
 				{
-					"id": 127,
+					"id": 144,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -1897,12 +1879,12 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 21,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L21"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L21"
 						}
 					],
 					"signatures": [
 						{
-							"id": 128,
+							"id": 145,
 							"name": "new Geometric",
 							"variant": "signature",
 							"kind": 16384,
@@ -1920,12 +1902,12 @@
 									"fileName": "probability/distributions/Geometric/Geometric.ts",
 									"line": 21,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L21"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L21"
 								}
 							],
 							"parameters": [
 								{
-									"id": 129,
+									"id": 146,
 									"name": "p",
 									"variant": "param",
 									"kind": 32768,
@@ -1946,7 +1928,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 126,
+								"target": 143,
 								"name": "default",
 								"package": "matician"
 							}
@@ -1954,7 +1936,7 @@
 					]
 				},
 				{
-					"id": 131,
+					"id": 148,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1972,7 +1954,7 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 11,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L11"
 						}
 					],
 					"type": {
@@ -1981,7 +1963,7 @@
 					}
 				},
 				{
-					"id": 130,
+					"id": 147,
 					"name": "p",
 					"variant": "declaration",
 					"kind": 1024,
@@ -1999,7 +1981,7 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 9,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L9"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L9"
 						}
 					],
 					"type": {
@@ -2008,7 +1990,7 @@
 					}
 				},
 				{
-					"id": 133,
+					"id": 150,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2026,7 +2008,7 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L15"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L15"
 						}
 					],
 					"type": {
@@ -2035,7 +2017,7 @@
 					}
 				},
 				{
-					"id": 132,
+					"id": 149,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2053,7 +2035,7 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 13,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L13"
 						}
 					],
 					"type": {
@@ -2062,7 +2044,7 @@
 					}
 				},
 				{
-					"id": 134,
+					"id": 151,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -2072,12 +2054,12 @@
 							"fileName": "probability/distributions/Geometric/Geometric.ts",
 							"line": 35,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L35"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L35"
 						}
 					],
 					"signatures": [
 						{
-							"id": 135,
+							"id": 152,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -2122,12 +2104,12 @@
 									"fileName": "probability/distributions/Geometric/Geometric.ts",
 									"line": 35,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L35"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L35"
 								}
 							],
 							"parameters": [
 								{
-									"id": 136,
+									"id": 153,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -2174,22 +2156,22 @@
 				{
 					"title": "Constructors",
 					"children": [
-						127
+						144
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						131,
-						130,
-						133,
-						132
+						148,
+						147,
+						150,
+						149
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						134
+						151
 					]
 				}
 			],
@@ -2198,12 +2180,12 @@
 					"fileName": "probability/distributions/Geometric/Geometric.ts",
 					"line": 7,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Geometric/Geometric.ts#L7"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Geometric/Geometric.ts#L7"
 				}
 			]
 		},
 		{
-			"id": 137,
+			"id": 154,
 			"name": "NegativeBinomial",
 			"variant": "declaration",
 			"kind": 128,
@@ -2226,7 +2208,7 @@
 			},
 			"children": [
 				{
-					"id": 138,
+					"id": 155,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -2236,12 +2218,12 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 27,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L27"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L27"
 						}
 					],
 					"signatures": [
 						{
-							"id": 139,
+							"id": 156,
 							"name": "new NegativeBinomial",
 							"variant": "signature",
 							"kind": 16384,
@@ -2259,12 +2241,12 @@
 									"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 									"line": 27,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L27"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L27"
 								}
 							],
 							"parameters": [
 								{
-									"id": 140,
+									"id": 157,
 									"name": "r",
 									"variant": "param",
 									"kind": 32768,
@@ -2283,7 +2265,7 @@
 									}
 								},
 								{
-									"id": 141,
+									"id": 158,
 									"name": "p",
 									"variant": "param",
 									"kind": 32768,
@@ -2304,7 +2286,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 137,
+								"target": 154,
 								"name": "default",
 								"package": "matician"
 							}
@@ -2312,7 +2294,7 @@
 					]
 				},
 				{
-					"id": 144,
+					"id": 161,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2330,7 +2312,7 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 16,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L16"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L16"
 						}
 					],
 					"type": {
@@ -2339,7 +2321,7 @@
 					}
 				},
 				{
-					"id": 143,
+					"id": 160,
 					"name": "p",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2357,7 +2339,7 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 14,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L14"
 						}
 					],
 					"type": {
@@ -2366,7 +2348,7 @@
 					}
 				},
 				{
-					"id": 142,
+					"id": 159,
 					"name": "r",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2384,7 +2366,7 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 12,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L12"
 						}
 					],
 					"type": {
@@ -2393,7 +2375,7 @@
 					}
 				},
 				{
-					"id": 146,
+					"id": 163,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2411,7 +2393,7 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 20,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L20"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L20"
 						}
 					],
 					"type": {
@@ -2420,7 +2402,7 @@
 					}
 				},
 				{
-					"id": 145,
+					"id": 162,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2438,7 +2420,7 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 18,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L18"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L18"
 						}
 					],
 					"type": {
@@ -2447,7 +2429,7 @@
 					}
 				},
 				{
-					"id": 147,
+					"id": 164,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -2457,12 +2439,12 @@
 							"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 							"line": 43,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L43"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L43"
 						}
 					],
 					"signatures": [
 						{
-							"id": 148,
+							"id": 165,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -2515,12 +2497,12 @@
 									"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 									"line": 43,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L43"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L43"
 								}
 							],
 							"parameters": [
 								{
-									"id": 149,
+									"id": 166,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -2551,23 +2533,23 @@
 				{
 					"title": "Constructors",
 					"children": [
-						138
+						155
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						144,
-						143,
-						142,
-						146,
-						145
+						161,
+						160,
+						159,
+						163,
+						162
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						147
+						164
 					]
 				}
 			],
@@ -2576,12 +2558,12 @@
 					"fileName": "probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 					"line": 10,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L10"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/NegativeBinomial/NegativeBinomial.ts#L10"
 				}
 			]
 		},
 		{
-			"id": 150,
+			"id": 167,
 			"name": "Poisson",
 			"variant": "declaration",
 			"kind": 128,
@@ -2604,7 +2586,7 @@
 			},
 			"children": [
 				{
-					"id": 151,
+					"id": 168,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -2614,12 +2596,12 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 25,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L25"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L25"
 						}
 					],
 					"signatures": [
 						{
-							"id": 152,
+							"id": 169,
 							"name": "new Poisson",
 							"variant": "signature",
 							"kind": 16384,
@@ -2637,12 +2619,12 @@
 									"fileName": "probability/distributions/Poisson/Poisson.ts",
 									"line": 25,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L25"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L25"
 								}
 							],
 							"parameters": [
 								{
-									"id": 153,
+									"id": 170,
 									"name": "lambda",
 									"variant": "param",
 									"kind": 32768,
@@ -2663,7 +2645,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 150,
+								"target": 167,
 								"name": "default",
 								"package": "matician"
 							}
@@ -2671,7 +2653,7 @@
 					]
 				},
 				{
-					"id": 154,
+					"id": 171,
 					"name": "lambda",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2689,7 +2671,7 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 13,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L13"
 						}
 					],
 					"type": {
@@ -2698,7 +2680,7 @@
 					}
 				},
 				{
-					"id": 155,
+					"id": 172,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2716,7 +2698,7 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L15"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L15"
 						}
 					],
 					"type": {
@@ -2725,7 +2707,7 @@
 					}
 				},
 				{
-					"id": 157,
+					"id": 174,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2743,7 +2725,7 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 19,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L19"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L19"
 						}
 					],
 					"type": {
@@ -2752,7 +2734,7 @@
 					}
 				},
 				{
-					"id": 156,
+					"id": 173,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -2770,7 +2752,7 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 17,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L17"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L17"
 						}
 					],
 					"type": {
@@ -2779,7 +2761,7 @@
 					}
 				},
 				{
-					"id": 158,
+					"id": 175,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -2789,12 +2771,12 @@
 							"fileName": "probability/distributions/Poisson/Poisson.ts",
 							"line": 39,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L39"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L39"
 						}
 					],
 					"signatures": [
 						{
-							"id": 159,
+							"id": 176,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -2839,12 +2821,12 @@
 									"fileName": "probability/distributions/Poisson/Poisson.ts",
 									"line": 39,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L39"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L39"
 								}
 							],
 							"parameters": [
 								{
-									"id": 160,
+									"id": 177,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -2891,22 +2873,22 @@
 				{
 					"title": "Constructors",
 					"children": [
-						151
+						168
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						154,
-						155,
-						157,
-						156
+						171,
+						172,
+						174,
+						173
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						158
+						175
 					]
 				}
 			],
@@ -2915,12 +2897,12 @@
 					"fileName": "probability/distributions/Poisson/Poisson.ts",
 					"line": 11,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Poisson/Poisson.ts#L11"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Poisson/Poisson.ts#L11"
 				}
 			]
 		},
 		{
-			"id": 161,
+			"id": 178,
 			"name": "Uniform",
 			"variant": "declaration",
 			"kind": 128,
@@ -2935,7 +2917,7 @@
 			},
 			"children": [
 				{
-					"id": 162,
+					"id": 179,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -2945,12 +2927,12 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 25,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L25"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L25"
 						}
 					],
 					"signatures": [
 						{
-							"id": 163,
+							"id": 180,
 							"name": "new Uniform",
 							"variant": "signature",
 							"kind": 16384,
@@ -2968,12 +2950,12 @@
 									"fileName": "probability/distributions/Uniform/Uniform.ts",
 									"line": 25,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L25"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L25"
 								}
 							],
 							"parameters": [
 								{
-									"id": 164,
+									"id": 181,
 									"name": "a",
 									"variant": "param",
 									"kind": 32768,
@@ -2992,7 +2974,7 @@
 									}
 								},
 								{
-									"id": 165,
+									"id": 182,
 									"name": "b",
 									"variant": "param",
 									"kind": 32768,
@@ -3013,7 +2995,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"target": 161,
+								"target": 178,
 								"name": "default",
 								"package": "matician"
 							}
@@ -3021,7 +3003,7 @@
 					]
 				},
 				{
-					"id": 166,
+					"id": 183,
 					"name": "a",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3039,7 +3021,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 8,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L8"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L8"
 						}
 					],
 					"type": {
@@ -3048,7 +3030,7 @@
 					}
 				},
 				{
-					"id": 167,
+					"id": 184,
 					"name": "b",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3066,7 +3048,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 10,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L10"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L10"
 						}
 					],
 					"type": {
@@ -3075,7 +3057,7 @@
 					}
 				},
 				{
-					"id": 169,
+					"id": 186,
 					"name": "mean",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3093,7 +3075,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 14,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L14"
 						}
 					],
 					"type": {
@@ -3102,7 +3084,7 @@
 					}
 				},
 				{
-					"id": 168,
+					"id": 185,
 					"name": "n",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3120,7 +3102,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 12,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L12"
 						}
 					],
 					"type": {
@@ -3129,7 +3111,7 @@
 					}
 				},
 				{
-					"id": 171,
+					"id": 188,
 					"name": "stdev",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3147,7 +3129,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 18,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L18"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L18"
 						}
 					],
 					"type": {
@@ -3156,7 +3138,7 @@
 					}
 				},
 				{
-					"id": 170,
+					"id": 187,
 					"name": "variance",
 					"variant": "declaration",
 					"kind": 1024,
@@ -3174,7 +3156,7 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 16,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L16"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L16"
 						}
 					],
 					"type": {
@@ -3183,7 +3165,7 @@
 					}
 				},
 				{
-					"id": 172,
+					"id": 189,
 					"name": "pEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -3193,12 +3175,12 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 42,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L42"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L42"
 						}
 					],
 					"signatures": [
 						{
-							"id": 173,
+							"id": 190,
 							"name": "pEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -3243,12 +3225,12 @@
 									"fileName": "probability/distributions/Uniform/Uniform.ts",
 									"line": 42,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L42"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L42"
 								}
 							],
 							"parameters": [
 								{
-									"id": 174,
+									"id": 191,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -3291,7 +3273,7 @@
 					]
 				},
 				{
-					"id": 175,
+					"id": 192,
 					"name": "pLessThanOrEqualTo",
 					"variant": "declaration",
 					"kind": 2048,
@@ -3301,12 +3283,12 @@
 							"fileName": "probability/distributions/Uniform/Uniform.ts",
 							"line": 53,
 							"character": 2,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L53"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L53"
 						}
 					],
 					"signatures": [
 						{
-							"id": 176,
+							"id": 193,
 							"name": "pLessThanOrEqualTo",
 							"variant": "signature",
 							"kind": 4096,
@@ -3351,12 +3333,12 @@
 									"fileName": "probability/distributions/Uniform/Uniform.ts",
 									"line": 53,
 									"character": 2,
-									"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L53"
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L53"
 								}
 							],
 							"parameters": [
 								{
-									"id": 177,
+									"id": 194,
 									"name": "x",
 									"variant": "param",
 									"kind": 32768,
@@ -3403,25 +3385,25 @@
 				{
 					"title": "Constructors",
 					"children": [
-						162
+						179
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
-						166,
-						167,
-						169,
-						168,
-						171,
-						170
+						183,
+						184,
+						186,
+						185,
+						188,
+						187
 					]
 				},
 				{
 					"title": "Methods",
 					"children": [
-						172,
-						175
+						189,
+						192
 					]
 				}
 			],
@@ -3430,7 +3412,7 @@
 					"fileName": "probability/distributions/Uniform/Uniform.ts",
 					"line": 6,
 					"character": 21,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/distributions/Uniform/Uniform.ts#L6"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/distributions/Uniform/Uniform.ts#L6"
 				}
 			]
 		},
@@ -3445,7 +3427,7 @@
 					"fileName": "arithmetic/add/add.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/add/add.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/add/add.ts#L13"
 				}
 			],
 			"signatures": [
@@ -3468,7 +3450,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -3497,7 +3479,7 @@
 							"fileName": "arithmetic/add/add.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/add/add.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/add/add.ts#L13"
 						}
 					],
 					"parameters": [
@@ -3548,7 +3530,7 @@
 			]
 		},
 		{
-			"id": 66,
+			"id": 83,
 			"name": "combination",
 			"variant": "declaration",
 			"kind": 64,
@@ -3558,12 +3540,12 @@
 					"fileName": "probability/combination/combination.ts",
 					"line": 20,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/combination/combination.ts#L20"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/combination/combination.ts#L20"
 				}
 			],
 			"signatures": [
 				{
-					"id": 67,
+					"id": 84,
 					"name": "combination",
 					"variant": "signature",
 					"kind": 4096,
@@ -3597,7 +3579,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -3626,12 +3608,12 @@
 							"fileName": "probability/combination/combination.ts",
 							"line": 20,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/combination/combination.ts#L20"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/combination/combination.ts#L20"
 						}
 					],
 					"parameters": [
 						{
-							"id": 68,
+							"id": 85,
 							"name": "n",
 							"variant": "param",
 							"kind": 32768,
@@ -3666,7 +3648,7 @@
 							}
 						},
 						{
-							"id": 69,
+							"id": 86,
 							"name": "r",
 							"variant": "param",
 							"kind": 32768,
@@ -3701,7 +3683,7 @@
 							}
 						},
 						{
-							"id": 70,
+							"id": 87,
 							"name": "options",
 							"variant": "param",
 							"kind": 32768,
@@ -3719,14 +3701,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 71,
+									"id": 88,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 72,
+											"id": 89,
 											"name": "replacement",
 											"variant": "declaration",
 											"kind": 1024,
@@ -3746,7 +3728,7 @@
 													"fileName": "probability/combination/combination.ts",
 													"line": 23,
 													"character": 14,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/combination/combination.ts#L23"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/combination/combination.ts#L23"
 												}
 											],
 											"type": {
@@ -3759,7 +3741,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												72
+												89
 											]
 										}
 									],
@@ -3768,7 +3750,7 @@
 											"fileName": "probability/combination/combination.ts",
 											"line": 23,
 											"character": 12,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/combination/combination.ts#L23"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/combination/combination.ts#L23"
 										}
 									]
 								}
@@ -3778,6 +3760,259 @@
 					"type": {
 						"type": "intrinsic",
 						"name": "number"
+					}
+				}
+			]
+		},
+		{
+			"id": 62,
+			"name": "compoundInterest",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "financial/compoundInterest/compoundInterest.ts",
+					"line": 11,
+					"character": 24,
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/compoundInterest/compoundInterest.ts#L11"
+				}
+			],
+			"signatures": [
+				{
+					"id": 63,
+					"name": "compoundInterest",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Calculate the compound interest earned on a principal over time."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.4.2"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Returns an object with the accrued amount and interest earned."
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "financial/compoundInterest/compoundInterest.ts",
+							"line": 11,
+							"character": 24,
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/compoundInterest/compoundInterest.ts#L11"
+						}
+					],
+					"parameters": [
+						{
+							"id": 64,
+							"name": "P",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The principal. ("
+									},
+									{
+										"kind": "code",
+										"text": "`P>0`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 65,
+							"name": "r",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The interest rate. ("
+									},
+									{
+										"kind": "code",
+										"text": "`0≤r≤1`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 66,
+							"name": "n",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The number of times compounded per period. ("
+									},
+									{
+										"kind": "code",
+										"text": "`n`"
+									},
+									{
+										"kind": "text",
+										"text": " is an integer and "
+									},
+									{
+										"kind": "code",
+										"text": "`n>0`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 67,
+							"name": "t",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The number of periods. ("
+									},
+									{
+										"kind": "code",
+										"text": "`t`"
+									},
+									{
+										"kind": "text",
+										"text": " is an integer and "
+									},
+									{
+										"kind": "code",
+										"text": "`t>0`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 68,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 69,
+									"name": "A",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "financial/compoundInterest/compoundInterest.ts",
+											"line": 17,
+											"character": 2,
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/compoundInterest/compoundInterest.ts#L17"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 70,
+									"name": "I",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "financial/compoundInterest/compoundInterest.ts",
+											"line": 18,
+											"character": 2,
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/compoundInterest/compoundInterest.ts#L18"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										69,
+										70
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "financial/compoundInterest/compoundInterest.ts",
+									"line": 16,
+									"character": 3,
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/compoundInterest/compoundInterest.ts#L16"
+								}
+							]
+						}
 					}
 				}
 			]
@@ -3793,7 +4028,7 @@
 					"fileName": "arithmetic/divide/divide.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/divide/divide.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/divide/divide.ts#L13"
 				}
 			],
 			"signatures": [
@@ -3816,7 +4051,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -3845,7 +4080,7 @@
 							"fileName": "arithmetic/divide/divide.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/divide/divide.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/divide/divide.ts#L13"
 						}
 					],
 					"parameters": [
@@ -3896,23 +4131,23 @@
 			]
 		},
 		{
-			"id": 62,
-			"name": "effectiveRate",
+			"id": 71,
+			"name": "effectiveInterestRate",
 			"variant": "declaration",
 			"kind": 64,
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "financial/effectiveRate/effectiveRate.ts",
+					"fileName": "financial/effectiveInterestRate/effectiveInterestRate.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/effectiveRate/effectiveRate.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/effectiveInterestRate/effectiveInterestRate.ts#L13"
 				}
 			],
 			"signatures": [
 				{
-					"id": 63,
-					"name": "effectiveRate",
+					"id": 72,
+					"name": "effectiveInterestRate",
 					"variant": "signature",
 					"kind": 4096,
 					"flags": {},
@@ -3929,7 +4164,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.3.0"
 									}
 								]
 							},
@@ -3946,15 +4181,15 @@
 					},
 					"sources": [
 						{
-							"fileName": "financial/effectiveRate/effectiveRate.ts",
+							"fileName": "financial/effectiveInterestRate/effectiveInterestRate.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/financial/effectiveRate/effectiveRate.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/effectiveInterestRate/effectiveInterestRate.ts#L13"
 						}
 					],
 					"parameters": [
 						{
-							"id": 64,
+							"id": 73,
 							"name": "r",
 							"variant": "param",
 							"kind": 32768,
@@ -3973,7 +4208,7 @@
 							}
 						},
 						{
-							"id": 65,
+							"id": 74,
 							"name": "m",
 							"variant": "param",
 							"kind": 32768,
@@ -4018,7 +4253,7 @@
 					"fileName": "arithmetic/exp/exp.ts",
 					"line": 12,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/exp/exp.ts#L12"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/exp/exp.ts#L12"
 				}
 			],
 			"signatures": [
@@ -4049,7 +4284,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4086,7 +4321,7 @@
 							"fileName": "arithmetic/exp/exp.ts",
 							"line": 12,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/exp/exp.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/exp/exp.ts#L12"
 						}
 					],
 					"parameters": [
@@ -4126,7 +4361,7 @@
 			]
 		},
 		{
-			"id": 73,
+			"id": 90,
 			"name": "factorial",
 			"variant": "declaration",
 			"kind": 64,
@@ -4134,14 +4369,14 @@
 			"sources": [
 				{
 					"fileName": "probability/factorial/factorial.ts",
-					"line": 11,
+					"line": 12,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/factorial/factorial.ts#L11"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/factorial/factorial.ts#L12"
 				}
 			],
 			"signatures": [
 				{
-					"id": 74,
+					"id": 91,
 					"name": "factorial",
 					"variant": "signature",
 					"kind": 4096,
@@ -4162,6 +4397,15 @@
 							}
 						],
 						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.1.0"
+									}
+								]
+							},
 							{
 								"tag": "@returns",
 								"content": [
@@ -4193,14 +4437,14 @@
 					"sources": [
 						{
 							"fileName": "probability/factorial/factorial.ts",
-							"line": 11,
+							"line": 12,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/factorial/factorial.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/factorial/factorial.ts#L12"
 						}
 					],
 					"parameters": [
 						{
-							"id": 75,
+							"id": 92,
 							"name": "n",
 							"variant": "param",
 							"kind": 32768,
@@ -4227,7 +4471,7 @@
 			]
 		},
 		{
-			"id": 178,
+			"id": 206,
 			"name": "mean",
 			"variant": "declaration",
 			"kind": 64,
@@ -4237,12 +4481,12 @@
 					"fileName": "statistics/mean/mean.ts",
 					"line": 8,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/mean/mean.ts#L8"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/mean/mean.ts#L8"
 				}
 			],
 			"signatures": [
 				{
-					"id": 179,
+					"id": 207,
 					"name": "mean",
 					"variant": "signature",
 					"kind": 4096,
@@ -4260,7 +4504,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4280,12 +4524,12 @@
 							"fileName": "statistics/mean/mean.ts",
 							"line": 8,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/mean/mean.ts#L8"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/mean/mean.ts#L8"
 						}
 					],
 					"parameters": [
 						{
-							"id": 180,
+							"id": 208,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -4315,7 +4559,7 @@
 			]
 		},
 		{
-			"id": 181,
+			"id": 209,
 			"name": "meanBy",
 			"variant": "declaration",
 			"kind": 64,
@@ -4325,12 +4569,12 @@
 					"fileName": "statistics/meanBy/meanBy.ts",
 					"line": 14,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/meanBy/meanBy.ts#L14"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/meanBy/meanBy.ts#L14"
 				}
 			],
 			"signatures": [
 				{
-					"id": 182,
+					"id": 210,
 					"name": "meanBy",
 					"variant": "signature",
 					"kind": 4096,
@@ -4356,7 +4600,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4385,12 +4629,12 @@
 							"fileName": "statistics/meanBy/meanBy.ts",
 							"line": 14,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/meanBy/meanBy.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/meanBy/meanBy.ts#L14"
 						}
 					],
 					"parameters": [
 						{
-							"id": 183,
+							"id": 211,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -4412,7 +4656,7 @@
 							}
 						},
 						{
-							"id": 184,
+							"id": 212,
 							"name": "iteratee",
 							"variant": "param",
 							"kind": 32768,
@@ -4430,7 +4674,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 185,
+									"id": 213,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -4440,12 +4684,12 @@
 											"fileName": "statistics/meanBy/meanBy.ts",
 											"line": 16,
 											"character": 13,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/meanBy/meanBy.ts#L16"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/meanBy/meanBy.ts#L16"
 										}
 									],
 									"signatures": [
 										{
-											"id": 186,
+											"id": 214,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -4455,12 +4699,12 @@
 													"fileName": "statistics/meanBy/meanBy.ts",
 													"line": 16,
 													"character": 13,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/meanBy/meanBy.ts#L16"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/meanBy/meanBy.ts#L16"
 												}
 											],
 											"parameters": [
 												{
-													"id": 187,
+													"id": 215,
 													"name": "o",
 													"variant": "param",
 													"kind": 32768,
@@ -4489,7 +4733,7 @@
 			]
 		},
 		{
-			"id": 188,
+			"id": 216,
 			"name": "median",
 			"variant": "declaration",
 			"kind": 64,
@@ -4499,12 +4743,12 @@
 					"fileName": "statistics/median/median.ts",
 					"line": 8,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/median/median.ts#L8"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/median/median.ts#L8"
 				}
 			],
 			"signatures": [
 				{
-					"id": 189,
+					"id": 217,
 					"name": "median",
 					"variant": "signature",
 					"kind": 4096,
@@ -4522,7 +4766,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4542,12 +4786,12 @@
 							"fileName": "statistics/median/median.ts",
 							"line": 8,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/median/median.ts#L8"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/median/median.ts#L8"
 						}
 					],
 					"parameters": [
 						{
-							"id": 190,
+							"id": 218,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -4577,7 +4821,7 @@
 			]
 		},
 		{
-			"id": 191,
+			"id": 219,
 			"name": "medianBy",
 			"variant": "declaration",
 			"kind": 64,
@@ -4587,12 +4831,12 @@
 					"fileName": "statistics/medianBy/medianBy.ts",
 					"line": 14,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/medianBy/medianBy.ts#L14"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/medianBy/medianBy.ts#L14"
 				}
 			],
 			"signatures": [
 				{
-					"id": 192,
+					"id": 220,
 					"name": "medianBy",
 					"variant": "signature",
 					"kind": 4096,
@@ -4618,7 +4862,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4647,12 +4891,12 @@
 							"fileName": "statistics/medianBy/medianBy.ts",
 							"line": 14,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/medianBy/medianBy.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/medianBy/medianBy.ts#L14"
 						}
 					],
 					"parameters": [
 						{
-							"id": 193,
+							"id": 221,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -4674,7 +4918,7 @@
 							}
 						},
 						{
-							"id": 194,
+							"id": 222,
 							"name": "iteratee",
 							"variant": "param",
 							"kind": 32768,
@@ -4692,7 +4936,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 195,
+									"id": 223,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -4702,12 +4946,12 @@
 											"fileName": "statistics/medianBy/medianBy.ts",
 											"line": 16,
 											"character": 13,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/medianBy/medianBy.ts#L16"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/medianBy/medianBy.ts#L16"
 										}
 									],
 									"signatures": [
 										{
-											"id": 196,
+											"id": 224,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -4717,12 +4961,12 @@
 													"fileName": "statistics/medianBy/medianBy.ts",
 													"line": 16,
 													"character": 13,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/medianBy/medianBy.ts#L16"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/medianBy/medianBy.ts#L16"
 												}
 											],
 											"parameters": [
 												{
-													"id": 197,
+													"id": 225,
 													"name": "o",
 													"variant": "param",
 													"kind": 32768,
@@ -4761,7 +5005,7 @@
 					"fileName": "arithmetic/multiply/multiply.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/multiply/multiply.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/multiply/multiply.ts#L13"
 				}
 			],
 			"signatures": [
@@ -4784,7 +5028,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4813,7 +5057,7 @@
 							"fileName": "arithmetic/multiply/multiply.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/multiply/multiply.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/multiply/multiply.ts#L13"
 						}
 					],
 					"parameters": [
@@ -4864,7 +5108,7 @@
 			]
 		},
 		{
-			"id": 76,
+			"id": 93,
 			"name": "permutation",
 			"variant": "declaration",
 			"kind": 64,
@@ -4874,12 +5118,12 @@
 					"fileName": "probability/permutation/permutation.ts",
 					"line": 20,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/permutation/permutation.ts#L20"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/permutation/permutation.ts#L20"
 				}
 			],
 			"signatures": [
 				{
-					"id": 77,
+					"id": 94,
 					"name": "permutation",
 					"variant": "signature",
 					"kind": 4096,
@@ -4913,7 +5157,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -4942,12 +5186,12 @@
 							"fileName": "probability/permutation/permutation.ts",
 							"line": 20,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/permutation/permutation.ts#L20"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/permutation/permutation.ts#L20"
 						}
 					],
 					"parameters": [
 						{
-							"id": 78,
+							"id": 95,
 							"name": "n",
 							"variant": "param",
 							"kind": 32768,
@@ -4982,7 +5226,7 @@
 							}
 						},
 						{
-							"id": 79,
+							"id": 96,
 							"name": "r",
 							"variant": "param",
 							"kind": 32768,
@@ -5017,7 +5261,7 @@
 							}
 						},
 						{
-							"id": 80,
+							"id": 97,
 							"name": "options",
 							"variant": "param",
 							"kind": 32768,
@@ -5035,14 +5279,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 81,
+									"id": 98,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
 									"flags": {},
 									"children": [
 										{
-											"id": 82,
+											"id": 99,
 											"name": "replacement",
 											"variant": "declaration",
 											"kind": 1024,
@@ -5062,7 +5306,7 @@
 													"fileName": "probability/permutation/permutation.ts",
 													"line": 23,
 													"character": 14,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/permutation/permutation.ts#L23"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/permutation/permutation.ts#L23"
 												}
 											],
 											"type": {
@@ -5075,7 +5319,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												82
+												99
 											]
 										}
 									],
@@ -5084,7 +5328,7 @@
 											"fileName": "probability/permutation/permutation.ts",
 											"line": 23,
 											"character": 12,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/probability/permutation/permutation.ts#L23"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/probability/permutation/permutation.ts#L23"
 										}
 									]
 								}
@@ -5109,7 +5353,7 @@
 					"fileName": "arithmetic/pow/pow.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/pow/pow.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/pow/pow.ts#L13"
 				}
 			],
 			"signatures": [
@@ -5132,7 +5376,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5161,7 +5405,7 @@
 							"fileName": "arithmetic/pow/pow.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/pow/pow.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/pow/pow.ts#L13"
 						}
 					],
 					"parameters": [
@@ -5212,6 +5456,240 @@
 			]
 		},
 		{
+			"id": 195,
+			"name": "randomFloat",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "random/randomFloat/randomFloat.ts",
+					"line": 17,
+					"character": 24,
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/randomFloat/randomFloat.ts#L17"
+				}
+			],
+			"signatures": [
+				{
+					"id": 196,
+					"name": "randomFloat",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Get a random number between the inclusive bounds."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.4.2"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Returns a random number."
+									}
+								]
+							},
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nrandomFloat()\r\n// => a number between 0 or 1\r\nrandomFloat(2)\r\n// => a number between 0 and 2\r\nrandomFloat(1, 2)\r\n// => a number between 1 and 2\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "random/randomFloat/randomFloat.ts",
+							"line": 17,
+							"character": 24,
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/randomFloat/randomFloat.ts#L17"
+						}
+					],
+					"parameters": [
+						{
+							"id": 197,
+							"name": "lower",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The lower bound."
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 198,
+							"name": "upper",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The upper bound."
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			]
+		},
+		{
+			"id": 199,
+			"name": "randomInt",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "random/randomInt/randomInt.ts",
+					"line": 17,
+					"character": 24,
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/randomInt/randomInt.ts#L17"
+				}
+			],
+			"signatures": [
+				{
+					"id": 200,
+					"name": "randomInt",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Get a random integer between the inclusive bounds."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.4.2"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Returns a random integer."
+									}
+								]
+							},
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nrandomInt()\r\n// => 0 or 1\r\nrandomInt(2)\r\n// => an integer between 0 and 2\r\nrandomInt(1, 2)\r\n// => an integer between 1 and 2\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "random/randomInt/randomInt.ts",
+							"line": 17,
+							"character": 24,
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/randomInt/randomInt.ts#L17"
+						}
+					],
+					"parameters": [
+						{
+							"id": 201,
+							"name": "lower",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The lower bound. (Must be an integer)"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 202,
+							"name": "upper",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The upper bound. (Must be an integer)"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			]
+		},
+		{
 			"id": 20,
 			"name": "root",
 			"variant": "declaration",
@@ -5222,7 +5700,7 @@
 					"fileName": "arithmetic/root/root.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/root/root.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/root/root.ts#L13"
 				}
 			],
 			"signatures": [
@@ -5245,7 +5723,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5282,7 +5760,7 @@
 							"fileName": "arithmetic/root/root.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/root/root.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/root/root.ts#L13"
 						}
 					],
 					"parameters": [
@@ -5333,6 +5811,321 @@
 			]
 		},
 		{
+			"id": 203,
+			"name": "sample",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "random/sample/sample.ts",
+					"line": 12,
+					"character": 24,
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/sample/sample.ts#L12"
+				}
+			],
+			"signatures": [
+				{
+					"id": 204,
+					"name": "sample",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Get a random element from an array."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.4.2"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "A random element from an array."
+									}
+								]
+							},
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nsample([1, 2, 3])\r\n// => 1, 2, or 3\n```"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "random/sample/sample.ts",
+							"line": 12,
+							"character": 24,
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/random/sample/sample.ts#L12"
+						}
+					],
+					"parameters": [
+						{
+							"id": 205,
+							"name": "array",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "An array."
+									}
+								]
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				}
+			]
+		},
+		{
+			"id": 75,
+			"name": "simpleInterest",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "financial/simpleInterest/simpleInterest.ts",
+					"line": 10,
+					"character": 24,
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/simpleInterest/simpleInterest.ts#L10"
+				}
+			],
+			"signatures": [
+				{
+					"id": 76,
+					"name": "simpleInterest",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Calculate the simple interest earned on a principal over time."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@since",
+								"content": [
+									{
+										"kind": "text",
+										"text": "0.4.2"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Returns an object with the accrued amount and interest earned."
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "financial/simpleInterest/simpleInterest.ts",
+							"line": 10,
+							"character": 24,
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/simpleInterest/simpleInterest.ts#L10"
+						}
+					],
+					"parameters": [
+						{
+							"id": 77,
+							"name": "P",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The principal. ("
+									},
+									{
+										"kind": "code",
+										"text": "`P>0`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 78,
+							"name": "r",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The interest rate. ("
+									},
+									{
+										"kind": "code",
+										"text": "`0≤r≤1`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 79,
+							"name": "t",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "The number of periods. ("
+									},
+									{
+										"kind": "code",
+										"text": "`t`"
+									},
+									{
+										"kind": "text",
+										"text": " is an integer and "
+									},
+									{
+										"kind": "code",
+										"text": "`t>0`"
+									},
+									{
+										"kind": "text",
+										"text": ")"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 80,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 81,
+									"name": "A",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "financial/simpleInterest/simpleInterest.ts",
+											"line": 15,
+											"character": 2,
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/simpleInterest/simpleInterest.ts#L15"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 82,
+									"name": "I",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "financial/simpleInterest/simpleInterest.ts",
+											"line": 16,
+											"character": 2,
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/simpleInterest/simpleInterest.ts#L16"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										81,
+										82
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "financial/simpleInterest/simpleInterest.ts",
+									"line": 14,
+									"character": 3,
+									"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/financial/simpleInterest/simpleInterest.ts#L14"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
 			"id": 24,
 			"name": "sqrt",
 			"variant": "declaration",
@@ -5343,7 +6136,7 @@
 					"fileName": "arithmetic/sqrt/sqrt.ts",
 					"line": 12,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sqrt/sqrt.ts#L12"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sqrt/sqrt.ts#L12"
 				}
 			],
 			"signatures": [
@@ -5366,7 +6159,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5395,7 +6188,7 @@
 							"fileName": "arithmetic/sqrt/sqrt.ts",
 							"line": 12,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sqrt/sqrt.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sqrt/sqrt.ts#L12"
 						}
 					],
 					"parameters": [
@@ -5427,7 +6220,7 @@
 			]
 		},
 		{
-			"id": 198,
+			"id": 226,
 			"name": "stdev",
 			"variant": "declaration",
 			"kind": 64,
@@ -5437,12 +6230,12 @@
 					"fileName": "statistics/stdev/stdev.ts",
 					"line": 10,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdev/stdev.ts#L10"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdev/stdev.ts#L10"
 				}
 			],
 			"signatures": [
 				{
-					"id": 199,
+					"id": 227,
 					"name": "stdev",
 					"variant": "signature",
 					"kind": 4096,
@@ -5460,7 +6253,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5480,12 +6273,12 @@
 							"fileName": "statistics/stdev/stdev.ts",
 							"line": 10,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdev/stdev.ts#L10"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdev/stdev.ts#L10"
 						}
 					],
 					"parameters": [
 						{
-							"id": 200,
+							"id": 228,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -5515,7 +6308,7 @@
 			]
 		},
 		{
-			"id": 201,
+			"id": 229,
 			"name": "stdevBy",
 			"variant": "declaration",
 			"kind": 64,
@@ -5525,12 +6318,12 @@
 					"fileName": "statistics/stdevBy/stdevBy.ts",
 					"line": 11,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdevBy/stdevBy.ts#L11"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdevBy/stdevBy.ts#L11"
 				}
 			],
 			"signatures": [
 				{
-					"id": 202,
+					"id": 230,
 					"name": "stdevBy",
 					"variant": "signature",
 					"kind": 4096,
@@ -5556,7 +6349,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5576,12 +6369,12 @@
 							"fileName": "statistics/stdevBy/stdevBy.ts",
 							"line": 11,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdevBy/stdevBy.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdevBy/stdevBy.ts#L11"
 						}
 					],
 					"parameters": [
 						{
-							"id": 203,
+							"id": 231,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -5603,7 +6396,7 @@
 							}
 						},
 						{
-							"id": 204,
+							"id": 232,
 							"name": "iteratee",
 							"variant": "param",
 							"kind": 32768,
@@ -5621,7 +6414,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 205,
+									"id": 233,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -5631,12 +6424,12 @@
 											"fileName": "statistics/stdevBy/stdevBy.ts",
 											"line": 13,
 											"character": 13,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdevBy/stdevBy.ts#L13"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdevBy/stdevBy.ts#L13"
 										}
 									],
 									"signatures": [
 										{
-											"id": 206,
+											"id": 234,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -5646,12 +6439,12 @@
 													"fileName": "statistics/stdevBy/stdevBy.ts",
 													"line": 13,
 													"character": 13,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/stdevBy/stdevBy.ts#L13"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/stdevBy/stdevBy.ts#L13"
 												}
 											],
 											"parameters": [
 												{
-													"id": 207,
+													"id": 235,
 													"name": "o",
 													"variant": "param",
 													"kind": 32768,
@@ -5690,7 +6483,7 @@
 					"fileName": "arithmetic/subtract/subtract.ts",
 					"line": 13,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/subtract/subtract.ts#L13"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/subtract/subtract.ts#L13"
 				}
 			],
 			"signatures": [
@@ -5713,7 +6506,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5742,7 +6535,7 @@
 							"fileName": "arithmetic/subtract/subtract.ts",
 							"line": 13,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/subtract/subtract.ts#L13"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/subtract/subtract.ts#L13"
 						}
 					],
 					"parameters": [
@@ -5803,7 +6596,7 @@
 					"fileName": "arithmetic/sum/sum.ts",
 					"line": 12,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sum/sum.ts#L12"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sum/sum.ts#L12"
 				}
 			],
 			"signatures": [
@@ -5826,7 +6619,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5855,7 +6648,7 @@
 							"fileName": "arithmetic/sum/sum.ts",
 							"line": 12,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sum/sum.ts#L12"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sum/sum.ts#L12"
 						}
 					],
 					"parameters": [
@@ -5900,7 +6693,7 @@
 					"fileName": "arithmetic/sumBy/sumBy.ts",
 					"line": 14,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sumBy/sumBy.ts#L14"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sumBy/sumBy.ts#L14"
 				}
 			],
 			"signatures": [
@@ -5931,7 +6724,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -5960,7 +6753,7 @@
 							"fileName": "arithmetic/sumBy/sumBy.ts",
 							"line": 14,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sumBy/sumBy.ts#L14"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sumBy/sumBy.ts#L14"
 						}
 					],
 					"parameters": [
@@ -6015,7 +6808,7 @@
 											"fileName": "arithmetic/sumBy/sumBy.ts",
 											"line": 16,
 											"character": 13,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sumBy/sumBy.ts#L16"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sumBy/sumBy.ts#L16"
 										}
 									],
 									"signatures": [
@@ -6030,7 +6823,7 @@
 													"fileName": "arithmetic/sumBy/sumBy.ts",
 													"line": 16,
 													"character": 13,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/arithmetic/sumBy/sumBy.ts#L16"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/arithmetic/sumBy/sumBy.ts#L16"
 												}
 											],
 											"parameters": [
@@ -6064,7 +6857,7 @@
 			]
 		},
 		{
-			"id": 208,
+			"id": 236,
 			"name": "variance",
 			"variant": "declaration",
 			"kind": 64,
@@ -6074,12 +6867,12 @@
 					"fileName": "statistics/variance/variance.ts",
 					"line": 10,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/variance/variance.ts#L10"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/variance/variance.ts#L10"
 				}
 			],
 			"signatures": [
 				{
-					"id": 209,
+					"id": 237,
 					"name": "variance",
 					"variant": "signature",
 					"kind": 4096,
@@ -6097,7 +6890,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -6117,12 +6910,12 @@
 							"fileName": "statistics/variance/variance.ts",
 							"line": 10,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/variance/variance.ts#L10"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/variance/variance.ts#L10"
 						}
 					],
 					"parameters": [
 						{
-							"id": 210,
+							"id": 238,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -6152,7 +6945,7 @@
 			]
 		},
 		{
-			"id": 211,
+			"id": 239,
 			"name": "varianceBy",
 			"variant": "declaration",
 			"kind": 64,
@@ -6162,12 +6955,12 @@
 					"fileName": "statistics/varianceBy/varianceBy.ts",
 					"line": 11,
 					"character": 24,
-					"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/varianceBy/varianceBy.ts#L11"
+					"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/varianceBy/varianceBy.ts#L11"
 				}
 			],
 			"signatures": [
 				{
-					"id": 212,
+					"id": 240,
 					"name": "varianceBy",
 					"variant": "signature",
 					"kind": 4096,
@@ -6193,7 +6986,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "1.0.0"
+										"text": "0.1.0"
 									}
 								]
 							},
@@ -6213,12 +7006,12 @@
 							"fileName": "statistics/varianceBy/varianceBy.ts",
 							"line": 11,
 							"character": 24,
-							"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/varianceBy/varianceBy.ts#L11"
+							"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/varianceBy/varianceBy.ts#L11"
 						}
 					],
 					"parameters": [
 						{
-							"id": 213,
+							"id": 241,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -6240,7 +7033,7 @@
 							}
 						},
 						{
-							"id": 214,
+							"id": 242,
 							"name": "iteratee",
 							"variant": "param",
 							"kind": 32768,
@@ -6258,7 +7051,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 215,
+									"id": 243,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -6268,12 +7061,12 @@
 											"fileName": "statistics/varianceBy/varianceBy.ts",
 											"line": 13,
 											"character": 13,
-											"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/varianceBy/varianceBy.ts#L13"
+											"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/varianceBy/varianceBy.ts#L13"
 										}
 									],
 									"signatures": [
 										{
-											"id": 216,
+											"id": 244,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -6283,12 +7076,12 @@
 													"fileName": "statistics/varianceBy/varianceBy.ts",
 													"line": 13,
 													"character": 13,
-													"url": "https://github.com/kevindmorris/matician/blob/671bfb794c992b079bd3c687e966e6a146a77f31/src/statistics/varianceBy/varianceBy.ts#L13"
+													"url": "https://github.com/kevindmorris/matician/blob/3b88a88c413176d2cd7a31709861e2deb1867bc2/src/statistics/varianceBy/varianceBy.ts#L13"
 												}
 											],
 											"parameters": [
 												{
-													"id": 217,
+													"id": 245,
 													"name": "o",
 													"variant": "param",
 													"kind": 32768,
@@ -6322,40 +7115,45 @@
 			"title": "Classes",
 			"children": [
 				41,
-				83,
-				101,
-				115,
-				126,
-				137,
-				150,
-				161
+				100,
+				118,
+				132,
+				143,
+				154,
+				167,
+				178
 			]
 		},
 		{
 			"title": "Functions",
 			"children": [
 				1,
-				66,
-				5,
+				83,
 				62,
+				5,
+				71,
 				9,
-				73,
-				178,
-				181,
-				188,
-				191,
+				90,
+				206,
+				209,
+				216,
+				219,
 				12,
-				76,
+				93,
 				16,
+				195,
+				199,
 				20,
+				203,
+				75,
 				24,
-				198,
-				201,
+				226,
+				229,
 				27,
 				31,
 				34,
-				208,
-				211
+				236,
+				239
 			]
 		}
 	],
@@ -6364,7 +7162,7 @@
 	"readme": [
 		{
 			"kind": "text",
-			"text": "<div align=\"center\">\r\n\r\n**[Matician](https://kevindmorris.github.io/matician/): (/məˈtiSH(ə)n/) Shorthand for a specialist or expert in mathematics.**\r\n\r\n<p>\r\nA modern JavaScript utility library for arithmetic, mathematics, proability, statistics, and more.\r\n</p>\r\n\r\n[![npm version](https://img.shields.io/npm/v/matician.svg?label=version)](https://www.npmjs.com/package/matician)\r\n[![npm downloads](https://img.shields.io/npm/dm/matician.svg)](https://www.npmjs.com/package/matician)\r\n[![package license](https://img.shields.io/npm/l/matician.svg)](https://www.npmjs.com/package/matician)\r\n\r\n</div>\r\n\r\n# Table of Contents\r\n\r\n- [Getting Started](#getting-started)\r\n- [Usage](#usage)\r\n- [Why Matician?](#why-matician)\r\n- [Contributions](#contributions)\r\n- [Author](#author)\r\n\r\n# Getting Started\r\n\r\nUse your preferred package manager:\r\n\r\n"
+			"text": "<div align=\"center\">\r\n\r\n**[Matician](https://kevindmorris.github.io/matician/): (/məˈtiSH(ə)n/) Shorthand for a specialist or expert in mathematics.**\r\n\r\n<p>\r\nA modern JavaScript utility library for arithmetic, mathematics, proability, statistics, and more.\r\n</p>\r\n\r\n<div>\r\n\r\n[![npm version](https://img.shields.io/npm/v/matician.svg?label=version)](https://www.npmjs.com/package/matician)\r\n[![npm downloads](https://img.shields.io/npm/dm/matician.svg)](https://www.npmjs.com/package/matician)\r\n[![package license](https://img.shields.io/npm/l/matician.svg)](https://www.npmjs.com/package/matician)\r\n\r\n</div>\r\n\r\n<b>\r\n\r\n📋[Docs](https://kevindmorris.github.io/matician/) | 🧪[GitHub](https://github.com/kevindmorris/matician) | 📦[Package](https://www.npmjs.com/package/matician)\r\n\r\n</b>\r\n\r\n</div>\r\n\r\n# Table of Contents\r\n\r\n- [Getting Started](#getting-started)\r\n- [Usage](#usage)\r\n- [Why Matician?](#why-matician)\r\n- [Contributors](#contributors)\r\n- [Author](#author)\r\n\r\n# Getting Started\r\n\r\nUse your preferred package manager:\r\n\r\n"
 		},
 		{
 			"kind": "code",
@@ -6388,7 +7186,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n# Why Matician?\r\n\r\nMatician takes the hassle out of writing custom JavaScript functions for mathematical, statistical, and probabilistic methods.\r\n\r\n# Contributions\r\n\r\nOpen an issue to address bugs or suggest new modules!\r\n\r\n# Author\r\n\r\nKevin Morris"
+			"text": "\r\n\r\n# Why Matician?\r\n\r\nMatician takes the hassle out of writing custom JavaScript functions for mathematical, statistical, and probabilistic methods.\r\n\r\n# Contributors\r\n\r\nOpen an [issue](https://github.com/kevindmorris/matician/issues) to address bugs or suggest new modules!\r\n\r\n# Author\r\n\r\nKevin Morris"
 		}
 	],
 	"symbolIdMap": {
@@ -6641,626 +7439,738 @@
 			"qualifiedName": "default.futureValue"
 		},
 		"62": {
-			"sourceFileName": "src/financial/effectiveRate/effectiveRate.ts",
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
 			"qualifiedName": "default"
 		},
 		"63": {
-			"sourceFileName": "src/financial/effectiveRate/effectiveRate.ts",
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
 			"qualifiedName": "default"
 		},
 		"64": {
-			"sourceFileName": "src/financial/effectiveRate/effectiveRate.ts",
-			"qualifiedName": "r"
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
+			"qualifiedName": "P"
 		},
 		"65": {
-			"sourceFileName": "src/financial/effectiveRate/effectiveRate.ts",
-			"qualifiedName": "m"
-		},
-		"66": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "default"
-		},
-		"67": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "default"
-		},
-		"68": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "n"
-		},
-		"69": {
-			"sourceFileName": "src/probability/combination/combination.ts",
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
 			"qualifiedName": "r"
 		},
-		"70": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "options"
-		},
-		"71": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "__type"
-		},
-		"72": {
-			"sourceFileName": "src/probability/combination/combination.ts",
-			"qualifiedName": "__type.replacement"
-		},
-		"73": {
-			"sourceFileName": "src/probability/factorial/factorial.ts",
-			"qualifiedName": "default"
-		},
-		"74": {
-			"sourceFileName": "src/probability/factorial/factorial.ts",
-			"qualifiedName": "default"
-		},
-		"75": {
-			"sourceFileName": "src/probability/factorial/factorial.ts",
+		"66": {
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
 			"qualifiedName": "n"
 		},
+		"67": {
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
+			"qualifiedName": "t"
+		},
+		"68": {
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
+			"qualifiedName": "__type"
+		},
+		"69": {
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
+			"qualifiedName": "__type.A"
+		},
+		"70": {
+			"sourceFileName": "src/financial/compoundInterest/compoundInterest.ts",
+			"qualifiedName": "__type.I"
+		},
+		"71": {
+			"sourceFileName": "src/financial/effectiveInterestRate/effectiveInterestRate.ts",
+			"qualifiedName": "default"
+		},
+		"72": {
+			"sourceFileName": "src/financial/effectiveInterestRate/effectiveInterestRate.ts",
+			"qualifiedName": "default"
+		},
+		"73": {
+			"sourceFileName": "src/financial/effectiveInterestRate/effectiveInterestRate.ts",
+			"qualifiedName": "r"
+		},
+		"74": {
+			"sourceFileName": "src/financial/effectiveInterestRate/effectiveInterestRate.ts",
+			"qualifiedName": "m"
+		},
+		"75": {
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
+			"qualifiedName": "default"
+		},
 		"76": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
 			"qualifiedName": "default"
 		},
 		"77": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
+			"qualifiedName": "P"
 		},
 		"78": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
-			"qualifiedName": "n"
-		},
-		"79": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
 			"qualifiedName": "r"
 		},
-		"80": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
-			"qualifiedName": "options"
+		"79": {
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
+			"qualifiedName": "t"
 		},
-		"81": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
+		"80": {
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
 			"qualifiedName": "__type"
 		},
+		"81": {
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
+			"qualifiedName": "__type.A"
+		},
 		"82": {
-			"sourceFileName": "src/probability/permutation/permutation.ts",
-			"qualifiedName": "__type.replacement"
+			"sourceFileName": "src/financial/simpleInterest/simpleInterest.ts",
+			"qualifiedName": "__type.I"
 		},
 		"83": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"sourceFileName": "src/probability/combination/combination.ts",
 			"qualifiedName": "default"
 		},
 		"84": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.__constructor"
-		},
-		"85": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"sourceFileName": "src/probability/combination/combination.ts",
 			"qualifiedName": "default"
 		},
+		"85": {
+			"sourceFileName": "src/probability/combination/combination.ts",
+			"qualifiedName": "n"
+		},
 		"86": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "p"
+			"sourceFileName": "src/probability/combination/combination.ts",
+			"qualifiedName": "r"
 		},
 		"87": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.p"
+			"sourceFileName": "src/probability/combination/combination.ts",
+			"qualifiedName": "options"
 		},
 		"88": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.q"
+			"sourceFileName": "src/probability/combination/combination.ts",
+			"qualifiedName": "__type"
 		},
 		"89": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.mean"
+			"sourceFileName": "src/probability/combination/combination.ts",
+			"qualifiedName": "__type.replacement"
 		},
 		"90": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.variance"
+			"sourceFileName": "src/probability/factorial/factorial.ts",
+			"qualifiedName": "default"
 		},
 		"91": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.stdev"
+			"sourceFileName": "src/probability/factorial/factorial.ts",
+			"qualifiedName": "default"
 		},
 		"92": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pEqualTo"
+			"sourceFileName": "src/probability/factorial/factorial.ts",
+			"qualifiedName": "n"
 		},
 		"93": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pEqualTo"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "default"
 		},
 		"94": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "x"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "default"
 		},
 		"95": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pLessThanOrEqualTo"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "n"
 		},
 		"96": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pLessThanOrEqualTo"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "r"
 		},
 		"97": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "x"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "options"
 		},
 		"98": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pGreaterThanOrEqualTo"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "__type"
 		},
 		"99": {
-			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "default.pGreaterThanOrEqualTo"
+			"sourceFileName": "src/probability/permutation/permutation.ts",
+			"qualifiedName": "__type.replacement"
 		},
 		"100": {
 			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
-			"qualifiedName": "x"
+			"qualifiedName": "default"
 		},
 		"101": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
-			"qualifiedName": "default"
-		},
-		"102": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"103": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"102": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default"
 		},
-		"104": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
-			"qualifiedName": "n"
-		},
-		"105": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"103": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "p"
 		},
-		"106": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
-			"qualifiedName": "default.n"
-		},
-		"107": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"104": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.p"
 		},
-		"108": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"105": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.q"
 		},
-		"109": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"106": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.mean"
 		},
-		"110": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"107": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.variance"
 		},
-		"111": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"108": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.stdev"
 		},
-		"112": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+		"109": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "default.pEqualTo"
+		},
+		"110": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "default.pEqualTo"
+		},
+		"111": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "x"
+		},
+		"112": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
 		"113": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
-			"qualifiedName": "default.pEqualTo"
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
 		"114": {
-			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
 			"qualifiedName": "x"
 		},
 		"115": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "default.pGreaterThanOrEqualTo"
+		},
+		"116": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "default.pGreaterThanOrEqualTo"
+		},
+		"117": {
+			"sourceFileName": "src/probability/distributions/Bernoulli/Bernoulli.ts",
+			"qualifiedName": "x"
+		},
+		"118": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default"
+		},
+		"119": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.__constructor"
+		},
+		"120": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default"
+		},
+		"121": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "n"
+		},
+		"122": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "p"
+		},
+		"123": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.n"
+		},
+		"124": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.p"
+		},
+		"125": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.q"
+		},
+		"126": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.mean"
+		},
+		"127": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.variance"
+		},
+		"128": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.stdev"
+		},
+		"129": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.pEqualTo"
+		},
+		"130": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "default.pEqualTo"
+		},
+		"131": {
+			"sourceFileName": "src/probability/distributions/Binomial/Binomial.ts",
+			"qualifiedName": "x"
+		},
+		"132": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default"
 		},
-		"116": {
+		"133": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"117": {
+		"134": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default"
 		},
-		"118": {
+		"135": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "lambda"
 		},
-		"119": {
+		"136": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.lambda"
 		},
-		"120": {
+		"137": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.mean"
 		},
-		"121": {
+		"138": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.variance"
 		},
-		"122": {
+		"139": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.stdev"
 		},
-		"123": {
+		"140": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
-		"124": {
+		"141": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
-		"125": {
+		"142": {
 			"sourceFileName": "src/probability/distributions/Exponential/Exponential.ts",
 			"qualifiedName": "x"
 		},
-		"126": {
+		"143": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default"
 		},
-		"127": {
+		"144": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"128": {
+		"145": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default"
 		},
-		"129": {
+		"146": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "p"
 		},
-		"130": {
+		"147": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.p"
 		},
-		"131": {
+		"148": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.mean"
 		},
-		"132": {
+		"149": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.variance"
 		},
-		"133": {
+		"150": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.stdev"
 		},
-		"134": {
+		"151": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.pEqualTo"
 		},
-		"135": {
+		"152": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "default.pEqualTo"
 		},
-		"136": {
+		"153": {
 			"sourceFileName": "src/probability/distributions/Geometric/Geometric.ts",
 			"qualifiedName": "x"
 		},
-		"137": {
+		"154": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default"
 		},
-		"138": {
+		"155": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"139": {
+		"156": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default"
 		},
-		"140": {
+		"157": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "r"
 		},
-		"141": {
+		"158": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "p"
 		},
-		"142": {
+		"159": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.r"
 		},
-		"143": {
+		"160": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.p"
 		},
-		"144": {
+		"161": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.mean"
 		},
-		"145": {
+		"162": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.variance"
 		},
-		"146": {
+		"163": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.stdev"
 		},
-		"147": {
+		"164": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.pEqualTo"
 		},
-		"148": {
+		"165": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "default.pEqualTo"
 		},
-		"149": {
+		"166": {
 			"sourceFileName": "src/probability/distributions/NegativeBinomial/NegativeBinomial.ts",
 			"qualifiedName": "x"
 		},
-		"150": {
+		"167": {
 			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "default"
 		},
-		"151": {
+		"168": {
 			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"152": {
+		"169": {
 			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "default"
 		},
-		"153": {
+		"170": {
 			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "lambda"
 		},
-		"154": {
+		"171": {
 			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "default.lambda"
 		},
-		"155": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "default.mean"
-		},
-		"156": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "default.variance"
-		},
-		"157": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "default.stdev"
-		},
-		"158": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "default.pEqualTo"
-		},
-		"159": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "default.pEqualTo"
-		},
-		"160": {
-			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
-			"qualifiedName": "x"
-		},
-		"161": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default"
-		},
-		"162": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.__constructor"
-		},
-		"163": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default"
-		},
-		"164": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "a"
-		},
-		"165": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "b"
-		},
-		"166": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.a"
-		},
-		"167": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.b"
-		},
-		"168": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.n"
-		},
-		"169": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.mean"
-		},
-		"170": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.variance"
-		},
-		"171": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.stdev"
-		},
 		"172": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.pEqualTo"
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
+			"qualifiedName": "default.mean"
 		},
 		"173": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.pEqualTo"
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
+			"qualifiedName": "default.variance"
 		},
 		"174": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "x"
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
+			"qualifiedName": "default.stdev"
 		},
 		"175": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.pLessThanOrEqualTo"
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
+			"qualifiedName": "default.pEqualTo"
 		},
 		"176": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
-			"qualifiedName": "default.pLessThanOrEqualTo"
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
+			"qualifiedName": "default.pEqualTo"
 		},
 		"177": {
-			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"sourceFileName": "src/probability/distributions/Poisson/Poisson.ts",
 			"qualifiedName": "x"
 		},
 		"178": {
-			"sourceFileName": "src/statistics/mean/mean.ts",
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
 			"qualifiedName": "default"
 		},
 		"179": {
-			"sourceFileName": "src/statistics/mean/mean.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.__constructor"
 		},
 		"180": {
-			"sourceFileName": "src/statistics/mean/mean.ts",
-			"qualifiedName": "array"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default"
 		},
 		"181": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "a"
 		},
 		"182": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "b"
 		},
 		"183": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "array"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.a"
 		},
 		"184": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "iteratee"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.b"
 		},
 		"185": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "__type"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.n"
 		},
 		"186": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "__type"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.mean"
 		},
 		"187": {
-			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
-			"qualifiedName": "o"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.variance"
 		},
 		"188": {
-			"sourceFileName": "src/statistics/median/median.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.stdev"
 		},
 		"189": {
-			"sourceFileName": "src/statistics/median/median.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.pEqualTo"
 		},
 		"190": {
-			"sourceFileName": "src/statistics/median/median.ts",
-			"qualifiedName": "array"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.pEqualTo"
 		},
 		"191": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "x"
 		},
 		"192": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
 		"193": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "array"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "default.pLessThanOrEqualTo"
 		},
 		"194": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "iteratee"
+			"sourceFileName": "src/probability/distributions/Uniform/Uniform.ts",
+			"qualifiedName": "x"
 		},
 		"195": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "__type"
-		},
-		"196": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "__type"
-		},
-		"197": {
-			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
-			"qualifiedName": "o"
-		},
-		"198": {
-			"sourceFileName": "src/statistics/stdev/stdev.ts",
+			"sourceFileName": "src/random/randomFloat/randomFloat.ts",
 			"qualifiedName": "default"
 		},
+		"196": {
+			"sourceFileName": "src/random/randomFloat/randomFloat.ts",
+			"qualifiedName": "default"
+		},
+		"197": {
+			"sourceFileName": "src/random/randomFloat/randomFloat.ts",
+			"qualifiedName": "lower"
+		},
+		"198": {
+			"sourceFileName": "src/random/randomFloat/randomFloat.ts",
+			"qualifiedName": "upper"
+		},
 		"199": {
-			"sourceFileName": "src/statistics/stdev/stdev.ts",
+			"sourceFileName": "src/random/randomInt/randomInt.ts",
 			"qualifiedName": "default"
 		},
 		"200": {
-			"sourceFileName": "src/statistics/stdev/stdev.ts",
-			"qualifiedName": "array"
+			"sourceFileName": "src/random/randomInt/randomInt.ts",
+			"qualifiedName": "default"
 		},
 		"201": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/random/randomInt/randomInt.ts",
+			"qualifiedName": "lower"
 		},
 		"202": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "default"
+			"sourceFileName": "src/random/randomInt/randomInt.ts",
+			"qualifiedName": "upper"
 		},
 		"203": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "array"
-		},
-		"204": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "iteratee"
-		},
-		"205": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "__type"
-		},
-		"206": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "__type"
-		},
-		"207": {
-			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
-			"qualifiedName": "o"
-		},
-		"208": {
-			"sourceFileName": "src/statistics/variance/variance.ts",
+			"sourceFileName": "src/random/sample/sample.ts",
 			"qualifiedName": "default"
 		},
+		"204": {
+			"sourceFileName": "src/random/sample/sample.ts",
+			"qualifiedName": "default"
+		},
+		"205": {
+			"sourceFileName": "src/random/sample/sample.ts",
+			"qualifiedName": "array"
+		},
+		"206": {
+			"sourceFileName": "src/statistics/mean/mean.ts",
+			"qualifiedName": "default"
+		},
+		"207": {
+			"sourceFileName": "src/statistics/mean/mean.ts",
+			"qualifiedName": "default"
+		},
+		"208": {
+			"sourceFileName": "src/statistics/mean/mean.ts",
+			"qualifiedName": "array"
+		},
 		"209": {
-			"sourceFileName": "src/statistics/variance/variance.ts",
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
 			"qualifiedName": "default"
 		},
 		"210": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "default"
+		},
+		"211": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "array"
+		},
+		"212": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "iteratee"
+		},
+		"213": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "__type"
+		},
+		"214": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "__type"
+		},
+		"215": {
+			"sourceFileName": "src/statistics/meanBy/meanBy.ts",
+			"qualifiedName": "o"
+		},
+		"216": {
+			"sourceFileName": "src/statistics/median/median.ts",
+			"qualifiedName": "default"
+		},
+		"217": {
+			"sourceFileName": "src/statistics/median/median.ts",
+			"qualifiedName": "default"
+		},
+		"218": {
+			"sourceFileName": "src/statistics/median/median.ts",
+			"qualifiedName": "array"
+		},
+		"219": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "default"
+		},
+		"220": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "default"
+		},
+		"221": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "array"
+		},
+		"222": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "iteratee"
+		},
+		"223": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "__type"
+		},
+		"224": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "__type"
+		},
+		"225": {
+			"sourceFileName": "src/statistics/medianBy/medianBy.ts",
+			"qualifiedName": "o"
+		},
+		"226": {
+			"sourceFileName": "src/statistics/stdev/stdev.ts",
+			"qualifiedName": "default"
+		},
+		"227": {
+			"sourceFileName": "src/statistics/stdev/stdev.ts",
+			"qualifiedName": "default"
+		},
+		"228": {
+			"sourceFileName": "src/statistics/stdev/stdev.ts",
+			"qualifiedName": "array"
+		},
+		"229": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "default"
+		},
+		"230": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "default"
+		},
+		"231": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "array"
+		},
+		"232": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "iteratee"
+		},
+		"233": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "__type"
+		},
+		"234": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "__type"
+		},
+		"235": {
+			"sourceFileName": "src/statistics/stdevBy/stdevBy.ts",
+			"qualifiedName": "o"
+		},
+		"236": {
+			"sourceFileName": "src/statistics/variance/variance.ts",
+			"qualifiedName": "default"
+		},
+		"237": {
+			"sourceFileName": "src/statistics/variance/variance.ts",
+			"qualifiedName": "default"
+		},
+		"238": {
 			"sourceFileName": "src/statistics/variance/variance.ts",
 			"qualifiedName": "array"
 		},
-		"211": {
+		"239": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "default"
 		},
-		"212": {
+		"240": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "default"
 		},
-		"213": {
+		"241": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "array"
 		},
-		"214": {
+		"242": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "iteratee"
 		},
-		"215": {
+		"243": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "__type"
 		},
-		"216": {
+		"244": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "__type"
 		},
-		"217": {
+		"245": {
 			"sourceFileName": "src/statistics/varianceBy/varianceBy.ts",
 			"qualifiedName": "o"
 		}
