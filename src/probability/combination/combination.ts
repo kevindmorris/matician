@@ -3,7 +3,7 @@ import factorial from "../factorial";
 /**
  * The number of ways to choose a sample of `r` elements from a set of `n` distinct objects where order does not matter.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {number} n The number of objects. (`n` is an integer and `n≥0`)
  * @param {number} r The size of the sample. (`r` is an integer and `0≤r≤n`)
  * @param {Object} [options] The options object.

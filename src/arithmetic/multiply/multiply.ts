@@ -1,7 +1,7 @@
 /**
  * Compute the product of two numbers.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {number} multiplier A number by which another number is multiplied.
  * @param {number} multiplicand A number which is multiplied by another.
  * @returns {number} Returns the product.

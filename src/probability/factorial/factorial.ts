@@ -1,6 +1,7 @@
 /**
  * Compute the factorial of non-negative integer `n`.
  *
+ * @since 0.1.0
  * @param {number} n A non-negative integer.
  * @returns {number} Returns the product of all positive integers less than or equal to `n`.
  *

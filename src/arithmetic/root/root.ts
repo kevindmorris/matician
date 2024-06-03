@@ -1,7 +1,7 @@
 /**
  * Compute the specified root of a number.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {number} x A number.
  * @param {number} y The specifed root.
  * @returns {number} Returns the `y`th root of a number.

@@ -1,7 +1,7 @@
 /**
  * Compute the sum of two numbers.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param {number} augend A number to which another number is added.
  * @param {number} addend A number which is added to another number.
  * @returns {number} Returns the sum.

@@ -38,7 +38,6 @@ export default class Annuity {
   /**
    * Calculate the present value of the annuity.
    *
-   * @since 1.0.0
    * @return {number} Return the present value.
    */
   presentValue(): number {
@@ -53,7 +52,6 @@ export default class Annuity {
   /**
    * Calculate the future value of the annuity.
    *
-   * @since 1.0.0
    * @return {number} Return the future value.
    */
   futureValue(): number {
