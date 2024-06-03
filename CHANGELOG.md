@@ -2,8 +2,12 @@
 
 ###### June 3, 2024
 
-- Augement `README.md` with more information.
-- Update homepage in `package.json`.
+- Add `randomInt` module.
+- Add `randomFloat` module.
+- Add `sample` module.
+- Add `effectiveInterestRate` module.
+- Add `compoundInterest` module.
+- Add `simpleInterest` module.
 
 ### `matician@0.4.1`
 
