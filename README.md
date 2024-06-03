@@ -6,9 +6,19 @@
 A modern JavaScript utility library for arithmetic, mathematics, proability, statistics, and more.
 </p>
 
+<div>
+
 [![npm version](https://img.shields.io/npm/v/matician.svg?label=version)](https://www.npmjs.com/package/matician)
 [![npm downloads](https://img.shields.io/npm/dm/matician.svg)](https://www.npmjs.com/package/matician)
 [![package license](https://img.shields.io/npm/l/matician.svg)](https://www.npmjs.com/package/matician)
+
+</div>
+
+<b>
+
+📋[Docs](https://kevindmorris.github.io/matician/) | 🧪[GitHub](https://github.com/kevindmorris/matician) | 📦[Package](https://www.npmjs.com/package/matician)
+
+</b>
 
 </div>
 
@@ -17,7 +27,7 @@ A modern JavaScript utility library for arithmetic, mathematics, proability, sta
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Why Matician?](#why-matician)
-- [Contributions](#contributions)
+- [Contributors](#contributors)
 - [Author](#author)
 
 # Getting Started
@@ -56,9 +66,9 @@ console.log(sum);
 
 Matician takes the hassle out of writing custom JavaScript functions for mathematical, statistical, and probabilistic methods.
 
-# Contributions
+# Contributors
 
-Open an issue to address bugs or suggest new modules!
+Open an [issue](https://github.com/kevindmorris/matician/issues) to address bugs or suggest new modules!
 
 # Author
 
