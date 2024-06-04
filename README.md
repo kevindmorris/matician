@@ -36,6 +36,7 @@ Use your preferred package manager:
 
 ```
 npm install matician
+yarn add matician
 ```
 
 # Usage
