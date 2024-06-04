@@ -26,6 +26,7 @@ A modern JavaScript utility library for arithmetic, mathematics, proability, sta
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Run the Test Suite](#run-the-test-suite)
 - [Why Matician?](#why-matician)
 - [Contributors](#contributors)
 - [Author](#author)
@@ -61,6 +62,15 @@ const sum = add(1, 2);
 
 console.log(sum);
 // => 3
+```
+
+# Run the Test Suite
+
+```bash
+git clone https://github.com/kevindmorris/matician.git
+npm install
+npm test # Run the entire test suite
+npm test -- add.test.ts # Run an individual test suite
 ```
 
 # Why Matician?
