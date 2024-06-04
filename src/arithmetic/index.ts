@@ -1,3 +1,4 @@
+export { default as abs } from "./abs";
 export { default as add } from "./add";
 export { default as divide } from "./divide";
 export { default as exp } from "./exp";
