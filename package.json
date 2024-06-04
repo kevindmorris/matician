@@ -4,10 +4,21 @@
   "description": "A modern JavaScript utility library for arithmetic, mathematics, proability, statistics, and more.",
   "keywords": [
     "matician",
-    "arithmetic",
+    "mathematician",
     "mathematics",
+    "arithmetic",
+    "addition",
+    "subtraction",
+    "multiplication",
+    "division",
+    "algebra",
+    "calculus",
     "probability",
     "statistics",
+    "combinatorics",
+    "actuarial science",
+    "geometry",
+    "trigonometry",
     "utility"
   ],
   "homepage": "https://kevindmorris.github.io/matician/",
@@ -19,7 +30,8 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Kevin Morris"
+    "name": "Kevin Morris",
+    "url": "https://github.com/kevindmorris"
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
