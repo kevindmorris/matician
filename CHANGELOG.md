@@ -1,11 +1,14 @@
 ### `matician@0.5.0`
 
-###### June XX, 2024
+###### June 5, 2024
 
 - Add `abs` module.
 - Add `ln` module.
 - Add `log` module.
 - Add `square` module.
+- Add `cube` module.
+- Add `quadratic` module.
+- Add `dot` module.
 
 ### `matician@0.4.2`
 

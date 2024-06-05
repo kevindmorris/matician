@@ -1,6 +1,7 @@
 /**
  * Solve for `x` in a second-order polynomial such as `ax^2 + bx + c = 0` using the quadratic formula.
  *
+ * @since 0.5.0
  * @param {number} a The quadratic coefficient.
  * @param {number} b The linear coefficient.
  * @param {number} c The constant coefficient.

@@ -1,6 +1,7 @@
 /**
  * Find the dot product of 2 or more vectors.
  *
+ * @since 0.5.0
  * @param {...number[]} args The vectors. (Each vector must have the same dimension)
  * @returns {number} Returns the dot product.
  *

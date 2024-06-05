@@ -1,4 +1,4 @@
-import combination from "../../combination";
+import { combination } from "../../combinatorics";
 
 /**
  * **Negative binomial distribution**: A *discrete* probability
