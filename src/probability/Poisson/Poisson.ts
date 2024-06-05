@@ -1,4 +1,4 @@
-import factorial from "../../factorial";
+import factorial from "../../combinatorics/factorial";
 
 /**
  * **Poisson distribution**: A *discrete* probability

@@ -1,4 +1,4 @@
-import factorial from "../../factorial";
+import factorial from "../../combinatorics/factorial";
 
 /**
  * **Binomial distribution**: A *discrete* probability
