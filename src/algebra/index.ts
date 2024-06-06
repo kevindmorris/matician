@@ -1,5 +1,6 @@
 export { default as abs } from "./abs";
 export { default as cube } from "./cube";
+export { default as discriminant } from "./discriminant";
 export { default as dot } from "./dot";
 export { default as exp } from "./exp";
 export { default as ln } from "./ln";
