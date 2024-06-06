@@ -1,7 +1,13 @@
+export { default as max } from "./max";
+export { default as maxBy } from "./maxBy";
 export { default as mean } from "./mean";
 export { default as meanBy } from "./meanBy";
 export { default as median } from "./median";
 export { default as medianBy } from "./medianBy";
+export { default as min } from "./min";
+export { default as minBy } from "./minBy";
+export { default as range } from "./range";
+export { default as rangeBy } from "./rangeBy";
 export { default as stdev } from "./stdev";
 export { default as stdevBy } from "./stdevBy";
 export { default as variance } from "./variance";
