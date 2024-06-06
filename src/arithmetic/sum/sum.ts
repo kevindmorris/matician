@@ -14,9 +14,9 @@
  * sumBy(objects, ({ n }) => n)
  * // => 20
  */
-export default function sum(
-  array: any[],
-  iteratee?: (o: any) => number
+export default function sum<T>(
+  array: Array<T>,
+  iteratee?: (obj: T) => number
 ): number {
   let sum: number = NaN;
 
