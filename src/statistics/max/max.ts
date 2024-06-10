@@ -1,23 +1,32 @@
 /**
- * Find the maximum in an array of numbers.
+ * Find the maximum in an array.
  *
  * @since 0.5.1
- * @param {number[]} array An array of numbers.
+ * @param {Array} array An array.
+ * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the maximum.
  *
  * @example
- * max([1, 2, 3, 4])
- * // => 4
+ * max([1, 2, 3])
+ * // => 3
+ *
+ * const objects = [{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }]
+ * max(objects, ({ n }) => n)
+ * // => 8
  */
-export default function max(array: number[]): number {
-  let curr: number = NaN;
+export default function max<T>(
+  array: Array<T>,
+  iteratee?: (obj: T) => number
+): number {
+  let max: number = NaN;
 
-  if (array.length === 0) return NaN;
+  for (let i = 0; i < array.length; i++) {
+    const element = iteratee ? iteratee(array[i]) : array[i];
 
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    if (!curr || element > curr) curr = element;
+    if (typeof element === "number" && (element > max || Number.isNaN(max))) {
+      max = element;
+    }
   }
 
-  return curr;
+  return max;
 }

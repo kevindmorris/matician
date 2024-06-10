@@ -1,14 +1,24 @@
 import variance from "../variance";
 
 /**
- * Compute the sample standard deviation of numbers in an array.
+ * Find the sample standard deviation of an array.
  *
  * @since 0.1.0
- * @param {Array} array An array of numbers.
+ * @param {Array} array An array.
+ * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the standard deviation.
+ *
+ * @example
+ * stdev([1, 2, 3])
+ * // => 1
+ *
+ * const objects = [{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }]
+ * stdev(objects, ({ n }) => n)
+ * // => 2.5819889
  */
-export default function stdev(array: number[]): number {
-  if (array === null || array.length === 0) return 0;
-
-  return Math.sqrt(variance(array));
+export default function stdev<T>(
+  array: Array<T>,
+  iteratee?: (obj: T) => number
+): number {
+  return Math.sqrt(variance(array, iteratee));
 }

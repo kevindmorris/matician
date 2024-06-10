@@ -1,24 +1,35 @@
 /**
- * Find the range of an array of numbers.
+ * Find the range of an array.
  *
  * @since 0.5.1
- * @param {number[]} array An array of numbers.
+ * @param {Array} array An array.
+ * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the range.
  *
  * @example
- * range([4, 3, 2, 1])
- * // => 3
+ * range([1, 2, 3])
+ * // => 2
+ *
+ * const range = [{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }]
+ * range(objects, ({ n }) => n)
+ * // => 6
  */
-export default function range(array: number[]): number {
+export default function range<T>(
+  array: Array<T>,
+  iteratee?: (obj: T) => number
+): number {
   let min: number = NaN,
-    max: number = NaN;
+    max = NaN;
 
-  if (array.length === 0) return NaN;
+  for (let i = 0; i < array.length; i++) {
+    const element = iteratee ? iteratee(array[i]) : array[i];
 
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    if (Number.isNaN(min) || element < min) min = element;
-    if (Number.isNaN(max) || element > max) max = element;
+    if (typeof element === "number" && (element < min || Number.isNaN(min))) {
+      min = element;
+    }
+    if (typeof element === "number" && (element > max || Number.isNaN(max))) {
+      max = element;
+    }
   }
 
   return max - min;

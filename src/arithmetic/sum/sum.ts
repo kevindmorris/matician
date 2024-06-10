@@ -1,5 +1,5 @@
 /**
- * Compute the sum of an array.
+ * Find the sum of an array.
  *
  * @since 0.1.0
  * @param {Array} array An array.
@@ -11,7 +11,7 @@
  * // => 6
  *
  * const objects = [{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }]
- * sumBy(objects, ({ n }) => n)
+ * sum(objects, ({ n }) => n)
  * // => 20
  */
 export default function sum<T>(

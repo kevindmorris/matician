@@ -10,6 +10,8 @@ describe("skewness", () => {
 
   test("should be NaN", () => {
     expect(skewness([])).toBeNaN();
+    expect(skewness([1])).toBeNaN();
+    expect(skewness([1, 2])).toBeNaN();
     expect(skewness(["a", "b"])).toBeNaN();
     expect(skewness(array)).toBeNaN();
     expect(skewness(array, (obj) => obj.a)).toBeNaN();
