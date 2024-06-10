@@ -1,3 +1,12 @@
+### `matician@0.6.0`
+
+###### June 5, 2024
+
+- Add new statistical modules.
+- Introduce geometry modules.
+- Merge `iteratee` support into relevent functions. (e.g. `sum` now performs `sumBy` functionality)
+- Add type generics to relevent modules.
+
 ### `matician@0.5.0`
 
 ###### June 5, 2024
