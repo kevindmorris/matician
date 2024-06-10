@@ -16,10 +16,10 @@
  * // => [NaN, NaN]
  */
 export default function quadratic(a: number, b: number, c: number): number[] {
-  const determinant = Math.sqrt(b * b - 4 * a * c);
+  const discriminant = Math.sqrt(b * b - 4 * a * c);
 
-  const first = (-b + determinant) / (2 * a);
-  const second = (-b - determinant) / (2 * a);
+  const first = (-b + discriminant) / (2 * a);
+  const second = (-b - discriminant) / (2 * a);
 
   if (first === second) return [first];
 

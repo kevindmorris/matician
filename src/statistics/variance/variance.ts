@@ -1,21 +1,37 @@
 import mean from "../mean";
 
 /**
- * Compute the sample variance of numbers in an array.
+ * Find the sample variance of an array.
  *
  * @since 0.1.0
- * @param {Array} array An array of numbers.
+ * @param {Array} array An array.
+ * @param {Function} [iteratee] The iteratee invoked on each element.
  * @returns {number} Returns the variance.
+ *
+ * @example
+ * variance([1, 2, 3])
+ * // => 1
+ *
+ * const objects = [{ 'n': 4 }, { 'n': 2 }, { 'n': 8 }, { 'n': 6 }]
+ * variance(objects, ({ n }) => n)
+ * // => 6.66666667
  */
-export default function variance(array: number[]): number {
-  if (array === null || array.length === 0) return 0;
+export default function variance<T>(
+  array: Array<T>,
+  iteratee?: (obj: T) => number
+): number {
+  const m = mean(array, iteratee);
 
-  const m = mean(array);
+  let sum: number = NaN;
 
-  return (
-    array.reduce((prev, curr) => {
-      return prev + Math.pow(curr - m, 2);
-    }, 0) /
-    (array.length - 1)
-  );
+  for (let i = 0; i < array.length; i++) {
+    const element = iteratee ? iteratee(array[i]) : array[i];
+
+    if (typeof element === "number") {
+      const value = Math.pow(element - m, 2);
+      sum = Number.isNaN(sum) ? value : sum + value;
+    }
+  }
+
+  return Number.isNaN(sum) ? sum : sum / (array.length - 1);
 }
