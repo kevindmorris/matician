@@ -1,6 +1,6 @@
 ### `matician@0.6.0`
 
-###### June 5, 2024
+###### June 9, 2024
 
 - Add new statistical modules.
 - Introduce geometry modules.
