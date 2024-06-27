@@ -1,3 +1,10 @@
+### `matician@0.7.0`
+
+###### June 27, 2024
+
+- Add support for area formulas.
+- Add support for volume formulas.
+
 ### `matician@0.6.0`
 
 ###### June 9, 2024
