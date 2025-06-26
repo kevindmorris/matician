@@ -1,17 +1,19 @@
 /**
- * Multiplies two numbers.
+ * Multiplies a multiplicand by a multiplier.
  *
- * @param a - The first number.
- * @param b - The second number.
- * @returns The product of `a` and `b`.
+ * @param multiplicand - The number to be multiplied.
+ * @param multiplier - The number to multiply by.
+ * @returns The product of multiplicand and multiplier.
  *
  * @example
  * ```ts
- * multiply(3, 4); // returns 12
- * multiply(-2, 5); // returns -10
- * multiply(0, 100); // returns 0
+ * multiply(2, 3); // returns 6
+ * multiply(-4, 5); // returns -20
  * ```
  */
-export default function multiply(a: number, b: number): number {
-  return a * b;
+export default function multiply(
+  multiplicand: number,
+  multiplier: number
+): number {
+  return multiplicand * multiplier;
 }
