@@ -20,13 +20,17 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "docs": "typedoc",
     "format": "prettier . --write",
-    "test": "jest"
+    "test": "jest",
+    "docs": "typedoc --out docs src",
+    "version:patch": "npm version patch",
+    "deploy:docs": "gh-pages -d docs",
+    "publish:all": "npm run build && npm run version:patch && npm run docs && npm run deploy:docs && git push --follow-tags && npm publish"
   },
   "devDependencies": {
     "@jest/globals": "^30.0.3",
     "@types/jest": "^30.0.0",
+    "gh-pages": "^6.3.0",
     "jest": "^30.0.3",
     "prettier": "^3.2.5",
     "ts-jest": "^29.4.0",
