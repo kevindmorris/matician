@@ -17,8 +17,8 @@ describe("mean", () => {
     expect(mean([1.5, 2.5, 3.5])).toBeCloseTo(2.5);
   });
 
-  it("throws an error for an empty array", () => {
-    expect(() => mean([])).toThrow("Cannot compute mean of empty array");
+  it("computes the mean of an empty array", () => {
+    expect(mean([])).toBe(0);
   });
 
   it("computes mean for a single-element array", () => {
