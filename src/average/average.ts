@@ -1,4 +1,4 @@
-import summation from "../summation";
+import sum from "../sum";
 
 /**
  * Calculates the average (arithmetic mean) of an array of numbers.
@@ -16,5 +16,5 @@ import summation from "../summation";
 export default function average(values: number[]): number {
   if (values.length === 0)
     throw new Error("Cannot compute average of empty array");
-  return summation(values) / values.length;
+  return sum(values) / values.length;
 }

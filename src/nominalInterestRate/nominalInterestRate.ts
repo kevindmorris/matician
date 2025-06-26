@@ -6,7 +6,14 @@
  * @param compoundingPeriods - The number of compounding periods per year (e.g., 12 for monthly).
  * @returns The nominal annual interest rate as a decimal.
  */
-export default function nominalInterestRate(effectiveRate: number, compoundingPeriods: number): number {
-  if (compoundingPeriods <= 0) throw new Error("Compounding periods must be positive");
-  return compoundingPeriods * (Math.pow(1 + effectiveRate, 1 / compoundingPeriods) - 1);
+export default function nominalInterestRate(
+  effectiveRate: number,
+  compoundingPeriods: number
+): number {
+  if (compoundingPeriods <= 0)
+    throw new Error("Compounding periods must be positive");
+  return (
+    compoundingPeriods *
+    (Math.pow(1 + effectiveRate, 1 / compoundingPeriods) - 1)
+  );
 }

@@ -23,7 +23,9 @@ export default class Poisson {
    */
   public pmf(k: number): number {
     if (!Number.isInteger(k) || k < 0) return 0;
-    return (Math.pow(this.lambda, k) * Math.exp(-this.lambda)) / this.factorial(k);
+    return (
+      (Math.pow(this.lambda, k) * Math.exp(-this.lambda)) / this.factorial(k)
+    );
   }
 
   /**

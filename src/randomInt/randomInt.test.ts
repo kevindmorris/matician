@@ -1,7 +1,7 @@
-import randomInt from './randomInt';
+import randomInt from "./randomInt";
 
-describe('randomInt', () => {
-  it('generates integers within range', () => {
+describe("randomInt", () => {
+  it("generates integers within range", () => {
     for (let i = 0; i < 100; i++) {
       const val = randomInt(1, 5);
       expect(val).toBeGreaterThanOrEqual(1);

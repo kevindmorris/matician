@@ -1,1 +1,1 @@
-export { default } from './Binomial';
+export { default } from "./Binomial";

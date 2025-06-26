@@ -1,1 +1,1 @@
-export { default } from './Poisson';
+export { default } from "./Poisson";

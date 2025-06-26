@@ -1,6 +1,6 @@
 /**
  * Calculates the number of combinations (n choose r).
- * 
+ *
  * Formula: C(n, r) = n! / (r! * (n - r)!)
  *
  * @param n - Total number of items.

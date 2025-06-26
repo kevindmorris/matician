@@ -1,1 +1,1 @@
-export { default } from './Geometric';
+export { default } from "./Geometric";

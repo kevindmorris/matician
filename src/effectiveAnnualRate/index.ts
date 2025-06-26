@@ -1,1 +1,1 @@
-export { default } from './effectiveAnnualRate';
+export { default } from "./effectiveAnnualRate";

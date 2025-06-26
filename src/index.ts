@@ -1,81 +1,72 @@
-// Basic arithmetic
+export { default as Bernoulli } from "./Bernoulli";
+export { default as Binomial } from "./Binomial";
+export { default as ContinuousUniform } from "./ContinuousUniform";
+export { default as DiscreteUniform } from "./DiscreteUniform";
+export { default as Exponential } from "./Exponential";
+export { default as Geometric } from "./Geometric";
+export { default as LogNormal } from "./LogNormal";
+export { default as NegativeBinomial } from "./NegativeBinomial";
+export { default as Normal } from "./Normal";
+export { default as Poisson } from "./Poisson";
+
 export { default as absolute } from "./absolute";
 export { default as add } from "./add";
-export { default as ceilDivision } from "./ceilDivision";
-export { default as divide } from "./divide";
-export { default as floorDivision } from "./floorDivision";
-export { default as modulo } from "./modulo";
-export { default as multiply } from "./multiply";
-export { default as negate } from "./negate";
-export { default as subtract } from "./subtract";
-
-// Powers & roots
-export { default as cbrt } from "./cbrt";
-export { default as cube } from "./cube";
-export { default as exponentiate } from "./exponentiate";
-export { default as nthPower } from "./nthPower";
-export { default as root } from "./root";
-export { default as sqrt } from "./sqrt";
-export { default as square } from "./square";
-
-// Aggregates
 export { default as average } from "./average";
+export { default as cbrt } from "./cbrt";
+export { default as ceil } from "./ceil";
+export { default as clamp } from "./clamp";
+export { default as combinations } from "./combinations";
+export { default as cube } from "./cube";
+export { default as divide } from "./divide";
+export { default as effectiveAnnualRate } from "./effectiveAnnualRate";
+export { default as exp } from "./exp";
+export { default as exponentiate } from "./exponentiate";
 export { default as factorial } from "./factorial";
+export { default as floor } from "./floor";
+export { default as formatNumber } from "./formatNumber";
+export { default as futureValue } from "./futureValue";
+export { default as gcd } from "./gcd";
+export { default as hypotenuse } from "./hypotenuse";
+export { default as interquartileRange } from "./interquartileRange";
+export { default as isEven } from "./isEven";
+export { default as isOdd } from "./isOdd";
+export { default as isPrime } from "./isPrime";
+export { default as lcm } from "./lcm";
+export { default as log } from "./log";
+export { default as log10 } from "./log10";
+export { default as logBase } from "./logBase";
 export { default as max } from "./max";
 export { default as median } from "./median";
 export { default as min } from "./min";
 export { default as mode } from "./mode";
+export { default as modulo } from "./modulo";
+export { default as multiply } from "./multiply";
+export { default as negate } from "./negate";
+export { default as nominalInterestRate } from "./nominalInterestRate";
+export { default as percentage } from "./percentage";
+export { default as percentile } from "./percentile";
+export { default as permutations } from "./permutations";
+export { default as presentValue } from "./presentValue";
 export { default as product } from "./product";
+export { default as quartiles } from "./quartiles";
+export { default as randomFloat } from "./randomFloat";
+export { default as randomInt } from "./randomInt";
+export { default as randomNormal } from "./randomNormal";
+export { default as randomSample } from "./randomSample";
 export { default as range } from "./range";
-export { default as summation } from "./summation";
-
-// Rounding & formatting
-export { default as ceil } from "./ceil";
-export { default as floor } from "./floor";
-export { default as formatNumber } from "./formatNumber";
+export { default as reciprocal } from "./reciprocal";
+export { default as root } from "./root";
 export { default as round } from "./round";
 export { default as roundTo } from "./roundTo";
 export { default as roundToNearest } from "./roundToNearest";
+export { default as shuffle } from "./shuffle";
+export { default as sign } from "./sign";
 export { default as sigFig } from "./sigFig";
+export { default as sqrt } from "./sqrt";
+export { default as square } from "./square";
+export { default as stdDev } from "./stdDev";
+export { default as subtract } from "./subtract";
+export { default as sum } from "./sum";
 export { default as truncate } from "./truncate";
-
-// Comparison & logic
-export { default as clamp } from "./clamp";
-export { default as isEven } from "./isEven";
-export { default as isOdd } from "./isOdd";
-export { default as isPrime } from "./isPrime";
-
-// Angle & trig utilities
-export { default as cosDegrees } from "./cosDegrees";
-export { default as degreesToRadians } from "./degreesToRadians";
-export { default as normalizeAngle } from "./normalizeAngle";
-export { default as radiansToDegrees } from "./radiansToDegrees";
-export { default as sinDegrees } from "./sinDegrees";
-export { default as tanDegrees } from "./tanDegrees";
-export { default as toUnitCircle } from "./toUnitCircle";
-
-// Logarithmic & exponential
-export { default as exp } from "./exp";
-export { default as log } from "./log";
-export { default as log10 } from "./log10";
-export { default as logBase } from "./logBase";
-export { default as reciprocal } from "./reciprocal";
-
-// Statistical
-export { default as meanAbsoluteDeviation } from "./meanAbsoluteDeviation";
-export { default as percentile } from "./percentile";
-export { default as quartiles } from "./quartiles";
-export { default as standardDeviation } from "./standardDeviation";
 export { default as variance } from "./variance";
-
-// Distance & geometry
-export { default as distance2D } from "./distance2D";
-export { default as distance3D } from "./distance3D";
-export { default as hypotenuse } from "./hypotenuse";
-export { default as midpoint2D } from "./midpoint2D";
-
-// Unit conversion
-export { default as cToF } from "./cToF";
-export { default as fToC } from "./fToC";
-export { default as kmToMiles } from "./kmToMiles";
-export { default as milesToKm } from "./milesToKm";
+export { default as z } from "./z";

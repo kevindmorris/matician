@@ -26,7 +26,8 @@ export default class LogNormal {
   public pdf(x: number): number {
     if (x <= 0) return 0;
     const denom = x * this.sigma * Math.sqrt(2 * Math.PI);
-    const exponent = -Math.pow(Math.log(x) - this.mu, 2) / (2 * this.sigma * this.sigma);
+    const exponent =
+      -Math.pow(Math.log(x) - this.mu, 2) / (2 * this.sigma * this.sigma);
     return (1 / denom) * Math.exp(exponent);
   }
 
@@ -50,12 +51,12 @@ export default class LogNormal {
     // Abramowitz and Stegun formula 7.1.26
     const t = 1 / (1 + 0.3275911 * Math.abs(z));
     const a1 = 0.254829592,
-          a2 = -0.284496736,
-          a3 = 1.421413741,
-          a4 = -1.453152027,
-          a5 = 1.061405429;
+      a2 = -0.284496736,
+      a3 = 1.421413741,
+      a4 = -1.453152027,
+      a5 = 1.061405429;
 
-    const poly = ((((a5 * t + a4) * t + a3) * t + a2) * t + a1);
+    const poly = (((a5 * t + a4) * t + a3) * t + a2) * t + a1;
     const erf = 1 - poly * Math.exp(-z * z);
 
     return z >= 0 ? erf : -erf;

@@ -1,6 +1,0 @@
-{
-  "json": "docs.json",
-  "entryPoints": ["src/index.ts"],
-  "includeVersion": true,
-  "out": "./docs"
-}

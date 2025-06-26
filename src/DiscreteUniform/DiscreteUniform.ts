@@ -15,7 +15,9 @@ export default class DiscreteUniform {
       throw new Error("a and b must be integers.");
     }
     if (a > b) {
-      throw new Error("Lower bound a must be less than or equal to upper bound b.");
+      throw new Error(
+        "Lower bound a must be less than or equal to upper bound b."
+      );
     }
     this.a = a;
     this.b = b;

@@ -1,1 +1,1 @@
-export { default } from './LogNormal';
+export { default } from "./LogNormal";

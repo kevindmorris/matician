@@ -1,1 +1,1 @@
-export { default } from './DiscreteUniform';
+export { default } from "./DiscreteUniform";

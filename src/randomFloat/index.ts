@@ -1,1 +1,1 @@
-export { default } from './randomFloat';
+export { default } from "./randomFloat";

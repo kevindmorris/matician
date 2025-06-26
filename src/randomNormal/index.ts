@@ -1,1 +1,1 @@
-export { default } from './randomNormal';
+export { default } from "./randomNormal";

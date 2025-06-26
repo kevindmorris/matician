@@ -1,6 +1,6 @@
 /**
  * Calculates the number of permutations of r elements from a set of n.
- * 
+ *
  * Formula: P(n, r) = n! / (n - r)!
  *
  * @param n - Total number of items.

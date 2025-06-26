@@ -5,7 +5,11 @@
  * @param compoundingPeriods - The number of compounding periods per year (e.g., 12 for monthly).
  * @returns The effective annual rate as a decimal.
  */
-export default function effectiveAnnualRate(nominalRate: number, compoundingPeriods: number): number {
-  if (compoundingPeriods <= 0) throw new Error("Compounding periods must be positive");
+export default function effectiveAnnualRate(
+  nominalRate: number,
+  compoundingPeriods: number
+): number {
+  if (compoundingPeriods <= 0)
+    throw new Error("Compounding periods must be positive");
   return Math.pow(1 + nominalRate / compoundingPeriods, compoundingPeriods) - 1;
 }

@@ -1,1 +1,1 @@
-export { default } from "./exponentiate";
+export { default } from "./pow";

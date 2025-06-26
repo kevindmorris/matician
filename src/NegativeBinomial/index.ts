@@ -1,1 +1,1 @@
-export { default } from './NegativeBinomial';
+export { default } from "./NegativeBinomial";

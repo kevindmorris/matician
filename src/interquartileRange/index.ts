@@ -1,1 +1,1 @@
-export { default } from './interquartileRange';
+export { default } from "./interquartileRange";

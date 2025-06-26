@@ -6,6 +6,10 @@
  * @param periods - The number of periods until the payment.
  * @returns The present value.
  */
-export default function presentValue(futureValue: number, rate: number, periods: number): number {
+export default function presentValue(
+  futureValue: number,
+  rate: number,
+  periods: number
+): number {
   return futureValue / Math.pow(1 + rate, periods);
 }

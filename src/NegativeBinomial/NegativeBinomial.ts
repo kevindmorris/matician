@@ -29,9 +29,11 @@ export default class NegativeBinomial {
    */
   public pmf(k: number): number {
     if (!Number.isInteger(k) || k < 0) return 0;
-    return this.binomialCoefficient(k + this.r - 1, k) *
-           Math.pow(this.p, this.r) *
-           Math.pow(1 - this.p, k);
+    return (
+      this.binomialCoefficient(k + this.r - 1, k) *
+      Math.pow(this.p, this.r) *
+      Math.pow(1 - this.p, k)
+    );
   }
 
   /**

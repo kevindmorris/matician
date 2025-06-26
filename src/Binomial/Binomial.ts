@@ -28,9 +28,11 @@ export default class Binomial {
    */
   public pmf(k: number): number {
     if (!Number.isInteger(k) || k < 0 || k > this.n) return 0;
-    return this.binomialCoefficient(this.n, k) *
-           Math.pow(this.p, k) *
-           Math.pow(1 - this.p, this.n - k);
+    return (
+      this.binomialCoefficient(this.n, k) *
+      Math.pow(this.p, k) *
+      Math.pow(1 - this.p, this.n - k)
+    );
   }
 
   /**

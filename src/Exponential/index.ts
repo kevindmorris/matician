@@ -1,1 +1,1 @@
-export { default } from './Exponential';
+export { default } from "./Exponential";

@@ -1,1 +1,1 @@
-export { default } from './ContinuousUniform';
+export { default } from "./ContinuousUniform";

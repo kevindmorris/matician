@@ -1,1 +1,1 @@
-export { default } from './combinations';
+export { default } from "./combinations";

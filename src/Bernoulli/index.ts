@@ -1,1 +1,1 @@
-export { default } from './Bernoulli';
+export { default } from "./Bernoulli";
