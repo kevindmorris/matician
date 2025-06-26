@@ -16,11 +16,6 @@ yarn-error.log*
 coverage/
 jest-test-results.json
 
-# IDEs and editors
-.vscode/
-.idea/
-*.sw?
-
 # OS files
 .DS_Store
 Thumbs.db
