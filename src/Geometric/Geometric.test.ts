@@ -70,7 +70,7 @@ describe("Geometric", () => {
     it("produces samples near the expected mean", () => {
       const dist = new Geometric(0.3);
       let sum = 0;
-      const N = 10000;
+      const N = 50000;
       for (let i = 0; i < N; i++) {
         sum += dist.sample();
       }
