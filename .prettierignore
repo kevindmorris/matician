@@ -1,3 +1,20 @@
-dist
-docs
-node_modules
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Documentation output (if generated)
+docs/
+
+# Coverage and logs
+coverage/
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Ignore hidden folders and IDE settings
+.vscode/
+.idea/
+.tsup/

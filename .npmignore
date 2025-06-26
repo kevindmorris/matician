@@ -1,12 +1,34 @@
-.vscode
-node_modules
-docs
-src
+# Exclude source code and configs not needed in the package
+src/
+test/
+__tests__/
+*.test.ts
+*.spec.ts
 
-.prettierignore
-.prettierrc.json
-CHANGELOG
-docs.json
-REFERENCE.md
+# Config files
 tsconfig.json
 tsup.config.ts
+typedoc.json
+jest.config.js
+
+# Docs and metadata
+docs/
+.vscode/
+.idea/
+
+# Exclude build tools and logs
+node_modules/
+*.log
+.tsup/
+*.tsbuildinfo
+
+# Ignore local env
+.env
+.env.*
+
+# Ignore everything else except essential files
+!.npmignore
+!dist/
+!package.json
+!README.md
+!LICENSE

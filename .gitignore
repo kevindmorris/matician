@@ -1,4 +1,40 @@
-dist
-docs
-node_modules
-REFERENCE.md
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing
+coverage/
+jest-test-results.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeDoc output (if not inside docs/)
+typedoc/
+
+# Optional: ignore local docs if generated
+docs/
+!docs/**/*.md  # Keep Markdown docs if versioned
+
+# tsup cache
+.tsup/
+
+# Environment files
+.env
+.env.*
