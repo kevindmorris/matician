@@ -74,6 +74,7 @@ export { default as sigFig } from "./sigFig";
 export { default as sign } from "./sign";
 export { default as solveLinear } from "./solveLinear";
 export { default as solveQuadratic } from "./solveQuadratic";
+export { default as sortBy } from "./sortBy";
 export { default as sqrt } from "./sqrt";
 export { default as square } from "./square";
 export { default as stdDev } from "./stdDev";
