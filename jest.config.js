@@ -6,6 +6,6 @@ const tsJestTransformCfg = createDefaultPreset().transform;
 module.exports = {
   testEnvironment: "node",
   transform: {
-    ...tsJestTransformCfg,
-  },
+    ...tsJestTransformCfg
+  }
 };
