@@ -1,1 +1,1 @@
-export { default } from "./NormalDistribution";
+export { default } from "./Normal";

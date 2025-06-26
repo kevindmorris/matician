@@ -1,46 +1,77 @@
 /**
- * Class representing the discrete uniform distribution.
- * All integers from a to b (inclusive) are equally likely.
+ * Class representing a discrete uniform distribution over integers [a, b].
+ * Each integer in the range has equal probability.
  */
 export default class DiscreteUniform {
-  private a: number;
-  private b: number;
+  private readonly _a: number;
+  private readonly _b: number;
 
   /**
-   * @param {number} a - Lower bound (inclusive)
-   * @param {number} b - Upper bound (inclusive)
+   * @param a - Lower bound (inclusive)
+   * @param b - Upper bound (inclusive), must be ≥ a
    */
   constructor(a: number, b: number) {
     if (!Number.isInteger(a) || !Number.isInteger(b)) {
-      throw new Error("a and b must be integers.");
+      throw new Error("Bounds a and b must be integers.");
     }
     if (a > b) {
       throw new Error(
         "Lower bound a must be less than or equal to upper bound b."
       );
     }
-    this.a = a;
-    this.b = b;
+    this._a = a;
+    this._b = b;
+  }
+
+  /** Lower bound */
+  get a(): number {
+    return this._a;
+  }
+
+  /** Upper bound */
+  get b(): number {
+    return this._b;
+  }
+
+  /** Support size (number of discrete values) */
+  get size(): number {
+    return this._b - this._a + 1;
   }
 
   /**
    * Probability mass function (PMF).
-   * @param {number} x - Value to evaluate
-   * @returns {number} Probability of x
+   * @param x - Value to evaluate.
+   * @returns Probability of x.
    */
   public pmf(x: number): number {
-    if (!Number.isInteger(x) || x < this.a || x > this.b) return 0;
-    return 1 / (this.b - this.a + 1);
+    if (!Number.isInteger(x)) return 0;
+    return x >= this._a && x <= this._b ? 1 / this.size : 0;
   }
 
   /**
    * Cumulative distribution function (CDF).
-   * @param {number} x - Value to evaluate
-   * @returns {number} Cumulative probability P(X ≤ x)
+   * @param x - Value to evaluate.
+   * @returns Probability that value ≤ x.
    */
   public cdf(x: number): number {
-    if (x < this.a) return 0;
-    if (x >= this.b) return 1;
-    return Math.floor(x - this.a + 1) / (this.b - this.a + 1);
+    if (x < this._a) return 0;
+    if (x >= this._b) return 1;
+    return Math.floor(x - this._a + 1) / this.size;
+  }
+
+  /** Expected value (mean) */
+  public mean(): number {
+    return (this._a + this._b) / 2;
+  }
+
+  /** Variance */
+  public variance(): number {
+    const n = this.b - this.a + 1;
+    return (n * n - 1) / 12;
+  }
+
+  /** Generate a random sample from the distribution */
+  public sample(): number {
+    return Math.floor(Math.random() * this.size) + this._a;
   }
 }

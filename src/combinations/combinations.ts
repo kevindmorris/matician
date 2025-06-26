@@ -1,26 +1,45 @@
 /**
- * Calculates the number of combinations (n choose r).
+ * Calculates the number of combinations of `k` items chosen from `n` items.
+ * If `replacement` is true, computes with replacement: (n + k - 1) choose k.
+ * If false, computes without replacement: n choose k.
  *
- * Formula: C(n, r) = n! / (r! * (n - r)!)
+ * @param n - Total number of items (n ≥ 0)
+ * @param k - Number of items to choose (k ≥ 0)
+ * @param replacement - Whether replacement is allowed (default: true)
+ * @returns The number of combinations
  *
- * @param n - Total number of items.
- * @param r - Number of items to choose.
- * @returns The number of combinations.
- * @throws If inputs are invalid.
+ * @example
+ * combinations(5, 3); // 35 (with replacement)
+ * combinations(5, 3, false); // 10 (no replacement)
  */
-export default function combinations(n: number, r: number): number {
-  if (!Number.isInteger(n) || !Number.isInteger(r))
-    throw new Error("Inputs must be integers");
-  if (n < 0 || r < 0) throw new Error("Inputs must be non-negative");
-  if (r > n) throw new Error("r cannot be greater than n");
-
-  r = Math.min(r, n - r); // Take advantage of symmetry C(n, r) == C(n, n - r)
-
-  let numerator = 1;
-  let denominator = 1;
-  for (let i = 1; i <= r; i++) {
-    numerator *= n - i + 1;
-    denominator *= i;
+export default function combinations(
+  n: number,
+  k: number,
+  replacement: boolean = true
+): number {
+  if (n < 0 || k < 0) {
+    throw new Error("n and k must be non-negative integers");
   }
-  return numerator / denominator;
+
+  if (!Number.isInteger(n) || !Number.isInteger(k)) {
+    throw new Error("n and k must be integers");
+  }
+
+  const choose = (a: number, b: number): number => {
+    if (b > a) return 0;
+    if (b === 0 || b === a) return 1;
+    b = Math.min(b, a - b); // use symmetry
+    let result = 1;
+    for (let i = 1; i <= b; i++) {
+      result *= a - (b - i);
+      result /= i;
+    }
+    return result;
+  };
+
+  if (replacement) {
+    return choose(n + k - 1, k);
+  } else {
+    return choose(n, k);
+  }
 }

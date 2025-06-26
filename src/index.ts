@@ -20,7 +20,7 @@ export { default as cube } from "./cube";
 export { default as divide } from "./divide";
 export { default as effectiveAnnualRate } from "./effectiveAnnualRate";
 export { default as exp } from "./exp";
-export { default as exponentiate } from "./exponentiate";
+export { default as exponentiate } from "./pow";
 export { default as factorial } from "./factorial";
 export { default as floor } from "./floor";
 export { default as formatNumber } from "./formatNumber";

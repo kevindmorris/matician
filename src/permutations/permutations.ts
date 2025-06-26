@@ -1,22 +1,40 @@
 /**
- * Calculates the number of permutations of r elements from a set of n.
+ * Calculates the number of permutations of `k` items selected from `n` items.
+ * If `replacement` is true, calculates n^k (with replacement).
+ * If false, calculates n! / (n - k)! (without replacement).
  *
- * Formula: P(n, r) = n! / (n - r)!
+ * @param n - Total number of items (n ≥ 0)
+ * @param k - Number of items to arrange (k ≥ 0)
+ * @param replacement - Whether replacement is allowed (default: true)
+ * @returns The number of permutations
  *
- * @param n - Total number of items.
- * @param r - Number of items to arrange.
- * @returns Number of permutations.
- * @throws If n or r is negative or r > n.
+ * @example
+ * permutations(5, 2); // 25 (with replacement)
+ * permutations(5, 2, false); // 20 (no replacement)
  */
-export default function permutations(n: number, r: number): number {
-  if (!Number.isInteger(n) || !Number.isInteger(r))
-    throw new Error("Inputs must be integers");
-  if (n < 0 || r < 0) throw new Error("Inputs must be non-negative");
-  if (r > n) throw new Error("r cannot be greater than n");
+export default function permutations(
+  n: number,
+  k: number,
+  replacement: boolean = true
+): number {
+  if (n < 0 || k < 0) {
+    throw new Error("n and k must be non-negative integers");
+  }
+
+  if (!Number.isInteger(n) || !Number.isInteger(k)) {
+    throw new Error("n and k must be integers");
+  }
+
+  if (replacement) {
+    return Math.pow(n, k);
+  }
+
+  if (k > n) return 0;
 
   let result = 1;
-  for (let i = 0; i < r; i++) {
+  for (let i = 0; i < k; i++) {
     result *= n - i;
   }
+
   return result;
 }

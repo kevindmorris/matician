@@ -1,9 +1,9 @@
 /**
  * Adds two numbers together.
  *
- * @param a - The first number.
- * @param b - The second number.
- * @returns The sum of `a` and `b`.
+ * @param augend - The number to which another number (the addend) is added.
+ * @param addend - The number that is added to the augend.
+ * @returns The sum of the `augend` and `addend`.
  *
  * @example
  * ```ts
@@ -11,6 +11,6 @@
  * add(-1, 1); // returns 0
  * ```
  */
-export default function add(a: number, b: number): number {
-  return a + b;
+export default function add(augend: number, addend: number): number {
+  return augend + addend;
 }

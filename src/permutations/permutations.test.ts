@@ -1,25 +1,35 @@
 import permutations from "./permutations";
 
-describe("permutations", () => {
-  it("calculates permutations for n = 5, r = 3", () => {
-    expect(permutations(5, 3)).toBe(60); // 5 * 4 * 3 = 60
+describe("permutations (default: with replacement)", () => {
+  describe("with replacement (default behavior)", () => {
+    it("returns n^k", () => {
+      expect(permutations(5, 2)).toBe(25); // 5^2
+      expect(permutations(2, 3)).toBe(8); // 2^3
+      expect(permutations(10, 0)).toBe(1); // 10^0
+    });
   });
 
-  it("returns 1 for n = 0, r = 0", () => {
-    expect(permutations(0, 0)).toBe(1);
+  describe("without replacement", () => {
+    it("returns n! / (n - k)!", () => {
+      expect(permutations(5, 2, false)).toBe(20); // 5 * 4
+      expect(permutations(4, 3, false)).toBe(24); // 4 * 3 * 2
+      expect(permutations(3, 3, false)).toBe(6); // 3!
+    });
+
+    it("returns 0 if k > n", () => {
+      expect(permutations(2, 4, false)).toBe(0);
+    });
   });
 
-  it("throws when r > n", () => {
-    expect(() => permutations(3, 4)).toThrow("r cannot be greater than n");
-  });
+  describe("validation", () => {
+    it("throws for negative values", () => {
+      expect(() => permutations(-1, 2)).toThrow();
+      expect(() => permutations(3, -1)).toThrow();
+    });
 
-  it("throws for negative input", () => {
-    expect(() => permutations(-1, 2)).toThrow("Inputs must be non-negative");
-    expect(() => permutations(2, -1)).toThrow("Inputs must be non-negative");
-  });
-
-  it("throws for non-integer input", () => {
-    expect(() => permutations(5.5, 2)).toThrow("Inputs must be integers");
-    expect(() => permutations(5, 1.2)).toThrow("Inputs must be integers");
+    it("throws for non-integer input", () => {
+      expect(() => permutations(3.5, 2)).toThrow();
+      expect(() => permutations(4, 2.2)).toThrow();
+    });
   });
 });
