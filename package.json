@@ -3,12 +3,12 @@
   "version": "1.1.0",
   "description": "A modern JavaScript utility library for arithmetic, mathematics, probability, statistics, and more.",
   "homepage": "https://kevindmorris.github.io/matician/",
+  "bugs": {
+    "url": "https://github.com/kevindmorris/matician/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kevindmorris/matician.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kevindmorris/matician/issues"
   },
   "license": "MIT",
   "author": {
@@ -20,8 +20,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "test": "jest",
-    "format": "prettier . --write"
+    "docs": "typedoc",
+    "format": "prettier . --write",
+    "test": "jest"
   },
   "devDependencies": {
     "@jest/globals": "^30.0.3",
@@ -30,6 +31,7 @@
     "prettier": "^3.2.5",
     "ts-jest": "^29.4.0",
     "tsup": "^8.0.2",
+    "typedoc": "^0.28.5",
     "typescript": "^5.8.3"
   }
 }
