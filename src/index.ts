@@ -6,6 +6,7 @@ export { default as ContinuousUniform } from "./ContinuousUniform";
 export { default as DiscreteUniform } from "./DiscreteUniform";
 export { default as Exponential } from "./Exponential";
 export { default as Geometric } from "./Geometric";
+export * from "./geometry";
 export { default as LogNormal } from "./LogNormal";
 export { default as NegativeBinomial } from "./NegativeBinomial";
 export { default as Normal } from "./Normal";
