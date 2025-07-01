@@ -1,4 +1,4 @@
-import { Rhombus } from "./Rhombus";
+import Rhombus from "./Rhombus";
 
 describe("Rhombus", () => {
   it("creates a rhombus with height", () => {
