@@ -53,6 +53,7 @@ export { default as multiply } from "./multiply";
 export { default as negate } from "./negate";
 export { default as nominalInterestRate } from "./nominalInterestRate";
 export { default as percentage } from "./percentage";
+export { default as percentageChange } from "./percentChange";
 export { default as percentile } from "./percentile";
 export { default as permutations } from "./permutations";
 export { default as pow } from "./pow";
