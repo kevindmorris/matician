@@ -13,6 +13,7 @@ export { default as effectiveAnnualRate } from "./effectiveAnnualRate";
 export { default as exp } from "./exp";
 export { default as factorial } from "./factorial";
 export { default as floor } from "./floor";
+export { default as forceOfInterest } from "./forceOfInterest";
 export { default as formatNumber } from "./formatNumber";
 export { default as futureValue } from "./futureValue";
 export { default as gcd } from "./gcd";
