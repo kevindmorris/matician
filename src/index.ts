@@ -1,16 +1,4 @@
-export { default as AnnuityDue } from "./AnnuityDue";
-export { default as AnnuityImmediate } from "./AnnuityImmediate";
-export { default as Bernoulli } from "./Bernoulli";
-export { default as Binomial } from "./Binomial";
-export { default as ContinuousUniform } from "./ContinuousUniform";
-export { default as DiscreteUniform } from "./DiscreteUniform";
-export { default as Exponential } from "./Exponential";
-export { default as Geometric } from "./Geometric";
-export * from "./geometry";
-export { default as LogNormal } from "./LogNormal";
-export { default as NegativeBinomial } from "./NegativeBinomial";
-export { default as Normal } from "./Normal";
-export { default as Poisson } from "./Poisson";
+export * from "./classes";
 
 export { default as absolute } from "./absolute";
 export { default as add } from "./add";
