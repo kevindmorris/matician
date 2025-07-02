@@ -18,5 +18,4 @@ export { default as Rectangle } from "./Rectangle";
 export { default as Rhombus } from "./Rhombus";
 export { default as RightTriangle } from "./RightTriangle";
 export { default as Square } from "./Square";
-export { default as Trapezoid } from "./Trapezoid";
 export { default as Triangle } from "./Triangle";
