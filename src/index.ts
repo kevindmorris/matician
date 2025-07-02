@@ -7,6 +7,7 @@ export { default as ceil } from "./ceil";
 export { default as clamp } from "./clamp";
 export { default as combinations } from "./combinations";
 export { default as cube } from "./cube";
+export { default as discountRate } from "./discountRate";
 export { default as discriminant } from "./discriminant";
 export { default as divide } from "./divide";
 export { default as effectiveAnnualRate } from "./effectiveAnnualRate";
