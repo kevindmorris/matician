@@ -1,1 +1,1 @@
-export { default } from './Rhombus';
+export { default } from "./Rhombus";

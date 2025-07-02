@@ -26,7 +26,6 @@ export default class AnnuityDue {
 
   /**
    * Present value of the annuity-due.
-   * Formula: PV = P * a-angle-n * (1 + i)
    */
   public presentValue(): number {
     if (this._i === 0) return this._P * this._n;
@@ -37,7 +36,6 @@ export default class AnnuityDue {
 
   /**
    * Future value of the annuity-due.
-   * Formula: FV = P * s-angle-n * (1 + i)
    */
   public futureValue(): number {
     if (this._i === 0) return this._P * this._n;

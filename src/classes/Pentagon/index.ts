@@ -1,1 +1,1 @@
-export { default } from './Pentagon';
+export { default } from "./Pentagon";

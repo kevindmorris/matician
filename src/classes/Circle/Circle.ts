@@ -1,11 +1,10 @@
 /**
- * Represents a circle and provides geometric computations.
+ * Class representing a circle.
  */
 export default class Circle {
   private _radius: number;
 
   /**
-   * Creates a new Circle instance.
    * @param radius - The radius of the circle. Must be a positive number.
    */
   constructor(radius: number) {
@@ -18,17 +17,6 @@ export default class Circle {
   /** Gets the radius of the circle. */
   get radius(): number {
     return this._radius;
-  }
-
-  /**
-   * Sets the radius of the circle.
-   * @param value - The new radius. Must be a positive number.
-   */
-  set radius(value: number) {
-    if (value <= 0) {
-      throw new Error("Radius must be a positive number.");
-    }
-    this._radius = value;
   }
 
   /** Gets the diameter of the circle. */
@@ -44,17 +32,6 @@ export default class Circle {
   /** Gets the area of the circle. */
   get area(): number {
     return Math.PI * this._radius ** 2;
-  }
-
-  /**
-   * Scales the radius of the circle by a given factor.
-   * @param factor - Must be positive.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) {
-      throw new Error("Scale factor must be positive.");
-    }
-    this._radius *= factor;
   }
 
   /**

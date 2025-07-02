@@ -16,14 +16,14 @@
 export default function sortBy<T extends Record<string, any>>(
   array: T[],
   key: keyof T,
-  direction: 'asc' | 'desc' = 'asc'
+  direction: "asc" | "desc" = "asc"
 ): T[] {
   const sorted = [...array].sort((a, b) => {
     const valA = a[key];
     const valB = b[key];
 
-    if (valA < valB) return direction === 'asc' ? -1 : 1;
-    if (valA > valB) return direction === 'asc' ? 1 : -1;
+    if (valA < valB) return direction === "asc" ? -1 : 1;
+    if (valA > valB) return direction === "asc" ? 1 : -1;
     return 0;
   });
 

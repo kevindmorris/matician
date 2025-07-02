@@ -6,7 +6,6 @@ export default class Normal {
   private stddev: number;
 
   /**
-   * Create a Normal instance.
    * @param {number} mean - The mean (μ) of the distribution.
    * @param {number} stddev - The standard deviation (σ) of the distribution.
    */

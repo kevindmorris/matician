@@ -1,1 +1,1 @@
-export { default } from './RightTriangle';
+export { default } from "./RightTriangle";

@@ -1,1 +1,1 @@
-export { default } from './sortBy';
+export { default } from "./sortBy";

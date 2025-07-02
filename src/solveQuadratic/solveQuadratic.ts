@@ -20,7 +20,8 @@ export default function solveQuadratic(
   b: number,
   c: number
 ): { real: number; imag: number }[] {
-  if (a === 0) throw new Error('Coefficient "a" cannot be zero for a quadratic equation.');
+  if (a === 0)
+    throw new Error('Coefficient "a" cannot be zero for a quadratic equation.');
 
   const discriminant = b * b - 4 * a * c;
   const twoA = 2 * a;
@@ -31,13 +32,13 @@ export default function solveQuadratic(
     const sqrtDisc = Math.sqrt(discriminant);
     return [
       { real: normalize((-b + sqrtDisc) / twoA), imag: 0 },
-      { real: normalize((-b - sqrtDisc) / twoA), imag: 0 },
+      { real: normalize((-b - sqrtDisc) / twoA), imag: 0 }
     ];
   } else {
     const sqrtDisc = Math.sqrt(-discriminant);
     return [
       { real: normalize(-b / twoA), imag: normalize(sqrtDisc / twoA) },
-      { real: normalize(-b / twoA), imag: normalize(-sqrtDisc / twoA) },
+      { real: normalize(-b / twoA), imag: normalize(-sqrtDisc / twoA) }
     ];
   }
 }

@@ -21,7 +21,5 @@ export default function inRange(
   max: number,
   inclusive: boolean = true
 ): boolean {
-  return inclusive
-    ? value >= min && value <= max
-    : value > min && value < max;
+  return inclusive ? value >= min && value <= max : value > min && value < max;
 }

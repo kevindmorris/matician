@@ -1,1 +1,1 @@
-export { default } from './multiply';
+export { default } from "./multiply";

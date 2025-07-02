@@ -27,17 +27,4 @@ describe("Rhombus", () => {
     const r = new Rhombus(5);
     expect(() => r.area).toThrow();
   });
-
-  it("scales all dimensions correctly", () => {
-    const r = new Rhombus(3, 4, [6, 8]);
-    r.scale(2);
-    expect(r.side).toBe(6);
-    expect(r.area).toBeCloseTo(3 * 2 * 4 * 2);
-    expect(r.perimeter).toBe(24);
-  });
-
-  it("throws on invalid scale factor", () => {
-    const r = new Rhombus(3, 4);
-    expect(() => r.scale(0)).toThrow();
-  });
 });

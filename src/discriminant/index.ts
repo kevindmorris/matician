@@ -1,1 +1,1 @@
-export { default } from './discriminant';
+export { default } from "./discriminant";

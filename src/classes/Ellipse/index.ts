@@ -1,1 +1,1 @@
-export { default } from './Ellipse';
+export { default } from "./Ellipse";

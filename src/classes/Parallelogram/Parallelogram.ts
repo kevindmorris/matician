@@ -7,7 +7,6 @@ export default class Parallelogram {
   private _side: number;
 
   /**
-   * Creates a new Parallelogram.
    * @param base - The base length (must be positive).
    * @param height - The perpendicular height (must be positive).
    * @param side - The length of the other side (must be positive).
@@ -44,18 +43,5 @@ export default class Parallelogram {
   /** Gets the perimeter of the parallelogram. */
   get perimeter(): number {
     return 2 * (this._base + this._side);
-  }
-
-  /**
-   * Scales the parallelogram's dimensions by a factor.
-   * @param factor - Must be a positive number.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) {
-      throw new Error("Scale factor must be positive.");
-    }
-    this._base *= factor;
-    this._height *= factor;
-    this._side *= factor;
   }
 }

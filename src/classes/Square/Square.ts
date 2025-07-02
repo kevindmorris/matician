@@ -20,17 +20,6 @@ export default class Square {
     return this._side;
   }
 
-  /**
-   * Sets the side length of the square.
-   * @param value - The new side length. Must be positive.
-   */
-  set side(value: number) {
-    if (value <= 0) {
-      throw new Error("Side length must be a positive number.");
-    }
-    this._side = value;
-  }
-
   /** Gets the perimeter of the square. */
   get perimeter(): number {
     return this._side * 4;
@@ -39,17 +28,6 @@ export default class Square {
   /** Gets the area of the square. */
   get area(): number {
     return this._side ** 2;
-  }
-
-  /**
-   * Scales the square's side by a factor.
-   * @param factor - Must be a positive number.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) {
-      throw new Error("Scale factor must be positive.");
-    }
-    this._side *= factor;
   }
 
   /**

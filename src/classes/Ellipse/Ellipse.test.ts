@@ -23,17 +23,4 @@ describe("Ellipse", () => {
       Math.PI * (3 * (7 + 3) - Math.sqrt((3 * 7 + 3) * (7 + 3 * 3)));
     expect(e.circumference).toBeCloseTo(approx);
   });
-
-  it("scales the ellipse correctly", () => {
-    const e = new Ellipse(2, 1);
-    e.scale(2);
-    expect(e.a).toBe(4);
-    expect(e.b).toBe(2);
-    expect(e.area).toBeCloseTo(Math.PI * 4 * 2);
-  });
-
-  it("throws on invalid scale factor", () => {
-    const e = new Ellipse(2, 3);
-    expect(() => e.scale(0)).toThrow();
-  });
 });

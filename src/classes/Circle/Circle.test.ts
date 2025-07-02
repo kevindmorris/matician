@@ -26,17 +26,6 @@ describe("Circle", () => {
     expect(c.area).toBeCloseTo(Math.PI * 16);
   });
 
-  it("scales the radius", () => {
-    const c = new Circle(2);
-    c.scale(3);
-    expect(c.radius).toBe(6);
-  });
-
-  it("throws on invalid scale factor", () => {
-    const c = new Circle(5);
-    expect(() => c.scale(0)).toThrow();
-  });
-
   it("creates from diameter", () => {
     const c = Circle.fromDiameter(10);
     expect(c.radius).toBe(5);

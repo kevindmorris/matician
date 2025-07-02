@@ -1,5 +1,5 @@
 /**
- * Represents a rhombus and provides geometric computations.
+ * Class representing a rhombus and provides geometric computations.
  */
 export default class Rhombus {
   private _side: number;
@@ -8,7 +8,6 @@ export default class Rhombus {
   private _d2?: number;
 
   /**
-   * Creates a new Rhombus instance.
    * @param side - Length of each side (must be positive).
    * @param height - Optional perpendicular height from base.
    * @param diagonals - Optional [d1, d2] lengths of diagonals.
@@ -52,17 +51,5 @@ export default class Rhombus {
       return (this._d1 * this._d2) / 2;
     }
     throw new Error("Cannot calculate area: provide height or diagonals.");
-  }
-
-  /**
-   * Scales the rhombus dimensions by a factor.
-   * @param factor - Must be positive.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) throw new Error("Scale factor must be positive.");
-    this._side *= factor;
-    if (this._height !== undefined) this._height *= factor;
-    if (this._d1 !== undefined) this._d1 *= factor;
-    if (this._d2 !== undefined) this._d2 *= factor;
   }
 }

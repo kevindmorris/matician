@@ -1,5 +1,5 @@
 /**
- * Represents a triangle and provides geometric computations.
+ * Class representing a triangle and provides geometric computations.
  */
 export default class Triangle {
   private _base: number;
@@ -9,7 +9,6 @@ export default class Triangle {
   private _sideC?: number;
 
   /**
-   * Creates a new Triangle instance.
    * @param base - The base of the triangle. Must be positive.
    * @param height - The height of the triangle. Must be positive.
    * @param sides - Optional full side lengths [a, b, c] for perimeter calculation.
@@ -61,22 +60,5 @@ export default class Triangle {
       );
     }
     return this._sideA + this._sideB + this._sideC;
-  }
-
-  /**
-   * Scales the triangle's base and height (and sides if provided).
-   * @param factor - Must be positive.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) {
-      throw new Error("Scale factor must be positive.");
-    }
-
-    this._base *= factor;
-    this._height *= factor;
-
-    if (this._sideA !== undefined) this._sideA *= factor;
-    if (this._sideB !== undefined) this._sideB *= factor;
-    if (this._sideC !== undefined) this._sideC *= factor;
   }
 }

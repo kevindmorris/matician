@@ -1,1 +1,1 @@
-export { default } from './solveQuadratic';
+export { default } from "./solveQuadratic";

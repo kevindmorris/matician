@@ -1,1 +1,1 @@
-export { default } from './Parallelogram';
+export { default } from "./Parallelogram";

@@ -1,1 +1,1 @@
-export { default } from './inRange';
+export { default } from "./inRange";

@@ -8,8 +8,6 @@ export default class AnnuityImmediate {
   private readonly _P: number;
 
   /**
-   * Constructs an AnnuityDue instance.
-   *
    * @param i - The interest rate per period (as a decimal, must be ≥ 0).
    * @param n - The number of periods (must be a positive integer).
    * @param P - The payment amount per period (must be ≥ 0). Defaults to 1 if not provided.

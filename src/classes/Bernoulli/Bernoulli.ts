@@ -5,7 +5,6 @@ export default class Bernoulli {
   private readonly _p: number;
 
   /**
-   * Create a Bernoulli distribution.
    * @param p - Probability of success (1). Must be between 0 and 1.
    */
   constructor(p: number) {

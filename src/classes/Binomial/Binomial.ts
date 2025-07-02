@@ -6,7 +6,6 @@ export default class Binomial {
   private readonly _p: number;
 
   /**
-   * Create a Binomial distribution.
    * @param n - Number of trials (non-negative integer).
    * @param p - Probability of success (0 ≤ p ≤ 1).
    */

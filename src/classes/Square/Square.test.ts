@@ -21,17 +21,6 @@ describe("Square", () => {
     expect(s.area).toBe(25);
   });
 
-  it("scales the side length", () => {
-    const s = new Square(2);
-    s.scale(3);
-    expect(s.side).toBe(6);
-  });
-
-  it("throws on invalid scale factor", () => {
-    const s = new Square(3);
-    expect(() => s.scale(0)).toThrow();
-  });
-
   it("creates from area", () => {
     const s = Square.fromArea(49);
     expect(s.side).toBe(7);

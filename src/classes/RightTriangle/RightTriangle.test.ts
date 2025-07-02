@@ -26,17 +26,4 @@ describe("RightTriangle", () => {
     const t = new RightTriangle(3, 4);
     expect(t.perimeter).toBeCloseTo(3 + 4 + 5);
   });
-
-  it("scales the triangle correctly", () => {
-    const t = new RightTriangle(3, 4);
-    t.scale(2);
-    expect(t.base).toBe(6);
-    expect(t.height).toBe(8);
-    expect(t.hypotenuse).toBe(10);
-  });
-
-  it("throws on invalid scale factor", () => {
-    const t = new RightTriangle(3, 4);
-    expect(() => t.scale(0)).toThrow();
-  });
 });

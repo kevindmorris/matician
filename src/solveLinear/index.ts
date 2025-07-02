@@ -1,1 +1,1 @@
-export { default } from './solveLinear';
+export { default } from "./solveLinear";

@@ -1,5 +1,5 @@
 /**
- * Represents an ellipse and provides geometric computations.
+ * Class repreenting an ellipse.
  */
 export default class Ellipse {
   private _a: number; // semi-major axis
@@ -40,17 +40,5 @@ export default class Ellipse {
     const a = this._a;
     const b = this._b;
     return Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
-  }
-
-  /**
-   * Scales the ellipse axes by a given factor.
-   * @param factor - Must be positive.
-   */
-  scale(factor: number): void {
-    if (factor <= 0) {
-      throw new Error("Scale factor must be positive.");
-    }
-    this._a *= factor;
-    this._b *= factor;
   }
 }

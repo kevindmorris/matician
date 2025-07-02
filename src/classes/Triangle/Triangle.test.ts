@@ -24,18 +24,4 @@ describe("Triangle", () => {
     expect(() => new Triangle(6, -1)).toThrow();
     expect(() => new Triangle(6, 4, [3, -2, 5])).toThrow();
   });
-
-  it("scales the triangle properly", () => {
-    const t = new Triangle(3, 4, [3, 4, 5]);
-    t.scale(2);
-    expect(t.base).toBe(6);
-    expect(t.height).toBe(8);
-    expect(t.area).toBe(24);
-    expect(t.perimeter).toBe(24); // 6 + 8 + 10
-  });
-
-  it("throws on invalid scale factor", () => {
-    const t = new Triangle(5, 5);
-    expect(() => t.scale(0)).toThrow();
-  });
 });
