@@ -1,6 +1,6 @@
 {
   "name": "matician",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "A modern JavaScript utility library for arithmetic, mathematics, probability, statistics, and more.",
   "homepage": "https://kevindmorris.github.io/matician/",
   "bugs": {
