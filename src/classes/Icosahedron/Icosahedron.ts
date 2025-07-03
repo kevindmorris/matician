@@ -26,6 +26,6 @@ export default class Icosahedron {
 
   /** Calculates volume: V = (5(3 + √5)/12) * a³ */
   get volume(): number {
-    return (5 * (3 + Math.sqrt(5)) / 12) * this.a ** 3;
+    return ((5 * (3 + Math.sqrt(5))) / 12) * this.a ** 3;
   }
 }

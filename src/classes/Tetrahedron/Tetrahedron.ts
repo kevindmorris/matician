@@ -26,6 +26,6 @@ export default class Tetrahedron {
 
   /** Calculates the volume: V = (a³) / (6√2) */
   get volume(): number {
-    return (Math.pow(this.a, 3)) / (6 * Math.sqrt(2));
+    return Math.pow(this.a, 3) / (6 * Math.sqrt(2));
   }
 }
