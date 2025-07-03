@@ -13,6 +13,24 @@ describe("AnnuityImmediate", () => {
     expect(ann.futureValue()).toBeCloseTo(1000);
   });
 
+  it("computes correct future value schedule with interest", () => {
+    const annuity = new AnnuityImmediate(0.05, 3, 100);
+    const schedule = annuity.futureValues();
+
+    expect(schedule.length).toBe(4);
+    expect(schedule[0]).toBeCloseTo(0, 2);
+    expect(schedule[1]).toBeCloseTo(100, 2);
+    expect(schedule[2]).toBeCloseTo(205, 2);
+    expect(schedule[3]).toBeCloseTo(315.25, 2);
+  });
+
+  it("computes correct future value schedule with zero interest", () => {
+    const annuity = new AnnuityImmediate(0, 3, 100);
+    const schedule = annuity.futureValues();
+
+    expect(schedule).toEqual([0, 100, 200, 300]);
+  });
+
   it("has correct getters", () => {
     const ann = new AnnuityImmediate(0.04, 20, 500);
     expect(ann.i).toBe(0.04);

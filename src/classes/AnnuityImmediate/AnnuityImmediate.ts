@@ -38,6 +38,24 @@ export default class AnnuityImmediate {
     return this._P * sImmediate;
   }
 
+  /** Future values of the annuity-immediate */
+  public futureValues(): number[] {
+    const schedule: number[] = [];
+    const i = this._i;
+    const P = this._P;
+
+    for (let t = 0; t <= this._n; t++) {
+      if (i === 0) {
+        schedule.push(P * t);
+      } else {
+        const value = P * ((Math.pow(1 + i, t) - 1) / i);
+        schedule.push(value);
+      }
+    }
+
+    return schedule;
+  }
+
   /** Interest rate */
   get i(): number {
     return this._i;
